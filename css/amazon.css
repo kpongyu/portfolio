@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h2{
+	padding-top: 0.5em;
+  }
+.white-title{
+	color: #ffffff !important;
+}
+.logo{
+	max-width: 250px !important;
+}
+.amazon-header{
+	font-size: 0.4em; 
+	padding-top: 1em; 
+	line-height: 1.5em;
+}
+.amazon-list{
+	padding-top: 0;
+	padding-bottom: 0;
+}
