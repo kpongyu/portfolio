@@ -16,18 +16,17 @@ import Smokefree from './Projects/Smokefree';
 import GP from './Projects/GP';
 import CivicLab from './Projects/CivicLab';
 import 'bootstrap/dist/css/bootstrap.css';
-import Favicon from 'react-favicon';
 
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 import './index.css';
 
 const routing = (
 
-  <Router onUpdate={() => window.scrollTo(0, 0)}>
+  <Router>
   <Preloader/>
 
     <div className="content-wrap">
-    <Favicon url="../public/favicon.ico" />
+  
       <Header/>
       <Switch >
         <Route exact path="/" component={App} />

@@ -1,9 +1,6 @@
 /* eslint-disable */
 import React, { Component } from 'react';
-import $ from 'jquery';
-import {Row, Col} from 'react-bootstrap';
 import './ProjectCard.css';
-import ComponentName from 'coffeekraken-s-atv-card-component';
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 
 

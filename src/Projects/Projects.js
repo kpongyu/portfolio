@@ -3,11 +3,9 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import {Container, Row, Col} from 'react-bootstrap';
 import './Projects.css';
-import ComponentName from 'coffeekraken-s-atv-card-component';
 import ProjectCard from '../components/ProjectCard/ProjectCard';
 import AOS from 'aos';
 
-import Amazon from './Amazon';
 import 'aos/dist/aos.css';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 
@@ -81,7 +79,7 @@ class Projects extends Component {
         },
         
       }
-
+    
       const projectList = Object.keys(myProjects).map((myProject)=>(
         <Col className="element" xs={12} md={6} lg={4}>
               <ProjectCard 
@@ -93,6 +91,9 @@ class Projects extends Component {
           
           </Col>
       ));
+
+      
+
 
 
 

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+   <!--[if !IE]><!-->
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+   <!--<![endif]--> 
+    <!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="ie-only.css" />
+    <![endif]-->
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="picture">
+    <canvas id="myCanvas" width="1140" height="490"></canvas>
+    <canvas id="mmyCanvas" width="750" height="1286"></canvas>
+    <div id="stars">
+    	<img src="star1.png" id="star1" class="mobile-hide" alt="">
+    	<img src="star2.png" id="star2" class="mobile-hide" alt="">
+    	<img src="star3.png" id="star3" class="mobile-hide" alt="">
+    </div>
+    <div id="content">
+    <h1>See Your Savings<br class="mobile-display"/> Light Up with LEDs</h1>
+    <h2 class="mobile-display">How many light bulbs are you replacing?</h2>
+    
+    
+    <div class="slider-container mobile-hide">
+    <h2 class="mobile-hide">How many light bulbs are you replacing?</h2>
+    <div class="range">
+    <input class="slider" id="slider" name="slider" type="range" min="1" max="60" value="1">
+    <div class="circle"></div>
+    <span class="number">1</span>  
+	</div>
+	</div>
+  
+   	<div class="instruction mobile-hide">Move the toggle to add the number of bulbs.</div>
+    <div class="savings mobile-hide">
+    	<h3>Choose LEDs and save up to:</h3>
+    	<div class="peryear">
+    		<div class="peryeartext">Per year*</div>
+    		<div class="peryearnumber">246</div>	
+    		<div class="peryearkwh">734</div>	
+    	</div>
+    	<div class="lifetime">
+    		<div class="lifetimetext">Over lifetime*</div>
+    		<div class="lifetimenumber">5432</div>
+    		<div class="lifetimekwh">12734</div>
+    		
+    	</div>
+    </div>
+    
+    
+    
+    <div class="mslider-container mobile-display">
+    	<h3>Choose LEDs and save up to:</h3>
+    	<div class="peryear">
+    		<div class="peryeartext">Per year*</div>
+    		<div class="peryearnumber">246</div>	
+    		<div class="peryearkwh">734</div>	
+    	</div>
+    	<div class="lifetime">
+    		<div class="lifetimetext">Over lifetime*</div>
+    		<div class="lifetimenumber">5432</div>
+    		<div class="lifetimekwh">12734</div>
+    	</div>
+    	
+    	   <div class="slider-container mobile-adjust">
+    	<div class="range">
+    	<input class="slider" id="mslider" name="mslider" type="range" min="1" max="60" value="1">
+    	<div class="circle"></div>
+    	<span class="number">1</span>  
+		</div>
+		
+		</div>
+    	
+    	<div class="instruction-mobile">Move the toggle to add the number of bulbs.</div>
+    	<div class="disclaimer mobile-disclaimer mobile-display">
+		<div class="additional-mobile">Learn how to <a href="http://c03.apogee.net/mvc/home/hes/land/el?utilityname=gapower&spc=lcc" target="_blank" class="additional-link">save more money on lighting</a>.</div>
+    	<div class="disclaimer-details">
+			*Based on 2.8 hours/day use and an electricity rate of 12 cents per kilowatt-hour, when replacing a standard A-line 60W incandescent bulb with a standard A-line 9W LED bulb. Lifetime of an LED bulb: 15,000 hours. <br/>Source: ENERGY STAR<sup>&reg;</sup>
+    	</div>
+    </div>
+    	
+    </div>
+    
+    
+    <div class="additional mobile-hide">
+		Learn how to <a href="http://c03.apogee.net/mvc/home/hes/land/el?utilityname=gapower&spc=lcc" target="_blank" class="additional-link">save more money on lighting</a>.
+    </div>
+    <div class="disclaimer-details mobile-hide">
+    	*Based on 2.8 hours/day use and an electricity rate of 12 cents per kilowatt-hour, when replacing a standard A-line 60W incandescent bulb with a standard A-line 9W LED bulb. Lifetime of an LED bulb: 15,000 hours. Source: ENERGY STAR<sup>&reg;</sup>
+    </div>
+    
+    
+    </div>
+    </div>
+   
+    <script src="script.js"></script>
+    
+  </body>
+</html>      

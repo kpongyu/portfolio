@@ -3,7 +3,6 @@ import './App.css';
 import Preloader from './appshell/Preloader/Preloader';
 import Header from './appshell/Header/Header';
 import $ from 'jquery';
-import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import LandingHead from './components/LandingHead/LandingHead';
 import LandingTimeline from './components/LandingTimeline/LandingTimeline';
 

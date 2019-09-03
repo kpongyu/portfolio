@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import {Row, Col, Container} from 'react-bootstrap';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './LandingTimeline.css';
-import $ from 'jquery';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';

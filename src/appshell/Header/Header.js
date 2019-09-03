@@ -48,6 +48,8 @@ class Header extends Component {
                  <Link to="/">
                  <div className="sticky_logo" data-aos="fade-down">
                  <div className="myLogo">
+
+                 
                  <Lottie options={defaultOptions}
               height={100}
               width={100}

@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import {Row, Col} from 'react-bootstrap';
-import ReactDOM from 'react-dom';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import "./LandingHead.css";
-import backgroundImage from './background1.jpg';
-import styled from 'styled-components';
 
 
 class LandingHead extends Component {

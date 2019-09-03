@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 import "./Contact.css";
-import axios from 'axios';
 
 
 
@@ -32,22 +31,9 @@ class Contact extends Component {
   
   }
 
-  handleChange = e => {
-    this.setState({
-      [e.target.name]: e.target.value 
-    })
-  }
+ 
 
-  async handleSubmit(e){
-    e.preventDefault();
-
-    const { name, email, message } = this.state;
-
-    const form =  await axios.post('/api/form', {
-      name: name,
-      message: message
-    })
-  }
+  
 
   componentDidMount(){
     window.addEventListener('load', this.handleLoad);
