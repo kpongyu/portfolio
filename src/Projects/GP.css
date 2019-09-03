@@ -1,0 +1,44 @@
+.gp-header{
+  background-image: url("../../public/assets/img/georgia-power/gp-header.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.seed-header-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #ffffff;
+  min-height: 500px;
+}
+.gp-logo{
+  margin-bottom: 1em;
+}
+.gp-fixed-bg{
+  background-image: url("../../public/assets/img/georgia-power/fixed-background.jpg");
+  background-attachment: fixed;
+}
+.seed-fixed-bg-2{
+  background-image: url("../../public/assets/img/seed/img-4.png");
+  background-attachment: fixed;
+}
+.gp-section{
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  color: #ffffff !important;  
+
+}
+.GPFrame{
+  border:0;
+  
+}
+@media screen and (max-width: 991px){
+  .GPFrame{
+    width:438px !important;
+    height: 930px !important;
+    margin: 0 auto !important;
+    
+  }
+}

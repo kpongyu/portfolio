@@ -1,0 +1,41 @@
+.civiclabFrame{
+  border:0;
+  margin: 0 auto;
+}
+.civiclab-section1{
+  background: linear-gradient(to left, #8e9eab , #eef2f3);
+}
+.civiclab-header{
+  background-image: url("../../public/assets/img/civiclab/bg-header.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.civiclab-logo{
+  margin-bottom: 1em;
+}
+.smokefree-fixed-bg{
+  background-image: url("../../public/assets/img/smokefree/smokefree-fixed-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.smokefree-header{
+  background-image: url("../../public/assets/img/smokefree/smokefree-header.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.smokefree-header-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #ffffff;
+  min-height: 500px;
+}
+
+.smokefree-bg{
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}

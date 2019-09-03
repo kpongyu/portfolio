@@ -1,0 +1,28 @@
+.mymic-title-video{
+  width: 50%;
+}
+@media screen and (max-width: 768px){
+  .mymic-title-video{
+    width: 100%;
+  }
+}
+.mymic-header{
+  justify-content: flex-end !important;
+  background-color: #653A05;
+background-image: linear-gradient(315deg, #653A05 0%, #000000 74%) !important;
+min-height: 300px !important;
+
+}
+
+.mymic-fixed-bg{
+  background-image: url("../../public/assets/img/mymic/mymic-bg-1.png");
+  padding: 5em 0em;
+  background-attachment: fixed;
+}
+.mymic-section{
+  background: linear-gradient(to right, #8e9eab , #eef2f3);
+}
+.mymic-logo{
+  width: 150px;
+  margin-bottom: 10px;
+}

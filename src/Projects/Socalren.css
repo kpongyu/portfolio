@@ -1,0 +1,40 @@
+.civiclabFrame{
+  border:0;
+  margin: 0 auto;
+}
+.civiclab-section1{
+  background: linear-gradient(to left, #8e9eab , #eef2f3);
+}
+.socalren-header{
+  background-image: url("../../public/assets/img/socalren/socalren-header.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.socalren-logo{
+  margin-bottom: 1em;
+  width: 300px !important;
+}
+.socalren-fixed-bg{
+  background-image: url("../../public/assets/img/socalren/hero-1.jpg");
+  color: #ffffff !important;
+  background-attachment: fixed;
+}
+.socalren-header-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #ffffff;
+}
+.socalren-section{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(242,235,243,1) 0%, rgba(234,241,249,1) 90.1% );
+}
+
+.socalren-content-image{
+  max-width: 400px !important;
+}
+.socalren-video{
+  margin-top: 1em;
+}

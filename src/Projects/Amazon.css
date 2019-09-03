@@ -1,0 +1,7 @@
+
+
+  .amazon-fixed-bg{
+    background-image: url("../../public/assets/img/amazon/img-4.jpg");
+    padding: 5em 0em;
+    background-attachment: fixed;
+  }

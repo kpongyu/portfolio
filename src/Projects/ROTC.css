@@ -1,0 +1,32 @@
+
+
+	.rotc-header{
+    background-image: url("../../public/assets/img/rotc/front_photo_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+  }
+  .rotc-header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: #ffffff;
+  }
+  .rotc-header-content img{
+    max-width: 100px;
+  }
+  .rotc-header-content h1{
+    text-align: center;
+  }
+
+  .rotc-fixed-bg{
+    background-image: url("../../public/assets/img/rotc/rotc-img-2.png");
+    color: #ffffff !important;
+    background-attachment: fixed;
+  }
+  .rotc-img-3{
+    background: linear-gradient(to left, #232526 , #414345);
+    color: #ffffff !important;
+  }

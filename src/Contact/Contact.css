@@ -1,0 +1,44 @@
+.contact-title{
+    padding-top: 4em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+.contact-form{
+    margin-bottom: 2em;
+}
+
+Form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.submitButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em !important;
+}
+
+
+.myButton {
+    display: inline-block !important;
+    padding: 12px 24px !important;
+    border: 1px solid #4f4f4f !important;
+    border-radius: 4px !important;
+    transition: all 0.2s ease-in !important;
+    background: transparent !important;
+    position: relative !important;
+    overflow: hidden !important;
+    color: #4f4f4f !important;
+    min-width: 200px !important;
+  }
+.myButton:hover{
+    background-color: #4f4f4f !important;
+    color: #ffffff !important;
+}
+ 
+.content-wrap{
+    background: radial-gradient(400px at 50%, #d9dbd8 0%, #bfd5e0 100%);
+}

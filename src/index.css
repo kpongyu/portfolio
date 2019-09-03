@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+.content-wrap{
+  min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 150px /* height of your footer */
+}
+.row [class*='col-'] {
+  transition: all 0.5s ease-in-out;
+}
+
+a{
+  color: #014d92;
 }

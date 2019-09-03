@@ -1,0 +1,26 @@
+.seed-header{
+  background-image: url("../../public/assets/img/seed/seed-bg.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.seed-header-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #ffffff;
+  min-height: 500px;
+}
+.seed-logo{
+  max-width: 80px;
+}
+.seed-fixed-bg{
+  background-image: url("../../public/assets/img/seed/seed-img-2.jpg");
+  background-attachment: fixed;
+}
+.seed-fixed-bg-2{
+  background-image: url("../../public/assets/img/seed/img-4.png");
+  background-attachment: fixed;
+}
