@@ -439,7 +439,7 @@
 }
 
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 1200px){
   .timeline-logo{
     width: 30px !important;
     height: auto;

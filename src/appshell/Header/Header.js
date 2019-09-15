@@ -42,7 +42,7 @@ class Header extends Component {
                  <div className="sticky_nav_left">
 	                <div className="sticky_nav_text" >
 	                <Link to="/">Home</Link> |
-                    <a href="https://drive.google.com/file/d/1bspK2w0b-5O4OLwwhjNP9dk_IhpiLH7M/view?usp=sharing" target="_blank">Resume</a>
+                    <a href="https://drive.google.com/file/d/14i6duOzqWAeRmEcVJ_8hwBZ36I_KLXf4/view" target="_blank">Resume</a>
                     </div>
                  </div>
                  <Link to="/">

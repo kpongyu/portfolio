@@ -31,7 +31,21 @@ class Contact extends Component {
   
   }
 
+ handleChange = e => {
+   this.setState({
+     [e.target.name]: e.target.value
+   })
+ }
  
+ async handleSubmit(e){
+   e.preventDefault();
+
+   const {name, email, message } = this.state;
+
+ }
+
+  
+
 
   
 
