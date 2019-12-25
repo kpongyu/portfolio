@@ -16,6 +16,7 @@ import Smokefree from './Projects/Smokefree';
 import GP from './Projects/GP';
 import CivicLab from './Projects/CivicLab';
 import 'bootstrap/dist/css/bootstrap.css';
+import ScrollToTop from './ScrollToTop';
 
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 import './index.css';
@@ -23,11 +24,12 @@ import './index.css';
 const routing = (
 
   <Router>
-  <Preloader/>
+  {/* <Preloader/> */}
 
     <div className="content-wrap">
   
       <Header/>
+      <ScrollToTop />
       <Switch >
         <Route exact path="/" component={App} />
         <Route path="/projects" component={Projects} />

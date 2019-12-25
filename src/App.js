@@ -22,6 +22,7 @@ class App extends Component {
 
   constructor(props) {
     super(props);
+    this.state = {spinner: true}
   
   }
 
@@ -32,13 +33,18 @@ class App extends Component {
 
 
 
+
   render() {
 
-   
+    setTimeout(() => {
+      this.setState({ spinner: false });
+    }, 1000);
 
     return (
      
       <div className="App">
+        {this.state.spinner ? <Preloader/> : true}
+       
        <LandingHead/>
        <LandingTimeline/>
       </div>

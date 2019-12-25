@@ -4,19 +4,43 @@ import './Socalren.css';
 import './Projects.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
-
-
+import $ from 'jquery';
+import Preloader from '../appshell/Preloader/Preloader';
 
 
 
 class Socalren extends Component {
 
+	handleLoad() {
+		$('.preloader').addClass('active');
+	
+		setTimeout(function() {
+		  $('.preloader').hide();
+		}, 2500);
+	  }
+
+	constructor(props) {
+		super(props);
+		this.state = {spinner: true}
+	  
+	  }
+	  componentDidMount(){
+		window.addEventListener('load', this.handleLoad);
+	  
+	  }
   
     render() {
+
+	
+		setTimeout(() => {
+			this.setState({ spinner: false });
+		  }, 1000);
+
+
       return (
 
         <section>
-
+{this.state.spinner ? <Preloader/> : true}
         <Row className="socalren-header">
         
 	<div className="socalren-header-content">
@@ -54,11 +78,11 @@ class Socalren extends Component {
 				
 				
 			</p>
-			<img src="./assets/img/socalren/color-palette.png" alt="color palette" class="img-fluid right-img image-within-content socalren-content-image"/>
+			<img src="./assets/img/socalren/color-palette.png" alt="color palette" className="img-fluid right-img image-within-content socalren-content-image"/>
 					
 			</Col>
 			<Col xs={12} md={5} className="float-left">
-				<img src="./assets/img/socalren/branding.png" alt="user-journey" class="img-fluid right-img"/>
+				<img src="./assets/img/socalren/branding.png" alt="user-journey" className="img-fluid right-img"/>
 			</Col>
 			
 			</Row>
@@ -98,7 +122,7 @@ class Socalren extends Component {
 					
 			</Col>
 			<Col xs={12} md={7} className="float-left">
-				<img src="./assets/img/socalren/mobile.png" alt="user-journey" class="img-fluid right-img"/>
+				<img src="./assets/img/socalren/mobile.png" alt="user-journey" className="img-fluid right-img"/>
 			
 				<video  loop autoPlay className="responsive-video socalren-video" >
                 <source src="./assets/img/socalren/animation.mp4" type="video/mp4" />
@@ -135,7 +159,7 @@ class Socalren extends Component {
 			Below are some other content types we created for the website.</p>
 			</Col>
 			<Col xs={12} md={5}>
-				<img src="./assets/img/socalren/socalren.png" alt="user-journey" class="img-fluid right-img"/>
+				<img src="./assets/img/socalren/socalren.png" alt="user-journey" className="img-fluid right-img"/>
 			</Col>
 			</Row>
 

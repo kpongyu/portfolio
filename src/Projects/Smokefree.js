@@ -1,22 +1,45 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
+import $ from 'jquery';
 import './Smokefree.css';
 import './Projects.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
-
+import Preloader from '../appshell/Preloader/Preloader';
 
 
 
 
 class CivicLab extends Component {
+	handleLoad() {
+		$('.preloader').addClass('active');
+	
+		setTimeout(function() {
+		  $('.preloader').hide();
+		}, 2500);
+	  }
 
+	constructor(props) {
+		super(props);
+		this.state = {spinner: true}
+	  
+	  }
+	  componentDidMount(){
+		window.addEventListener('load', this.handleLoad);
+	  
+	  }
   
     render() {
+
+		setTimeout(() => {
+			this.setState({ spinner: false });
+		  }, 1000);
+
+
       return (
 
         <section>
-
+{this.state.spinner ? <Preloader/> : true}
 <section className="smokefree-header">
 		<Container>
        

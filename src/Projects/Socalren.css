@@ -19,6 +19,7 @@
   background-image: url("../../public/assets/img/socalren/hero-1.jpg");
   color: #ffffff !important;
   background-attachment: fixed;
+  background-size: cover;
 }
 .socalren-header-content{
   display: flex;

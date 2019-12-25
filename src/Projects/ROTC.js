@@ -3,20 +3,43 @@ import {Row, Col, Container} from 'react-bootstrap';
 import './ROTC.css';
 import './Projects.css';
 import ReactDOM from 'react-dom';
-
+import $ from 'jquery';
+import Preloader from '../appshell/Preloader/Preloader';
 
 
 
 
 
 class ROTC extends Component {
-
+	handleLoad() {
+		$('.preloader').addClass('active');
+	
+		setTimeout(function() {
+		  $('.preloader').hide();
+		}, 2500);
+	  }
+	
+	  constructor(props) {
+		super(props);
+		this.state = {spinner: true}
+	  
+	  }
+	
+	  componentDidMount(){
+		window.addEventListener('load', this.handleLoad);
+	  
+	  }
   
     render() {
+
+		setTimeout(() => {
+			this.setState({ spinner: false });
+		  }, 1000);
+
       return (
 
         <section>
-
+{this.state.spinner ? <Preloader/> : true}
         <Row className="rotc-header">
         
 	<div className="rotc-header-content">

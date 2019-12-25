@@ -5,6 +5,8 @@ import {Container, Row, Col} from 'react-bootstrap';
 import './Projects.css';
 import ProjectCard from '../components/ProjectCard/ProjectCard';
 import AOS from 'aos';
+import Preloader from '../appshell/Preloader/Preloader';
+
 
 import 'aos/dist/aos.css';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
@@ -21,6 +23,7 @@ class Projects extends Component {
 
   constructor(props) {
     super(props);
+    this.state = {spinner: true}
   
   }
 
@@ -93,12 +96,15 @@ class Projects extends Component {
       ));
 
       
-
+      setTimeout(() => {
+        this.setState({ spinner: false });
+      }, 1000);
 
 
 
       return (
         <div className="project-bg">
+           {this.state.spinner ? <Preloader/> : true}
 		<Container>
         <h3 className="project-h3 page-title">
        Selected Projects

@@ -3,7 +3,8 @@ import {Row, Col, Container} from 'react-bootstrap';
 import './Mymic.css';
 import './Projects.css';
 import ReactDOM from 'react-dom';
-
+import $ from 'jquery';
+import Preloader from '../appshell/Preloader/Preloader';
 
 
 
@@ -11,12 +12,36 @@ import ReactDOM from 'react-dom';
 
 class Mymic extends Component {
 
-  
+	handleLoad() {
+		$('.preloader').addClass('active');
+	
+		setTimeout(function() {
+		  $('.preloader').hide();
+		}, 2500);
+	  }
+	
+	  constructor(props) {
+		super(props);
+		this.state = {spinner: true}
+	  
+	  }
+	
+	  componentDidMount(){
+		window.addEventListener('load', this.handleLoad);
+	  
+	  }
+
+
     render() {
+
+		setTimeout(() => {
+			this.setState({ spinner: false });
+		  }, 1000);
+
       return (
 
         <div>
-
+{this.state.spinner ? <Preloader/> : true}
         <Row className="cd-header mymic-header">
     <video id="background-video" loop autoPlay playsInline className="mymic-title-video">
                 <source src="./assets/img/mymic/demo.mp4" type="video/mp4" />

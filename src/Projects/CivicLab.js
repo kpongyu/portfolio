@@ -4,19 +4,43 @@ import './CivicLab.css';
 import './Projects.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
-
+import $ from 'jquery';
+import Preloader from '../appshell/Preloader/Preloader';
 
 
 
 
 class CivicLab extends Component {
-
+	handleLoad() {
+		$('.preloader').addClass('active');
+	
+		setTimeout(function() {
+		  $('.preloader').hide();
+		}, 2500);
+	  }
+	
+	  constructor(props) {
+		super(props);
+		this.state = {spinner: true}
+	  
+	  }
+	
+	  componentDidMount(){
+		window.addEventListener('load', this.handleLoad);
+	  
+	  }
   
     render() {
+
+		setTimeout(() => {
+			this.setState({ spinner: false });
+		  }, 1000);
+
+
       return (
 
         <section>
-
+{this.state.spinner ? <Preloader/> : true}
         <Row className="civiclab-header">
         
 	<div className="rotc-header-content">
