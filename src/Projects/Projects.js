@@ -35,6 +35,16 @@ class Projects extends Component {
     render() {
 
       const myProjects = {
+        'ncbi-virus': {
+          navigation: "/ncbiVirus",
+          imageSource: "./assets/img/project/ncbi-virus.jpg",
+          title: "NCBI Virus Varient Visualization"
+        },
+        'datim': {
+          navigation: "/datim",
+          imageSource: "./assets/img/project/datim.jpg",
+          title: "PEPFAR DATIM MSP Platform"
+        },
         'smokefree': {
           navigation: "/smokefree",
           imageSource: "./assets/img/project/smokefree-cover.jpg",
@@ -45,6 +55,11 @@ class Projects extends Component {
           imageSource: "./assets/img/project/socalren-cover.jpg",
           title: "Socalren.org Web Design"
         },
+        'amazon': {
+          navigation: "/amazon",
+          imageSource: "./assets/img/project/a.jpg",
+          title: "Amazon Mobile Card System"
+        },
         'georgia-power': {
           navigation: "/gp",
           imageSource: "./assets/img/project/georgia-power-cover.jpg",
@@ -54,11 +69,6 @@ class Projects extends Component {
           navigation: "/wydot",
           imageSource: "./assets/img/project/wydot-cover.jpg",
           title: "WYDOT Connected Vehicle Pilot Project"
-        },
-        'amazon': {
-          navigation: "/amazon",
-          imageSource: "./assets/img/project/a.jpg",
-          title: "Amazon Mobile Card System"
         },
         'mymic': {
           navigation: "/mymic",

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import "./LandingHead.css";
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class LandingHead extends Component {
 
@@ -24,7 +24,9 @@ class LandingHead extends Component {
             <img src="./assets/img/homepage/background.png" className="img-responsive" />
        </Parallax>
        <Parallax  y={[0, 0]} x={[0, 0]} tagOuter="figure" className="landingHead-ball">
+       <Link to="/projects">
             <img src="./assets/img/homepage/ball.png" className="ball-image" />
+     </Link>
        </Parallax>
         </ParallaxProvider>
         </div>

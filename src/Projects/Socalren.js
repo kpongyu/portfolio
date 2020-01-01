@@ -5,11 +5,19 @@ import './Projects.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
+import Lottie from 'react-lottie';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import * as financingData from "../../public/assets/lottie/financing.json";
+import * as publicAgenciesData from "../../public/assets/lottie/publicAgencies.json";
+import * as residentialData from "../../public/assets/lottie/residential.json";
+import * as workforceData from "../../public/assets/lottie/workforce.json";
 
 
 class Socalren extends Component {
+
+
+	
+		
 
 	handleLoad() {
 		$('.preloader').addClass('active');
@@ -21,16 +29,56 @@ class Socalren extends Component {
 
 	constructor(props) {
 		super(props);
-		this.state = {spinner: true}
+		this.state = {spinner: true};
+		this.state = {
+			financingisStopped: true, financingisPaused: true, 
+			publicAgenciesisStopped: true, publicAgenciesisPaused: true, 
+			residentialisStopped: true, residentialisPaused: true, 
+			workforceisStopped: true, workforceisPaused: true, 
+			speed: 1};
 	  
 	  }
 	  componentDidMount(){
 		window.addEventListener('load', this.handleLoad);
-	  
+		this.setState({
+			speed: 1
+		  })
 	  }
   
     render() {
 
+		const financingOptions = {
+			loop: false,
+			autoplay: true, 
+			animationData: financingData,
+			rendererSettings: {
+			  preserveAspectRatio: 'xMidYMid slice'
+			},
+		  };
+		const publicAgenciesOptions = {
+			loop: false,
+			autoplay: true, 
+			animationData: publicAgenciesData,
+			rendererSettings: {
+			  preserveAspectRatio: 'xMidYMid slice'
+			},
+		  };
+		const residentialOptions = {
+			loop: false,
+			autoplay: true, 
+			animationData: residentialData,
+			rendererSettings: {
+			  preserveAspectRatio: 'xMidYMid slice'
+			},
+		  };
+		const workforceOptions = {
+			loop: false,
+			autoplay: true, 
+			animationData: workforceData,
+			rendererSettings: {
+			  preserveAspectRatio: 'xMidYMid slice'
+			},
+		  };
 	
 		setTimeout(() => {
 			this.setState({ spinner: false });
@@ -124,12 +172,63 @@ class Socalren extends Component {
 			<Col xs={12} md={7} className="float-left">
 				<img src="./assets/img/socalren/mobile.png" alt="user-journey" className="img-fluid right-img"/>
 			
-				<video  loop autoPlay className="responsive-video socalren-video" >
-                <source src="./assets/img/socalren/animation.mp4" type="video/mp4" />
-               
-    		</video> 
 			</Col>
-			
+			<Col xs={12} className="animatedIconsContainer">
+			<div className="animatedIcons"  
+			onMouseEnter={() => this.setState({ financingisPaused: false, financingisStopped: false })}  
+			onMouseLeave={() => this.setState({ financingisPaused: true, financingisStopped: true})}>
+				<Lottie options={financingOptions}
+              height={150}
+              width={150}
+              isStopped={this.state.financingisStopped}
+              isPaused={this.state.financingisPaused}
+              speed={this.state.speed}
+             
+             
+              />
+			   </div>
+
+
+			   <div className="animatedIcons"  
+			onMouseEnter={() => this.setState({publicAgenciesisPaused: false, publicAgenciesisStopped: false })}  
+			onMouseLeave={() => this.setState({ publicAgenciesisPaused: true, publicAgenciesisStopped: true})}>
+				<Lottie options={publicAgenciesOptions}
+              height={150}
+              width={150}
+              isStopped={this.state.publicAgenciesisStopped}
+              isPaused={this.state.publicAgenciesisPaused}
+              speed={this.state.speed}
+             
+             
+              />
+			   </div>
+			   <div className="animatedIcons"  
+			onMouseEnter={() => this.setState({ residentialisPaused: false, residentialisStopped: false })}  
+			onMouseLeave={() => this.setState({ residentialisPaused: true, residentialisStopped: true})}>
+				<Lottie options={residentialOptions}
+              height={150}
+              width={150}
+              isStopped={this.state.residentialisStopped}
+              isPaused={this.state.residentialisPaused}
+              speed={this.state.speed}
+             
+             
+              />
+			   </div>
+			   <div className="animatedIcons"  
+			onMouseEnter={() => this.setState({ workforceisPaused: false, workforceisStopped: false })}  
+			onMouseLeave={() => this.setState({ workforceisPaused: true, workforceisStopped: true})}>
+				<Lottie options={workforceOptions}
+              height={150}
+              width={150}
+              isStopped={this.state.workforceisStopped}
+              isPaused={this.state.workforceisPaused}
+              speed={this.state.speed}
+             
+             
+              />
+			   </div>
+			</Col>
 			</Row>
 		</Container>
 

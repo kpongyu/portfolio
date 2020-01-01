@@ -1,0 +1,58 @@
+.civiclabFrame{
+  border:0;
+  margin: 0 auto;
+}
+.civiclab-section1{
+  background: linear-gradient(to left, #8e9eab , #eef2f3);
+}
+
+.civiclab-logo{
+  margin-bottom: 1em;
+}
+.ncbiVirus-fixed-bg{
+  background-attachment: fixed;
+  background-size: cover;
+}
+.ncbi-project-logo{
+  width: 250px;
+  margin-bottom: 25px;
+}
+.ncbi-header-link{
+  color: #245390;
+}
+.ncbiVirus-header{
+  background-image: url("../../public/assets/img/ncbi-virus/ncbi-virus-header.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.ncbiVirus-header-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #212529;
+  min-height: 450px;
+}
+
+.ncbi-section1{
+  background-color: #eeeeee;
+}
+
+.ncbiVirus-bg{
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+li{
+  padding-bottom: 15px;
+}
+.pull-right{
+  float: right;
+}
+.pull-left{
+  float: left;
+}
+.subRow{
+  padding-top: 20px;
+}

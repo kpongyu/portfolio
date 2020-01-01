@@ -13,6 +13,8 @@ import ROTC from './Projects/ROTC';
 import Wydot from './Projects/Wydot';
 import Socalren from './Projects/Socalren';
 import Smokefree from './Projects/Smokefree';
+import NCBIVirus from './Projects/NCBIVirus';
+import Datim from './Projects/Datim';
 import GP from './Projects/GP';
 import CivicLab from './Projects/CivicLab';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -32,6 +34,7 @@ const routing = (
       <ScrollToTop />
       <Switch >
         <Route exact path="/" component={App} />
+        <Route path="/index.html" component={App} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
         <Route path="/amazon" component={Amazon} />
@@ -43,6 +46,8 @@ const routing = (
         <Route path="/socalren" component={Socalren} />
         <Route path="/gp" component={GP} />
         <Route path="/smokefree" component={Smokefree} />
+        <Route path="/datim" component={Datim} />
+        <Route path="/ncbiVirus" component={NCBIVirus} />
       </Switch>
       <Footer/>
     </div>
