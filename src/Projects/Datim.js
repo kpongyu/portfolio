@@ -50,7 +50,7 @@ class CivicLab extends Component {
 		<p >
 		<strong>My Role</strong>: Web Developer, Web Designer<br/>
 			<strong>Duration</strong>: 6 months<br/>
-		
+			<strong>Prototype</strong>: <a href="https://www.icfcreative.com/2019/datim/v3/index.html" target="_blank" className="link_white">prototype link</a>
 		</p>
         
 		</div>

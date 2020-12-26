@@ -1,4 +1,4 @@
-.landingHead{
+/* .landingHead{
     height: 100vw;
     max-height: 700px;
     background-size: cover;
@@ -69,6 +69,84 @@
 .ball-image{
     width: 100%;
     height: auto;
+    animation: rotating 2s linear infinite;
+}
+
+
+@keyframes rotating {
+    0%{
+        -webkit-transform: scale(1);
+    }
+
+    50%{
+        -webkit-transform: scale(1.05);
+    }
+
+	100%{
+		-webkit-transform: scale(1);
+	}
+} */
+
+.landingHead{
+    display: grid;
+    width: 100vw;
+    min-width: 1440px;
+    overflow: hidden;
+    padding: 0;
+    grid-template-columns: repeat(12, 8vw);
+    grid-template-rows: repeat(12, 6vw);
+    column-gap: 10px;
+    row-gap: 10px;
+    max-height: 750px;
+}
+
+
+@media screen and (max-width: 991px){
+    .landingHead{
+        max-height: 70vw;
+    }
+}
+
+.landingHead-background{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    height: auto;
+    position: absolute;
+    top:0;
+    left: 0;
+    max-height: 750px;
+    overflow: hidden;
+}
+.landingHead-me {
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 10;
+}
+.landingHead-dragon {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.landingHead-frame{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 12;
+}
+.landingHead-frame .frame{
+    width: 100vw;
+}
+.landingHead-ball{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.ball-image{
     animation: rotating 2s linear infinite;
 }
 

@@ -17,7 +17,7 @@ class App extends Component {
 
     setTimeout(function() {
       $('.preloader').hide();
-    }, 2500);
+    }, 3000);
   }
 
   constructor(props) {
@@ -38,7 +38,7 @@ class App extends Component {
 
     setTimeout(() => {
       this.setState({ spinner: false });
-    }, 1000);
+    }, 6000);
 
     return (
      

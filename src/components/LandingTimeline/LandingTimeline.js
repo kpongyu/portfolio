@@ -34,7 +34,7 @@ class LandingTimeline extends Component {
     <div className="clients-container">
 				<a href="https://www.nih.gov/" target="_blank">
         <div className="clients border">
-        <img src="./assets/img/homepage/NIH-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/nih-logo.png" className="client-logo"/>
         </div></a>
 			
 				<a href="https://www.ncbi.nlm.nih.gov/" target="_blank">

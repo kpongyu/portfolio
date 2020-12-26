@@ -46,11 +46,11 @@ class CivicLab extends Component {
         
 	<div className="ncbiVirus-header-content ">
     <img src="./assets/img/ncbi-virus/ncbi-virus-logo.png" className="ncbi-project-logo" alt="ncbi virus logo"/>
-    <h1>NCBI Virus Varient Data Visualization</h1>
+    <h1>NCBI Virus Variant Data Visualization</h1>
 		<p >
 		<strong>My Role</strong>: Web Developer, Designer<br/>
 			<strong>Duration</strong>: 1 Year<br/>
-			<strong>Deliverable</strong>: <a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">NCBI Virus Varient Platform</a><br/>
+			<strong>Deliverable</strong>: <a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">NCBI Virus Variant Platform</a><br/>
 		
 		</p>
         
@@ -69,7 +69,7 @@ class CivicLab extends Component {
 		   <Col xs={12} md={6}  className="float-right" >
 		   <h2 >Angular Driven platform to search virus through sequence or name</h2>
 			<p >
-			We worked closely with the NCBI Virus Varient team to created the Angular Driven Virus searching
+			We worked closely with the NCBI Virus Variant team to created the Angular Driven Virus searching
 			platform that researchers can search the related virus that they might interested in based on 
 			virus name or sequence. We used the Angular Data-Table to fetch the data from NCBI API and displays
 			the virus information through the data table. User can expand the data table to see additional details
@@ -139,8 +139,8 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		   <Col xs={12} mdPush={4} md={6}>
-			<h2>The Square Map and the Data Dashboard</h2>
-			<p>We moved to the square map as our second approach to the problem. Compare to Bubble Map, Square map is fixed
+			<h2>The Tree Map and the Data Dashboard</h2>
+			<p>We moved to the tree map as our second approach to the problem. Compare to Bubble Map, tree map is fixed
 			in size, so even if the number of sequence is not big in some categories, it will still contains the full space,
 			which patially solved the spacing problem and made it easier to develop. However, it still cannot solve the problem 
 			when some sequences are too small to be clicked on, and for the smaller squares, it's hard to display the information 
@@ -159,7 +159,7 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} mdPull={8} md={6}>
-				<img src="./assets/img/ncbi-virus/ncbi-square-map.jpg" alt="ncbi square map" class="img-fluid right-img"/>
+				<img src="./assets/img/ncbi-virus/ncbi-square-map.jpg" alt="ncbi tree map" class="img-fluid right-img"/>
 			</Col>
 			</Row>
 		</Container>
@@ -177,7 +177,7 @@ class CivicLab extends Component {
 		   <Col xs={12} md={6}>
 		   <h2>Final Approach&mdash;Sunburst graph</h2>
 			<p>As you can find through the <a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">published website</a>&nbsp; 
-			 we finally decided to use Sunburst graph to display the virus data. Comparing to the Bubble Map and the Square Map, there are quite a few advantages to 
+			 we finally decided to use Sunburst graph to display the virus data. Comparing to the Bubble Map and the Tree Map, there are quite a few advantages to 
 			use the Sunburst map for this challenge.	</p>
 
 			<ul>

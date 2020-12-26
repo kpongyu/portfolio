@@ -39,3 +39,7 @@
 .datim-bg{
   background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
+.link_white{
+  color: white;
+  text-decoration: underline;
+}
