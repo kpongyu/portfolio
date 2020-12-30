@@ -1,36 +1,37 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import Preloader from './appshell/Preloader/Preloader';
-import Header from './appshell/Header/Header';
-import Projects from './Projects/Projects';
-import Footer from './appshell/Footer/Footer';
-import Contact from './Contact/Contact';
-import Amazon from './Projects/Amazon';
-import Seed from './Projects/Seed';
-import Mymic from './Projects/Mymic';
-import ROTC from './Projects/ROTC';
-import Wydot from './Projects/Wydot';
-import Socalren from './Projects/Socalren';
-import Smokefree from './Projects/Smokefree';
-import NCBIVirus from './Projects/NCBIVirus';
-import Datim from './Projects/Datim';
-import GP from './Projects/GP';
-import CivicLab from './Projects/CivicLab';
-import 'bootstrap/dist/css/bootstrap.css';
-import ScrollToTop from './ScrollToTop';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import Preloader from './appshell/Preloader/Preloader'
+import Header from './appshell/Header/Header'
+import Projects from './Projects/Projects'
+import Footer from './appshell/Footer/Footer'
+import Contact from './Contact/Contact'
+import Amazon from './Projects/Amazon'
+import covid from './Projects/Covid'
+import Seed from './Projects/Seed'
+import Mymic from './Projects/Mymic'
+import ROTC from './Projects/ROTC'
+import Wydot from './Projects/Wydot'
+import Socalren from './Projects/Socalren'
+import Smokefree from './Projects/Smokefree'
+import NCBIVirus from './Projects/NCBIVirus'
+import Datim from './Projects/Datim'
+import GP from './Projects/GP'
+import CivicLab from './Projects/CivicLab'
+import 'bootstrap/dist/css/bootstrap.css'
+import ScrollToTop from './ScrollToTop'
 
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
-import './index.css';
+import './index.css'
 
 const routing = (
 
   <Router>
-  {/* <Preloader/> */}
+    {/* <Preloader/> */}
 
     <div className="content-wrap">
-  
-      <Header/>
+
+      <Header />
       <ScrollToTop />
       <Switch >
         <Route exact path="/" component={App} />
@@ -39,6 +40,7 @@ const routing = (
         <Route path="/contact" component={Contact} />
         <Route path="/amazon" component={Amazon} />
         <Route path="/mymic" component={Mymic} />
+        <Route path="/covid" component={covid} />
         <Route path="/seed" component={Seed} />
         <Route path="/ROTC" component={ROTC} />
         <Route path="/CivicLab" component={CivicLab} />
@@ -49,7 +51,7 @@ const routing = (
         <Route path="/datim" component={Datim} />
         <Route path="/ncbiVirus" component={NCBIVirus} />
       </Switch>
-      <Footer/>
+      <Footer />
     </div>
   </Router>
 )
@@ -59,4 +61,4 @@ const routing = (
 ReactDOM.render(
   routing,
   document.getElementById('root')
-);
+)

@@ -11,8 +11,8 @@ class LandingHead extends Component {
           return (
                <div className="landingHead">
                     <ParallaxProvider>
-                         <Parallax y={[0, 0]} tagOuter="figure" className="landingHead-background">
-                              <img src="./assets/img/homepage/background1.jpg" className="img-fluid" />
+                         <Parallax y={[0, 0]} x={[0, 0]} tagOuter="figure" className="landingHead-frame">
+                              <img src="./assets/img/homepage/background1.jpg" className="img-fluid frame" />
                          </Parallax>
                          <Parallax y={[-25, 0]} tagOuter="figure" className="landingHead-me">
                               <img src="./assets/img/homepage/me.png" className="img-fluid" />
@@ -23,7 +23,7 @@ class LandingHead extends Component {
                          <Parallax y={[0, 0]} x={[0, 0]} tagOuter="figure" className="landingHead-frame">
                               <img src="./assets/img/homepage/background.png" className="img-fluid frame" />
                          </Parallax>
-                         <Parallax y={[0, 0]} x={[0, 0]} tagOuter="figure" className="landingHead-ball">
+                         <Parallax tagOuter="figure" className="landingHead-ball">
                               <Link to="/projects">
                                    <img src="./assets/img/homepage/ball.png" className="ball-image img-fluid" />
                               </Link>

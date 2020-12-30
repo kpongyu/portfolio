@@ -186,7 +186,7 @@ blockquote:before {
 
 .cd-header {
   position: relative;
-  background-color: #93a748;
+  background-color: #393F43;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   z-index: 1;
   max-height: 500px;

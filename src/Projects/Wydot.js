@@ -49,7 +49,7 @@ class Wydot extends Component {
         
 	<div className="wydot-header-content ">
     <img src="./assets/img/wydot/wydot.png" className="project-logo wydot-logo" alt="seed logo"/>
-    <h1>Seed Application Design</h1>
+    <h1>WYDOT Connected Vehicle Pilot Project</h1>
 		<p >
 		<strong>My Role</strong>: Web Designer, Front-end Developer<br/>
 			<strong>Duration</strong>: 3 Months<br/>

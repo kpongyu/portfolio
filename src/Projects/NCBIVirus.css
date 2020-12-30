@@ -19,6 +19,8 @@
 }
 .ncbi-header-link{
   color: #245390;
+  display: inline;
+  padding-right: 3px;
 }
 .ncbiVirus-header{
   background-image: url("../../public/assets/img/ncbi-virus/ncbi-virus-header.jpg");
@@ -55,4 +57,25 @@ li{
 }
 .subRow{
   padding-top: 20px;
+}
+
+h5{
+  font-style: italic;
+  font-size: 13px;
+  color: #8b0a03;
+}
+.banner-border{
+  height: 10px;
+  width: 100%;
+  background-image: linear-gradient(90deg,#fdb81e 25%,#02bfe7);
+}
+.label{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+}
+.sub-section{
+  border-top: #999EA2 1px solid;
+  padding-top: 2em;
+  margin-top: 2em;
 }
