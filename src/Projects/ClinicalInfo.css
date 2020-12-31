@@ -1,0 +1,46 @@
+.clinicalInfo-header{
+  background-image: url("../../public/assets/img/clinicalInfo/clinicalInfo-bg.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.clinicalInfo-header-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #ffffff;
+  min-height: 500px;
+}
+.clinicalInfo-logo{
+  max-width: 80px;
+}
+.clinicalInfo-fixed-bg{
+  background-image: url("../../public/assets/img/clinicalInfo/clinicalInfo-img-2.jpg");
+  background-attachment: fixed;
+}
+.clinicalInfo-fixed-bg-2{
+  background-image: url("../../public/assets/img/clinicalInfo/img-4.png");
+  background-attachment: fixed;
+}
+
+.clinicalInfo-section1{
+  background-color: #333333;
+}
+.clinicalInfo-section1 h2{
+  color: #fff;
+}
+.clinicalInfo-section1 p{
+  color: #fff;
+}
+
+.clinicalInfo-section2{
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.label{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+}

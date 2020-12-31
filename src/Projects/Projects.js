@@ -45,21 +45,27 @@ class Projects extends Component {
         imageSource: "./assets/img/project/covid.png",
         title: "NIH COVID-19 Clinical Guidelines"
       },
+      'clinicalInfo': {
+        navigation: "/clinicalInfo",
+        imageSource: "./assets/img/project/clinicalInfo.png",
+        title: "ClinicalInfo Mobile Application"
+      },
       'datim': {
         navigation: "/datim",
         imageSource: "./assets/img/project/datim.jpg",
         title: "PEPFAR DATIM MSP Platform"
-      },
-      'smokefree': {
-        navigation: "/smokefree",
-        imageSource: "./assets/img/project/smokefree-cover.jpg",
-        title: "Smokefree Web System"
       },
       'amazon': {
         navigation: "/amazon",
         imageSource: "./assets/img/project/a.jpg",
         title: "Amazon Mobile Card System"
       },
+      'smokefree': {
+        navigation: "/smokefree",
+        imageSource: "./assets/img/project/smokefree-cover.jpg",
+        title: "Smokefree Web System"
+      },
+
       'socalren': {
         navigation: "/socalren",
         imageSource: "./assets/img/project/socalren-cover.jpg",
@@ -80,11 +86,11 @@ class Projects extends Component {
         imageSource: "./assets/img/project/b.jpg",
         title: "Mymic Physical Therapy Device"
       },
-      'seed': {
-        navigation: "/seed",
-        imageSource: "./assets/img/project/d.jpg",
-        title: "Seed Gamification Mobile APP"
-      },
+      // 'seed': {
+      //   navigation: "/seed",
+      //   imageSource: "./assets/img/project/d.jpg",
+      //   title: "Seed Gamification Mobile APP"
+      // },
       'rotc': {
         navigation: "/rotc",
         imageSource: "./assets/img/project/f.jpg",

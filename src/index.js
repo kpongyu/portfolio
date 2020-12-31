@@ -15,6 +15,7 @@ import Wydot from './Projects/Wydot'
 import Socalren from './Projects/Socalren'
 import Smokefree from './Projects/Smokefree'
 import NCBIVirus from './Projects/NCBIVirus'
+import ClinicalInfo from './Projects/ClinicalInfo'
 import Datim from './Projects/Datim'
 import GP from './Projects/GP'
 import CivicLab from './Projects/CivicLab'
@@ -50,6 +51,7 @@ const routing = (
         <Route path="/smokefree" component={Smokefree} />
         <Route path="/datim" component={Datim} />
         <Route path="/ncbiVirus" component={NCBIVirus} />
+        <Route path="/ClinicalInfo" component={ClinicalInfo} />
       </Switch>
       <Footer />
     </div>
