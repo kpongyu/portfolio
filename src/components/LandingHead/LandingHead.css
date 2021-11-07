@@ -132,7 +132,7 @@
     grid-row-end: 12;
 }
 .landingHead-frame .frame{
-    width: 100vw;
+    width: 120vw;
     float: left;
 }
 .landingHead-ball{
@@ -158,4 +158,8 @@
 	100%{
 		-webkit-transform: scale(1);
 	}
+}
+
+.hero-bg{
+    display: initial !important;
 }
