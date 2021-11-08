@@ -1,30 +1,13 @@
-.civiclabFrame{
-  border:0;
-  margin: 0 auto;
-}
-.civiclab-section1{
-  background: linear-gradient(to left, #8e9eab , #eef2f3);
-}
-.civiclab-header{
-  background-image: url("../../public/assets/img/civiclab/bg-header.jpg");
-  background-position: center;
-  background-size: cover;
-  min-height: 400px;
-}
-.civiclab-logo{
-  margin-bottom: 1em;
-}
-.datim-fixed-bg{
-  background-image: url("../../public/assets/img/smokefree/smokefree-fixed-background.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-}
+
+
 
 .datim-header{
-  background-image: url("../../public/assets/img/datim/datim-header.jpg");
   background-position: center;
   background-size: cover;
   min-height: 400px;
+}
+.datim-header p{
+  color: #fff;
 }
 .datim-header-content{
   display: flex;

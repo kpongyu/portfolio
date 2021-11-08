@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -41,8 +42,8 @@ class CivicLab extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-        <Row className="civiclab-header">
-        
+			  <Row className="civiclab-header cd-header">
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/civiclab/bg-header-alt.jpg" src="./assets/img/civiclab/bg-header.jpg" className="hero-bg" />
 	<div className="rotc-header-content">
     <img src="./assets/img/civiclab/civiclab-logo.png" className="project-logo civiclab-logo" alt="civiclab logo"/>
     <h1>Chicago TIF Viewer Development</h1>
@@ -102,7 +103,8 @@ class CivicLab extends Component {
 					
 			</Col>
 			<Col xs={12} md={5} className="float-left">
-				<img src="./assets/img/civiclab/civiclab-photo.jpg" alt="user-journey" class="img-fluid right-img"/>
+							  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/civiclab-alt/civiclab-photo.jpg" src="./assets/img/civiclab/civiclab-photo.jpg" className="img-fluid" />
+				
 			</Col>
 			
 			</Row>

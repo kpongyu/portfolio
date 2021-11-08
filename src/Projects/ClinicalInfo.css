@@ -1,8 +1,10 @@
 .clinicalInfo-header{
-  background-image: url("../../public/assets/img/clinicalInfo/clinicalInfo-bg.png");
   background-position: center;
   background-size: cover;
   min-height: 500px;
+}
+.clinicalInfo-header p{
+  color: #fff;
 }
 .clinicalInfo-header-content{
   display: flex;

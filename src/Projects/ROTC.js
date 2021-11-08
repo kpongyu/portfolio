@@ -5,7 +5,8 @@ import './Projects.css';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -40,8 +41,8 @@ class ROTC extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-        <Row className="rotc-header">
-        
+			  <Row className="rotc-header cd-header">
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/front_photo_bg-alt.jpg" src="./assets/img/rotc/front_photo_bg.jpg" className="hero-bg" />
 	<div className="rotc-header-content">
     <img src="./assets/img/rotc/rotc-logo.png" className="project-logo rotc-logo" alt="rotc logo"/>
     <h1>	Michigan ROTC Website Design</h1>
@@ -69,7 +70,8 @@ class ROTC extends Component {
             structure, put a large cool photo at the first glance, using more images to present what the life would be like as a wolverine battalian, not just through words.</p>
 			</Col>
 			<Col xs={12} md={5}>
-				<img src="./assets/img/rotc/rotc-wireframe.png" alt="user-journey" class="img-fluid right-img"/>
+			<LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/rotc-wireframe-alt.jpg" src="./assets/img/rotc/rotc-wireframe.jpg" className="img-fluid" />
+
 			</Col>
 			</Row>
 		</Container>
@@ -99,7 +101,8 @@ class ROTC extends Component {
 			
 			</Col>
 			<Col xs={12} md={5} className="float-left">
-				<img src="./assets/img/rotc/rotc-visual.png" alt="user-journey" class="img-fluid right-img"/>
+							  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/rotc-visual-alt.jpg" src="./assets/img/rotc/rotc-visual.jpg" className="img-fluid" />
+
 			</Col>
 			
 			</Row>
@@ -127,13 +130,13 @@ class ROTC extends Component {
 		
 			<div className="image-row">
 			<div className="one-third-img">
-			<img src="./assets/img/rotc/rotc-1.png" alt="past version" className="img-fluid"/>
+			<LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/rotc-1-alt.jpg" src="./assets/img/rotc/rotc-1.jpg" className="img-fluid" />
 			</div>
 			<div className="one-third-img">
-			<img src="./assets/img/rotc/rotc-2.png" alt="past version" className="img-fluid"/>
+			<LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/rotc-2-alt.jpg" src="./assets/img/rotc/rotc-2.jpg" className="img-fluid" />
 			</div>
 			<div className="one-third-img">
-			<img src="./assets/img/rotc/rotc-3.png" alt="past version" className="img-fluid"/>
+			<LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/rotc-3-alt.jpg" src="./assets/img/rotc/rotc-3.jpg" className="img-fluid" />
 			</div>
 			</div>
 		
@@ -154,7 +157,8 @@ class ROTC extends Component {
 	</Col>
 		  
 	<Col xs={12}>
-	<img src="./assets/img/rotc/rotc-responsive.png" alt="responsive" class="img-fluid"/>
+	 <LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/rotc-responsive-alt.png" src="./assets/img/rotc/rotc-responsive.png" className="img-fluid" />
+
 			</Col>
 			</Row>
 			</Container>

@@ -6,7 +6,8 @@ import './Projects.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -40,7 +41,9 @@ class CivicLab extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-<section className="smokefree-header">
+
+			  <section className="smokefree-header  cd-header">
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/smokefree/smokefree-header-alt.jpg" src="./assets/img/smokefree/smokefree-header.jpg" className="hero-bg" />
 		<Container>
        
         
@@ -49,7 +52,7 @@ class CivicLab extends Component {
     <h1>Smokefree Web System</h1>
 		<p >
 		<strong>My Role</strong>: Web Developer, Web Designer<br/>
-			<strong>Duration</strong>: 1 Year<br/>
+			<strong>Duration</strong>: 2 Years<br/>
 			<strong>Deliverable</strong>: <br/>
 			<a className="header-link" href="https://smokefree.gov/" target="_blank">smokefree.gov</a><br/>
 			<a className="header-link" href="https://smokefree.gov/lgbt-and-smoking" target="_blank">Smokefree LGBT Campaign</a><br/>
@@ -87,7 +90,7 @@ class CivicLab extends Component {
 					
 			</Col>
 			<Col xs={12} md={5} className="float-left">
-				<img src="./assets/img/smokefree/data.jpg" alt="user-journey" class="img-fluid right-img"/>
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/smokefree/data-alt.jpg" src="./assets/img/smokefree/data.jpg" className="img-fluid" />
 			</Col>
 			
 			</Row>
@@ -112,10 +115,11 @@ class CivicLab extends Component {
 			<p>The Smokefree Website is driven by Drupal, in addition to create the Homepage Design, we also created other
 			content types for different types of webpages, below are the design of Article page content type and Quiz Page content type:</p>
 			<p>The current Main Site design follows some design elements of my design solution, especially the article flows, you can check the <a href="https://women.smokefree.gov/" target="_blank">current Smokefree Main Site here</a>.</p>
-			<img src="./assets/img/smokefree/initial-other.png" alt="other content type" class="img-fluid right-img image-within-content"/>
+			
+			<LazyLoadImage effect="blur" alt="other content type" placeholderSrc="./assets/img/smmokefree/smokefreeinitial-other-alt.png" src="./assets/img/smokefree/initial-other.png" className="img-fluid image-within-content" />
 			</Col>
 			<Col xs={12} mdPull={8} md={5}>
-				<img src="./assets/img/smokefree/version1.jpg" alt="Homepage Redesign" class="img-fluid right-img"/>
+			<LazyLoadImage effect="blur" alt="Homepage Redesign" placeholderSrc="./assets/img/smokefree/version1-alt.jpg" src="./assets/img/smokefree/version1.jpg" className="img-fluid" />
 			</Col>
 			</Row>
 		</Container>
@@ -142,7 +146,8 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} mdPull={8} md={5}>
-				<img src="./assets/img/smokefree/smokefree-lgbt.png" alt="LGBT Subpage" class="img-fluid right-img"/>
+				<LazyLoadImage effect="blur" alt="LGBT Subpage" placeholderSrc="./assets/img/smokefree/smokefree-lgbt-alt.png" src="./assets/img/smokefree/smokefree-lgbt.png" className="img-fluid" />
+				
 			</Col>
 			</Row>
 		</Container>
@@ -169,7 +174,8 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} md={7}>
-				<img src="./assets/img/smokefree/quit-campaign.jpg" alt="Smokefree Quit Campaign" class="img-fluid right-img"/>
+			 <LazyLoadImage effect="blur" alt="Smokefree Quit Campaign" placeholderSrc="./assets/img/smokefree/quit-campaign-alt.jpg" src="./assets/img/smokefree/quit-campaign.jpg" className="img-fluid" />
+
 			</Col>
 			</Row>
 		</Container>
@@ -201,7 +207,8 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} md={7}>
-				<img src="./assets/img/smokefree/nrt-cases.jpg" alt="Smokefree Quit Campaign" class="img-fluid right-img"/>
+							  <LazyLoadImage effect="blur" alt="Smokefree NRT Campaign" placeholderSrc="./assets/img/smokefree/nrt-cases-alt.jpg" src="./assets/img/smokefree/nrt-cases.jpg" className="img-fluid" />
+
 			</Col>
 			</Row>
 		</Container>

@@ -11,7 +11,8 @@ import * as financingData from "../../public/assets/lottie/financing.json";
 import * as publicAgenciesData from "../../public/assets/lottie/publicAgencies.json";
 import * as residentialData from "../../public/assets/lottie/residential.json";
 import * as workforceData from "../../public/assets/lottie/workforce.json";
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 class Socalren extends Component {
 
@@ -89,8 +90,8 @@ class Socalren extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-        <Row className="socalren-header">
-        
+			  <Row className="socalren-header  cd-header">
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/socalren/socalren-header-alt.jpg" src="./assets/img/socalren/socalren-header.jpg" className="hero-bg" />
 	<div className="socalren-header-content">
     <img src="./assets/img/socalren/socalren-logo.png" className="socalren-logo" alt="socalren logo"/>
     <h1>Socalren Web Design and Development</h1>
@@ -130,7 +131,8 @@ class Socalren extends Component {
 					
 			</Col>
 			<Col xs={12} md={5} className="float-left">
-				<img src="./assets/img/socalren/branding.png" alt="user-journey" className="img-fluid right-img"/>
+				<LazyLoadImage effect="blur" alt="user-journey" placeholderSrc="./assets/img/socalren/branding-alt.png" src="./assets/img/socalren/branding.png" className="img-fluid" />
+				
 			</Col>
 			
 			</Row>
@@ -170,7 +172,8 @@ class Socalren extends Component {
 					
 			</Col>
 			<Col xs={12} md={7} className="float-left">
-				<img src="./assets/img/socalren/mobile.png" alt="user-journey" className="img-fluid right-img"/>
+				 <LazyLoadImage effect="blur" alt="mobile interaction" placeholderSrc="./assets/img/socalren/mobile-alt.png" src="./assets/img/socalren/mobile.png" className="img-fluid" />
+			
 			
 			</Col>
 			<Col xs={12} className="animatedIconsContainer">
@@ -258,7 +261,8 @@ class Socalren extends Component {
 			Below are some other content types we created for the website.</p>
 			</Col>
 			<Col xs={12} md={5}>
-				<img src="./assets/img/socalren/socalren.png" alt="user-journey" className="img-fluid right-img"/>
+			<LazyLoadImage effect="blur" alt="mobile interaction" placeholderSrc="./assets/img/socalren/socalren-alt.jpg" src="./assets/img/socalren/socalren.jpg" className="img-fluid" />
+			
 			</Col>
 			</Row>
 
@@ -269,13 +273,14 @@ class Socalren extends Component {
 		
 			<div className="image-row">
 			<div className="one-third-img">
-			<img src="./assets/img/socalren/sample-1.png" alt="" className="img-fluid"/>
+			<LazyLoadImage effect="blur" alt="sample page" placeholderSrc="./assets/img/socalren/sample-1-alt.jpg" src="./assets/img/socalren/sample-1.jpg" className="img-fluid" />
+			
 			</div>
 			<div className="one-third-img">
-			<img src="./assets/img/socalren/sample-2.png" alt="" className="img-fluid"/>
+			<LazyLoadImage effect="blur" alt="sample page" placeholderSrc="./assets/img/socalren/sample-2-alt.jpg" src="./assets/img/socalren/sample-2.jpg" className="img-fluid" />
 			</div>
 			<div className="one-third-img">
-			<img src="./assets/img/socalren/sample-3.png" alt="" className="img-fluid"/>
+			<LazyLoadImage effect="blur" alt="sample page" placeholderSrc="./assets/img/socalren/sample-3-alt.jpg" src="./assets/img/socalren/sample-3.jpg" className="img-fluid" />
 			</div>
 			</div>
 		

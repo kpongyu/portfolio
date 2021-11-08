@@ -6,7 +6,8 @@ import './Projects.css'
 import ReactDOM from 'react-dom'
 import Iframe from 'react-iframe'
 import Preloader from '../appshell/Preloader/Preloader'
-
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -40,11 +41,14 @@ class CivicLab extends Component {
 
 			<section>
 				{this.state.spinner ? <Preloader /> : true}
-				<section className="ncbiVirus-header">
+				<section className="ncbiVirus-header cd-header">
+					<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-header-alt.jpg" src="./assets/img/ncbi-virus/ncbi-virus-header.jpg" className="hero-bg" />
+				
 					<Container>
 
 
 						<div className="ncbiVirus-header-content ">
+							
 							<img src="./assets/img/ncbi-virus/ncbi-virus-logo.png" className="ncbi-project-logo" alt="ncbi virus logo" />
 							<h1>NCBI Virus Variant Data Platform</h1>
 							<p >
@@ -88,12 +92,13 @@ class CivicLab extends Component {
 									the excluded data-points are in light-gray color, and the selected ones are in an orange color, even when it comes to the filter labels that are showing in the statistics bar, which helpes
 									the user to quickly notice the selected points in different widget and shorten the learning curve.
 								</p>
-								<img src="./assets/img/ncbi-virus/interaction.png" alt="current status" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/interaction-alt.png" src="./assets/img/ncbi-virus/interaction.png" className="img-fluid right-img" />
+								
 								<p className="label">Figure 1: Current SARS-CoV-2 Interactive Flow</p>
 							</Col>
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/sars-cov-2" target="_blank">
-									<img src="./assets/img/ncbi-virus/current.png" alt="current status" class="img-fluid right-img" />
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/current-alt.jpg" src="./assets/img/ncbi-virus/current.jpg" className="img-fluid right-img" />
 								</a>
 								<p className="label">Figure 2: Current SARS-CoV-2 Interactive Dashboard</p>
 							</Col>
@@ -125,15 +130,16 @@ class CivicLab extends Component {
 
 								<div className="image-row">
 									<div className="one-third-img">
-										<img src="./assets/img/ncbi-virus/round-1.jpg" alt="past version" className="img-fluid" />
+										<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/round-1-alt.jpg" alt="past version" src="./assets/img/ncbi-virus/round-1.jpg" className="img-fluid" />
+									
 										<p className="label">Figure 3: SARS-CoV-2 Interactive Dashboard Round 1</p>
 									</div>
 									<div className="one-third-img">
-										<img src="./assets/img/ncbi-virus/round-2.jpg" alt="past version" className="img-fluid" />
+										<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/round-2-alt.jpg" alt="past version" src="./assets/img/ncbi-virus/round-2.jpg" className="img-fluid" />
 										<p className="label">Figure 4: SARS-CoV-2 Interactive Dashboard Round 2</p>
 									</div>
 									<div className="one-third-img">
-										<img src="./assets/img/ncbi-virus/round-3.jpg" alt="past version" className="img-fluid" />
+										<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/round-3-alt.jpg" alt="past version" src="./assets/img/ncbi-virus/round-3.jpg" className="img-fluid" />
 										<p className="label">Figure 5: SARS-CoV-2 Interactive Dashboard Round 3</p>
 									</div>
 								</div>
@@ -161,7 +167,8 @@ class CivicLab extends Component {
 							</Col>
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://ncbiinsights.ncbi.nlm.nih.gov/2020/12/03/sars-cov-2-dashboard/" target="_blank">
-									<img src="./assets/img/ncbi-virus/blog.png" alt="current status" class="img-fluid right-img" />
+								
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/blog-alt.jpg" alt="NCBI blog" src="./assets/img/ncbi-virus/blog.jpg" className="img-fluid" />
 								</a>
 								<p className="label">Figure 6: NCBI Blog on our work</p>
 							</Col>
@@ -210,7 +217,7 @@ class CivicLab extends Component {
 							</Col>
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">
-									<img src="./assets/img/ncbi-virus/table.png" alt="NCBI Virus DataTable" class="img-fluid right-img" />
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/table-alt.jpg" alt="NCBI Virus DataTable" src="./assets/img/ncbi-virus/table.jpg" className="img-fluid" />
 								</a>
 								<p className="label">Figure 7: NCBI Virus DataTable</p>
 							</Col>
@@ -249,7 +256,8 @@ class CivicLab extends Component {
 			 </p>
 							</Col>
 							<Col xs={12} mdPull={8} md={6}>
-								<img src="./assets/img/ncbi-virus/ncbi-bubble-map.jpg" alt="NCBI Bubble Map" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-bubble-map-alt.jpg" alt="NCBI Bubble Map" src="./assets/img/ncbi-virus/ncbi-bubble-map.jpg" className="right-img img-fluid" />
+
 								<p className="label">Figure 8: NCBI Virus Bubble Map approach</p>
 							</Col>
 						</Row>
@@ -282,7 +290,8 @@ class CivicLab extends Component {
 
 							</Col>
 							<Col xs={12} mdPull={8} md={6}>
-								<img src="./assets/img/ncbi-virus/ncbi-square-map.jpg" alt="ncbi tree map" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-square-map-alt.jpg" alt="NCBI Tree Map" src="./assets/img/ncbi-virus/ncbi-square-map.jpg" className="right-img img-fluid" />
+							
 								<p className="label">Figure 9: NCBI Virus Tree Map approach</p>
 							</Col>
 						</Row>
@@ -326,7 +335,7 @@ class CivicLab extends Component {
 
 							</Col>
 							<Col xs={12} md={6}>
-								<img src="./assets/img/ncbi-virus/ncbi-virus-sunburst.png" alt="ncbi virus sunburst" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-sunburst-alt.jpg" alt="NCBI Sunburst Approach" src="./assets/img/ncbi-virus/ncbi-virus-sunburst.jpg" className="right-img img-fluid" />
 								<p className="label">Figure 10: NCBI Virus SunBurst approach</p>
 							</Col>
 
@@ -334,7 +343,7 @@ class CivicLab extends Component {
 
 						<Row className="subRow">
 							<Col xs={12} md={6} className="float-md-left">
-								<img src="./assets/img/ncbi-virus/ncbi-virus-sunburst-2.png" alt="ncbi virus sunburst" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-sunburst-2-alt.jpg" alt="NCBI Virus SunBurst Interaction" src="./assets/img/ncbi-virus/ncbi-virus-sunburst-2.jpg" className="right-img img-fluid" />
 								<p className="label">Figure 11: NCBI Virus SunBurst Interaction 1</p>
 							</Col>
 							<Col xs={12} md={6} className="float-md-right">
@@ -349,8 +358,7 @@ class CivicLab extends Component {
 								display when the mouse hover on the sequence, which enhanced the usability of the tool.
 			</p>
 
-
-								<img src="./assets/img/ncbi-virus/ncbi-virus-highlight.png" alt="ncbi virus highlight" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-highlight-alt.jpg" alt="NCBI virus highlight" src="./assets/img/ncbi-virus/ncbi-virus-highlight.jpg" className="right-img img-fluid" />
 								<p className="label">Figure 12: NCBI Virus SunBurst Interaction 2</p>
 
 

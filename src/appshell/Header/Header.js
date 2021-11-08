@@ -41,15 +41,15 @@ class Header extends Component {
         <div className="sticky_inner">
           <div className="sticky_nav_left">
             <div className="sticky_nav_text" >
-              <Link to="/">Home</Link> |
-                    <a href="https://drive.google.com/file/d/14i6duOzqWAeRmEcVJ_8hwBZ36I_KLXf4/view" target="_blank">Resume</a>
+              <Link to="/" className="navigation-link">Home</Link> |
+              <a href="https://drive.google.com/file/d/14i6duOzqWAeRmEcVJ_8hwBZ36I_KLXf4/view" target="_blank" className="navigation-link">Resume</a>
             </div>
           </div>
-          <Link to="/">
+         
             <div className="sticky_logo" data-aos="fade-down">
               <div className="myLogo">
 
-
+              <Link to="/" className="navigation-link">
                 <Lottie options={defaultOptions}
                   height={100}
                   width={100}
@@ -59,16 +59,17 @@ class Header extends Component {
                   onClick={() => this.setState({ isPaused: true })}
 
                 />
+              </Link>
               </div>
 
 
             </div>
-          </Link>
+         
 
           <div className="sticky_nav_right">
             <div className="sticky_nav_text" >
-              <Link to="/projects">Projects</Link> |
-                    <Link to="/contact">Contact</Link></div>
+              <Link to="/projects" className="navigation-link">Projects</Link> |
+              <Link to="/contact" className="navigation-link">Contact</Link></div>
           </div>
 
         </div>

@@ -7,8 +7,8 @@ import ReactDOM from 'react-dom'
 import Iframe from 'react-iframe'
 import $ from 'jquery'
 import Preloader from '../appshell/Preloader/Preloader'
-
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 class ClinicalInfo extends Component {
@@ -41,7 +41,8 @@ class ClinicalInfo extends Component {
 
 			<section>
 				{this.state.spinner ? <Preloader /> : true}
-				<section className="clinicalInfo-header">
+				<section className="clinicalInfo-header  cd-header">
+					<LazyLoadImage effect="blur" placeholderSrc="./assets/img/clinicalInfo/clinicalInfo-bg-alt.jpg" src="./assets/img/clinicalInfo/clinicalInfo-bg.jpg" className="hero-bg" />
 					<Container>
 
 
@@ -51,7 +52,8 @@ class ClinicalInfo extends Component {
 							<p >
 								<strong>My Role</strong>: UX Designer, Product Designer<br />
 								<strong>Duration</strong>: 6 Months<br />
-								<strong>Client</strong>: <a className="header-link" href="https://clinicalinfo.hiv.gov/en" target="_blank">clinicalinfo.hiv.gov</a>
+								<strong>Client</strong>: <a className="header-link" href="https://clinicalinfo.hiv.gov/en" target="_blank">clinicalinfo.hiv.gov</a><br/>
+								<strong>Deliverable</strong>: <a className="header-link" href="https://apps.apple.com/zw/app/clinicalinfo-drug-database/id942509562" target="_blank">Clinical Info App</a>
 
 							</p>
 
@@ -76,7 +78,8 @@ class ClinicalInfo extends Component {
 								</p>
 							</Col>
 							<Col xs={12} md={5}>
-								<img src="./assets/img/clinicalInfo/web.png" alt="Clinicalinfo Website" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" alt="Clinicalinfo Website" placeholderSrc="./assets/img/clinicalInfo/web-alt.jpg" src="./assets/img/clinicalInfo/web.jpg" className="img-fluid right-img" />
+							
 								<p className="label">Figure 1: Updated ClinicalInfo Website</p>
 							</Col>
 						</Row>
@@ -101,7 +104,8 @@ class ClinicalInfo extends Component {
 								</p>
 							</Col>
 							<Col xs={12}>
-								<img src="./assets/img/clinicalInfo/wireframe.jpg" alt="ClinicalInfo interaction map" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" alt="ClinicalInfo interaction map" placeholderSrc="./assets/img/clinicalInfo/wireframe-alt.jpg" src="./assets/img/clinicalInfo/wireframe.jpg" className="img-fluid right-img" />
+							
 								<p className="label">Figure 2: ClinicalInfo Mobile App Interaction Map (Guideline Section)</p>
 							</Col>
 
@@ -118,7 +122,8 @@ class ClinicalInfo extends Component {
 								</p>
 							</Col>
 							<Col xs={12}>
-								<img src="./assets/img/clinicalInfo/mockup.png" alt="ClinicalInfo interaction mockup" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" alt="ClinicalInfo Mobile Mockup" placeholderSrc="./assets/img/clinicalInfo/mockup-alt.png" src="./assets/img/clinicalInfo/mockup.png" className="img-fluid right-img" />
+							
 								<p className="label">Figure 3: ClinicalInfo Mobile App Mockup (Drug Database Section)</p>
 							</Col>
 						</Row>
@@ -139,14 +144,19 @@ class ClinicalInfo extends Component {
 								a pattern library specific for the new application, to define the different components, iconset, buttons, as well as the different states of
 								each component. The application is currently under development, and will be available on both Android and iOS system next year.
 								</p>
-
-								<img src="./assets/img/clinicalInfo/elements.png" alt="ClinicalInfo interaction mockup" class="img-fluid right-img" />
+								<LazyLoadImage effect="blur" alt="ClinicalInfo Mobile App Element Libraries" placeholderSrc="./assets/img/clinicalInfo/elements-alt.png" src="./assets/img/clinicalInfo/elements.png" className="img-fluid right-img" />
+							
 								<p className="label">Figure 4: ClinicalInfo Mobile App Element Libraries</p>
 							</Col>
 							<Col xs={12} md={4}>
-								<video loop autoPlay className="responsive-video" >
+								<LazyLoadComponent effect="blur" placeholderSrc="./assets/img/clinicalInfo/poster.jpg">
+									
+								
+									<video loop autoPlay className="responsive-video" >
 									<source src="./assets/img/clinicalInfo/clinical-Info-Scrolling.mp4" type="video/mp4" />
-								</video>
+									</video>
+									
+								</LazyLoadComponent>
 								<p className="label">Video 1: ClinicalInfo Mobile App Micro-Interaction Example</p>
 							</Col>
 						</Row>

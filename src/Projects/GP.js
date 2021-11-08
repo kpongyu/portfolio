@@ -7,7 +7,8 @@ import './Projects.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -40,11 +41,12 @@ class GP extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-<Row className="cd-header">
-    <video id="background-video" loop autoPlay playsInline className="title-video">
-                <source src="./assets/img/georgia-power/gp-header.mp4" type="video/mp4" />
-               
+<Row className="cd-header gp-header">
+            <LazyLoadComponent effect="blur" height="500px" width="100%" placeholderSrc="./assets/img/georgia-power/gp-poster.jpg">
+              <video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/georgia-power/gp-poster.jpg">
+                <source src="./assets/img/georgia-power/gp-header.mp4" type="video/mp4" />         
     </video>        
+    </LazyLoadComponent>
 	<div>
     <img src="./assets/img/georgia-power/logo.png" className="project-logo gp-logo" alt="GP logo"/>
     <h1>GPC Lighting Calculator</h1>
@@ -78,7 +80,8 @@ class GP extends Component {
       number would update simultaneously</p>
 			</Col>
 			<Col xs={12} md={5}>
-				<img src="./assets/img/georgia-power/options.png" alt="user-journey" class="img-fluid right-img"/>
+       <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/options-alt.jpg" src="./assets/img/georgia-power/options.jpg" className="img-fluid" />
+		
 			</Col>
 			</Row>
 	
@@ -97,7 +100,8 @@ class GP extends Component {
       the higher the transparency is, the lighter the window displays.</p>
 			</Col>
 			<Col xs={12} md={5}>
-				<img src="./assets/img/georgia-power/desktop.png" alt="desktop interface" class="img-fluid right-img"/>
+       <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/desktop-alt.png" src="./assets/img/georgia-power/desktop.png" className="img-fluid" />
+
 			</Col>
 			</Row>
 
@@ -113,7 +117,8 @@ class GP extends Component {
    
    </Col>
    <Col xs={12} md={5}>
-     <img src="./assets/img/georgia-power/mobile.png" alt="mobile interface" class="img-fluid right-img"/>
+     <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/mobile-alt.png" src="./assets/img/georgia-power/mobile.png" className="img-fluid" />
+
    </Col>
    </Row>
 		</Container>

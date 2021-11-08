@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 class Wydot extends Component {
@@ -43,7 +44,8 @@ class Wydot extends Component {
         <section>
 
 {this.state.spinner ? <Preloader/> : true}
-		<section className="wydot-header">
+			  <section className="wydot-header  cd-header">
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/wydot/wydot-header-alt.jpg" src="./assets/img/wydot/wydot-header.jpg" className="hero-bg" />
 		<Container>
        
         
@@ -94,7 +96,8 @@ class Wydot extends Component {
 			 </p>
 			 </Col>
 			 <Col xs={12} md={5} className="float-left">
-				 <img src="./assets/img/wydot/infographic.png" alt="user-journey" class="img-fluid right-img"/>
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/wydot/infographic-alt.png" src="./assets/img/wydot/infographic.png" className="img-fluid" />
+
 			 </Col>
 			 
 			 </Row>
@@ -122,11 +125,12 @@ class Wydot extends Component {
 					
 			</Col>
 			<Col xs={12} md={7} className="float-left">
-			
-				<video  loop autoPlay className="responsive-video" >
+			<LazyLoadComponent effect="blur"  placeholderSrc="./assets/img/wydot/wydot-poster.jpg">
+				<video loop autoPlay className="responsive-video" poster="./assets/img/wydot/wydot-poster.jpg" >
                 <source src="./assets/img/wydot/micro-interaction.mp4" type="video/mp4" />
                
     		</video> 
+			</LazyLoadComponent>
 			</Col>
 			
 			</Row>
@@ -166,7 +170,8 @@ class Wydot extends Component {
 					
 			</Col>
 			<Col xs={12} md={6} className="float-left">
-				<img src="./assets/img/wydot/recognition.png" alt="recognition" class="img-fluid right-img"/>
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/wydot/recognition-alt.png" src="./assets/img/wydot/recognition.png" className="img-fluid" />
+				
 			</Col>
 			
 			</Row>

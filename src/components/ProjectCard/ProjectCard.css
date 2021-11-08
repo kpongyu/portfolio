@@ -12,6 +12,7 @@
     perspective-origin: 50% 50%;
     transform-style: preserve-3d;
     border: 0 !important;
+    background-color: #393F43 !important;
   }
   .card:hover {
     background-color: #242424;
@@ -20,6 +21,10 @@
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 
+  }
+  .card:hover .project-card{
+    opacity: 0.4 !important;
+    filter: alpha(opacity=40) !important; /* For IE8 and earlier */
   }
   .card.hover--ending {
     transition: box-shadow 0.5s ease;

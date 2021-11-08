@@ -2,7 +2,8 @@
 import React, { Component } from 'react';
 import './ProjectCard.css';
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -12,8 +13,7 @@ const ProjectCard = (props) => (
   <article className="card" >
     <span className="card__link">
       <span className="highlight"></span>
-      <img src={props.imageSource} className="card__image " />
-              
+          <LazyLoadImage effect="blur" placeholderSrc={props.placeholder} src={props.imageSource} className="img-fluid frame project-card" />
     </span>
     <p className="card__title">{props.title}</p>
   </article>

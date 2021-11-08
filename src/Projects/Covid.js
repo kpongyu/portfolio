@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 class Covid extends Component {
@@ -43,7 +44,8 @@ class Covid extends Component {
         <section>
 
 {this.state.spinner ? <Preloader/> : true}
-		<section className="covid-header">
+			  <section className="covid-header cd-header">
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/covid/covid-header-alt.jpg" src="./assets/img/covid/covid-header.jpg" className="hero-bg" />
 		<Container>
        
         
@@ -93,7 +95,8 @@ class Covid extends Component {
 			 </p>
 			 </Col>
 			 <Col xs={12} md={7} className="float-left">
-				 <img src="./assets/img/covid/home.png" alt="Guideline Homepage" class="img-fluid right-img"/>
+				<LazyLoadImage effect="blur" alt="Guideline Homepage" placeholderSrc="./assets/img/covid/home-alt.png" src="./assets/img/covid/home.png" className="img-fluid right-img" />
+				
 				 <p className="label">Figure 1: Manuscript Approach and Topic-Oriented Approach</p>
 			 </Col>
 			 
@@ -124,8 +127,8 @@ class Covid extends Component {
 					
 			</Col>
 			<Col xs={12} md={7} className="float-left">
-			
-			<img src="./assets/img/covid/navigation.png" alt="Mobile Navigation" class="img-fluid right-img"/>
+			 <LazyLoadImage effect="blur" alt="Mobile Navigation" placeholderSrc="./assets/img/covid/navigation-alt.png" src="./assets/img/covid/navigation.png" className="img-fluid right-img" />
+		
 				 <p className="label">Figure 2: Mobile Navigation to adapt to multi-level navigations</p>
                
     		
@@ -165,11 +168,10 @@ class Covid extends Component {
 			</Row>
 			<Row>
 			<Col xs={12} md={6} className="float-left">
-				<img src="./assets/img/covid/news1.png" alt="recognition" class="img-fluid right-img"/>
-				
+				 <LazyLoadImage effect="blur" alt="recognition" placeholderSrc="./assets/img/covid/news1-alt.png" src="./assets/img/covid/news1.png" className="img-fluid right-img" />
 			</Col>
 			<Col xs={12} md={6} >
-			<img src="./assets/img/covid/news.png" alt="recognition" class="img-fluid right-img"/>
+							  <LazyLoadImage effect="blur" alt="recognition" placeholderSrc="./assets/img/covid/news-alt.png" src="./assets/img/covid/news.png" className="img-fluid right-img" />
 			</Col>
 			<Col xs={12}>
 			<p className="label" style={{textAlign: 'center'}}>Figure 3: News Reports on the launching of the website</p>

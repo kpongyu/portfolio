@@ -6,7 +6,8 @@ import './Projects.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -41,11 +42,13 @@ class Amazon extends Component {
 
         <div>
   {this.state.spinner ? <Preloader/> : true}
-        <Row className="cd-header">
-    <video id="background-video" loop autoPlay playsInline className="title-video">
+        <Row className="cd-header amazon-header">
+		<LazyLoadComponent effect="blur" height="500px" width="100%" placeholderSrc="./assets/img/amazon/poster.jpg">
+					  <video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/amazon/poster.jpg">
                 <source src="./assets/img/amazon/amazon.mp4" type="video/mp4" />
                
-    </video>        
+    		</video>        
+		</LazyLoadComponent>
 	<div>
     <img src="./assets/img/amazon/amazon_logo.png" className="project-logo" alt="amazon logo"/>
     <h1>	Mobile Card System Design</h1>
@@ -78,7 +81,8 @@ class Amazon extends Component {
 			</ul>
 			</Col>
 			<Col xs={12} md={6} className="section-media-container">
-			<img src="./assets/img/amazon/user-journey.png" alt="user-journey" className="img-fluid section-image"/>
+			<LazyLoadImage effect="blur" alt="user-journey" placeholderSrc="./assets/img/amazon/user-journey-alt.png" src="./assets/img/amazon/user-journey.png" className="img-fluid right-img" />
+			
 			</Col>
 		</Row>
 		</Container>
@@ -92,17 +96,21 @@ class Amazon extends Component {
 			<h2>The evolution of comparison card</h2>
 			<p>The comparison card is a typical example which goes through the whole design circle from brainstorming to user testing. The image below presents how the card evolutes
 			from a abstract idea to a polished card, you can play with the prototype to see how it interact with the user.</p>
-			<img src="./assets/img/amazon/past.png" alt="past version" className="img-fluid"/>
 			
+			 <LazyLoadImage effect="blur" alt="past versions" placeholderSrc="./assets/img/amazon/past-alt.png" src="./assets/img/amazon/past.png" className="img-fluid right-img" />
 			</Col>
       <Col xs={12} md={4} >
+		  	<LazyLoadComponent effect="blur" height="320" width="600">
 	  <Iframe url="./assets/img/amazon/compare.html"
         width="320"
         height="600"
         id="myId"
         className="GPFrame"
         display="initial"
-        position="relative"/>
+        position="relative"
+		
+		/>
+		</LazyLoadComponent>
 			</Col>
 		</Row>
     </Container>

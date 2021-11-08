@@ -23,7 +23,7 @@
   padding-right: 3px;
 }
 .ncbiVirus-header{
-  background-image: url("../../public/assets/img/ncbi-virus/ncbi-virus-header.jpg");
+  /* background-image: url("../../public/assets/img/ncbi-virus/ncbi-virus-header.jpg"); */
   background-position: center;
   background-size: cover;
   min-height: 400px;
@@ -78,4 +78,8 @@ h5{
   border-top: #999EA2 1px solid;
   padding-top: 2em;
   margin-top: 2em;
+}
+
+.ncbiVirus-header-content h1, p{
+  color: #212529;
 }

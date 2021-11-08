@@ -38,68 +38,80 @@ class Projects extends Component {
       'ncbi-virus': {
         navigation: "/ncbiVirus",
         imageSource: "./assets/img/project/ncbi-virus.jpg",
-        title: "NCBI Virus Varient Data Platform"
+        title: "NCBI Virus Varient Data Platform",
+        placeholder: "./assets/img/project/ncbi-virus-alt.jpg"
       },
       'covid': {
         navigation: "/covid",
-        imageSource: "./assets/img/project/covid.png",
-        title: "NIH COVID-19 Clinical Guidelines"
+        imageSource: "./assets/img/project/covid.jpg",
+        title: "NIH COVID-19 Clinical Guidelines",
+        placeholder: "./assets/img/project/covid-alt.jpg"
       },
       'clinicalInfo': {
         navigation: "/clinicalInfo",
-        imageSource: "./assets/img/project/clinicalInfo.png",
-        title: "ClinicalInfo Mobile Application"
+        imageSource: "./assets/img/project/clinicalInfo.jpg",
+        title: "ClinicalInfo Mobile Application",
+        placeholder: "./assets/img/project/clinicalInfo-alt.jpg"
       },
       'datim': {
         navigation: "/datim",
         imageSource: "./assets/img/project/datim.jpg",
-        title: "PEPFAR DATIM MSP Platform"
+        title: "PEPFAR DATIM MSP Platform",
+        placeholder: "./assets/img/project/datim-alt.jpg"
       },
       'amazon': {
         navigation: "/amazon",
-        imageSource: "./assets/img/project/a.jpg",
-        title: "Amazon Mobile Card System"
+        imageSource: "./assets/img/project/amazon.jpg",
+        title: "Amazon Mobile Card System",
+        placeholder: "./assets/img/project/amazon-alt.jpg"
       },
       'smokefree': {
         navigation: "/smokefree",
         imageSource: "./assets/img/project/smokefree-cover.jpg",
-        title: "Smokefree Web System"
+        title: "Smokefree Web System",
+        placeholder: "./assets/img/project/smokefree-cover-alt.jpg"
       },
 
       'socalren': {
         navigation: "/socalren",
         imageSource: "./assets/img/project/socalren-cover.jpg",
-        title: "Socalren.org Web Design"
+        title: "Socalren.org Web Design",
+        placeholder: "./assets/img/project/socalren-cover-alt.jpg"
       },
       'georgia-power': {
         navigation: "/gp",
         imageSource: "./assets/img/project/georgia-power-cover.jpg",
-        title: "Georgia Power Lighting App"
+        title: "Georgia Power Lighting App",
+        placeholder: "./assets/img/project/georgia-cover-alt.jpg"
       },
       'wydot': {
         navigation: "/wydot",
         imageSource: "./assets/img/project/wydot-cover.jpg",
-        title: "WYDOT Connected Vehicle Pilot Project"
+        title: "WYDOT Connected Vehicle Pilot Project",
+        placeholder: "./assets/img/project/wydot-cover-alt.jpg"
       },
-      'mymic': {
-        navigation: "/mymic",
-        imageSource: "./assets/img/project/b.jpg",
-        title: "Mymic Physical Therapy Device"
-      },
+      // 'mymic': {
+      //   navigation: "/mymic",
+      //   imageSource: "./assets/img/project/mymic.jpg",
+      //   title: "Mymic Physical Therapy Device",
+      //   placeholder: "./assets/img/project/mymic-alt.jpg"
+      // },
       // 'seed': {
       //   navigation: "/seed",
-      //   imageSource: "./assets/img/project/d.jpg",
+      //   imageSource: "./assets/img/project/seed.jpg",
       //   title: "Seed Gamification Mobile APP"
       // },
       'rotc': {
         navigation: "/rotc",
-        imageSource: "./assets/img/project/f.jpg",
-        title: "Michigan ROTC Web Dev."
+        imageSource: "./assets/img/project/rotc.jpg",
+        title: "Michigan ROTC Web Dev.",
+        placeholder: "./assets/img/project/rotc-alt.jpg"
       },
       'civiclab': {
         navigation: "/civiclab",
-        imageSource: "./assets/img/project/g.jpg",
-        title: "CivicLab Geo-data visualization"
+        imageSource: "./assets/img/project/civiclab.jpg",
+        title: "CivicLab Geo-data visualization",
+        placeholder: "./assets/img/project/civiclab-alt.jpg"
       },
 
     }

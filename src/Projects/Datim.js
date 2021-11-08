@@ -6,7 +6,8 @@ import './Projects.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -40,7 +41,8 @@ class CivicLab extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-<section className="datim-header">
+		<section className="datim-header  cd-header">
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/datim/datim-header-alt.jpg" src="./assets/img/datim/datim-header.jpg" className="hero-bg" />
 		<Container>
        
         
@@ -85,7 +87,8 @@ class CivicLab extends Component {
 					
 			</Col>
 			<Col xs={12} md={7} className="float-left">
-				<img src="./assets/img/datim/datim-personas.png" alt="personas" class="img-fluid right-img"/>
+			<LazyLoadImage effect="blur" placeholderSrc="./assets/img/datim/datim-personas-alt.png" src="./assets/img/datim/datim-personas.png" className="img-fluid right-img" />
+
 			</Col>
 			
 			</Row>
@@ -110,7 +113,7 @@ class CivicLab extends Component {
 		
 			</Col>
 			<Col xs={12} md={12}>
-				<img src="./assets/img/datim/datim-user-tasks.png" alt="Datim User Tasks" class="img-fluid right-img"/>
+			<LazyLoadImage effect="blur" alt="Datim User Tasks" placeholderSrc="./assets/img/datim/datim-user-tasks-alt.png" src="./assets/img/datim/datim-user-tasks.png" className="img-fluid right-img" />
 			</Col>
 			</Row>
 		</Container>
@@ -135,7 +138,8 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} mdPull={8} md={6}>
-				<img src="./assets/img/datim/datim-dataelements.png" alt="Datim Data Elements" class="img-fluid right-img"/>
+			 <LazyLoadImage effect="blur" alt="Datim Data Elements" placeholderSrc="./assets/img/datim/datim-dataelements-alt.jpg" src="./assets/img/datim/datim-dataelements.jpg" className="img-fluid right-img" />
+
 			</Col>
 			</Row>
 		</Container>
@@ -164,7 +168,8 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} md={7}>
-				<img src="./assets/img/datim/datim-comparison.png" alt="datim Comparison Panel" class="img-fluid right-img"/>
+				<LazyLoadImage effect="blur" alt="datim Comparison Panel" placeholderSrc="./assets/img/datim/datim-comparison-alt.jpg" src="./assets/img/datim/datim-comparison.jpg" className="img-fluid right-img" />
+
 			</Col>
 			</Row>
 		</Container>
@@ -197,7 +202,8 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} md={7}>
-				<img src="./assets/img/datim/datim-indicators.png" alt="datim Indicators" class="img-fluid right-img"/>
+			<LazyLoadImage effect="blur" alt="ddatim Indicators" placeholderSrc="./assets/img/datim/datim-indicators-alt.jpg" src="./assets/img/datim/datim-indicators.jpg" className="img-fluid right-img" />
+			
 			</Col>
 			</Row>
 		</Container>

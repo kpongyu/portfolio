@@ -23,3 +23,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.hero-bg{
+  min-width: 110vw;
+  min-height: 500px !important;
+}
+.navigation-link{
+  cursor: pointer;
+}
