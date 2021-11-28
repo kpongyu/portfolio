@@ -16,6 +16,7 @@
 .ncbi-project-logo{
   width: 250px;
   margin-bottom: 25px;
+  margin-top: 100px;
 }
 .ncbi-header-link{
   color: #245390;
@@ -26,7 +27,7 @@
   /* background-image: url("../../public/assets/img/ncbi-virus/ncbi-virus-header.jpg"); */
   background-position: center;
   background-size: cover;
-  min-height: 400px;
+  min-height: 500px;
 }
 .ncbiVirus-header-content{
   display: flex;
@@ -35,7 +36,11 @@
   flex-direction: column;
   width: 100%;
   color: #212529;
-  min-height: 450px;
+  min-height: 700px;
+}
+.ncbiVirus-header-content h1{
+  text-align: center;
+  font-size: 42px;
 }
 
 .ncbi-section1{
@@ -82,4 +87,26 @@ h5{
 
 .ncbiVirus-header-content h1, p{
   color: #212529;
+}
+
+.ncbi-section-special .nav-tabs{
+  border-bottom-color: #212529;
+}
+
+.ncbi-section-special .nav-tabs .nav-link.active, .ncbi-section-special .nav-tabs .nav-item.show .nav-link{
+  background-color: transparent;
+  border-color: #212529;
+  color: #212529;
+  border-bottom-color: #BFD4E0;
+}
+.ncbi-section-special .nav-tabs .nav-link:hover{
+  background-color: transparent;
+  border: none;
+  color: #212529;
+}
+.ncbi-section-special .nav-tabs .nav-link.active:hover, .ncbi-section-special .nav-tabs .nav-item.show .nav-link:hover{
+  background-color: transparent;
+  border: 1px solid #212529;
+  color: #212529;
+  border-bottom-color: #BFD4E0;
 }

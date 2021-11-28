@@ -42,3 +42,6 @@ Form{
 .content-wrap{
     background: radial-gradient(400px at 50%, #d9dbd8 0%, #bfd5e0 100%);
 }
+.contactFrame{
+    margin-top: 10em !important;
+}

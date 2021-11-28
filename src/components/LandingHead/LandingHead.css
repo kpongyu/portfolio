@@ -117,8 +117,16 @@
 .landingHead-me {
     grid-column-start: 7;
     grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 11;
+}
+@media screen and (max-width:768px){
+   .landingHead-me {
+    grid-column-start: 7;
+    grid-column-end: 12;
     grid-row-start: 3;
     grid-row-end: 11;
+} 
 }
 .landingHead-dragon {
     grid-column-start: 1;
@@ -163,4 +171,8 @@
 
 .hero-bg{
     display: initial !important;
+}
+
+.lazy-load-image-loaded{
+    float: left;
 }

@@ -38,8 +38,21 @@ class Projects extends Component {
       'ncbi-virus': {
         navigation: "/ncbiVirus",
         imageSource: "./assets/img/project/ncbi-virus.jpg",
-        title: "NCBI Virus Varient Data Platform",
+        title: "NCBI SARS-CoV-2 interactive dashboard",
         placeholder: "./assets/img/project/ncbi-virus-alt.jpg"
+      },
+      'socalren': {
+        navigation: "/socalren",
+        imageSource: "./assets/img/project/socalren-cover.jpg",
+        title: `SoCalREN and Energy Monsters`,
+        placeholder: "./assets/img/project/socalren-cover-alt.jpg"
+      },
+      
+      'clinicalInfo': {
+        navigation: "/clinicalInfo",
+        imageSource: "./assets/img/project/clinicalInfo.jpg",
+        title: "ClinicalInfo Mobile Application",
+        placeholder: "./assets/img/project/clinicalInfo-alt.jpg"
       },
       'covid': {
         navigation: "/covid",
@@ -47,18 +60,7 @@ class Projects extends Component {
         title: "NIH COVID-19 Clinical Guidelines",
         placeholder: "./assets/img/project/covid-alt.jpg"
       },
-      'clinicalInfo': {
-        navigation: "/clinicalInfo",
-        imageSource: "./assets/img/project/clinicalInfo.jpg",
-        title: "ClinicalInfo Mobile Application",
-        placeholder: "./assets/img/project/clinicalInfo-alt.jpg"
-      },
-      'datim': {
-        navigation: "/datim",
-        imageSource: "./assets/img/project/datim.jpg",
-        title: "PEPFAR DATIM MSP Platform",
-        placeholder: "./assets/img/project/datim-alt.jpg"
-      },
+     
       'amazon': {
         navigation: "/amazon",
         imageSource: "./assets/img/project/amazon.jpg",
@@ -71,12 +73,11 @@ class Projects extends Component {
         title: "Smokefree Web System",
         placeholder: "./assets/img/project/smokefree-cover-alt.jpg"
       },
-
-      'socalren': {
-        navigation: "/socalren",
-        imageSource: "./assets/img/project/socalren-cover.jpg",
-        title: "Socalren.org Web Design",
-        placeholder: "./assets/img/project/socalren-cover-alt.jpg"
+      'datim': {
+        navigation: "/datim",
+        imageSource: "./assets/img/project/datim.jpg",
+        title: "PEPFAR DATIM MSP Platform",
+        placeholder: "./assets/img/project/datim-alt.jpg"
       },
       'georgia-power': {
         navigation: "/gp",

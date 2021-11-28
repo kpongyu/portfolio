@@ -62,7 +62,7 @@ class CivicLab extends Component {
 		<section className="section civiclab-section1" >
 		<Container>
 		<Row className="vcenter" >
-		<Iframe url="http://www.tifreports.com/chicagotif/index.php?mydata=4"
+		<Iframe url="//www.tifreports.com/chicagotif/index.php?mydata=4"
         width="100%"
         height="690px"
         id="myId"

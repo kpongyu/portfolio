@@ -9,6 +9,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
     "jquery": "^3.5.0",
+    "node-sass": "^6.0.1",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
@@ -19,7 +20,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "^0.9.5",
     "react-scroll-parallax": "^2.1.2",
-    "react-vertical-timeline-component": "^2.4.0"
+    "react-vertical-timeline-component": "^2.4.0",
+    "sass": "^1.43.4"
   },
   "devDependencies": {
     "uglifyjs-3-webpack-plugin": "^1.2.4"
