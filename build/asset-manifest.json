@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.c79086c7.css",
-  "main.css.map": "static/css/main.c79086c7.css.map",
-  "main.js": "static/js/main.58326abb.js",
-  "main.js.map": "static/js/main.58326abb.js.map",
+  "main.css": "static/css/main.2869d8dc.css",
+  "main.css.map": "static/css/main.2869d8dc.css.map",
+  "main.js": "static/js/main.e034b75f.js",
+  "main.js.map": "static/js/main.e034b75f.js.map",
   "static/media/bg-header-bg.jpg": "static/media/bg-header-bg.a90b27c4.jpg",
   "static/media/clinicalInfo-img-2.jpg": "static/media/clinicalInfo-img-2.776a7630.jpg",
   "static/media/covid-bg.jpg": "static/media/covid-bg.941672ba.jpg",
@@ -13,8 +13,6 @@
   "static/media/img-4.png": "static/media/img-4.c80c399e.png",
   "static/media/mymic-bg-1.png": "static/media/mymic-bg-1.0a094023.png",
   "static/media/rotc-img-2.jpg": "static/media/rotc-img-2.c6df0f0b.jpg",
-  "static/media/seed-bg.png": "static/media/seed-bg.1f6a0d95.png",
-  "static/media/seed-img-2.jpg": "static/media/seed-img-2.776a7630.jpg",
   "static/media/smokefree-fixed-background.jpg": "static/media/smokefree-fixed-background.c59c4acf.jpg",
   "static/media/wydot-bg.jpg": "static/media/wydot-bg.42f41765.jpg"
 }

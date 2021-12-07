@@ -97,11 +97,11 @@ class Projects extends Component {
       //   title: "Mymic Physical Therapy Device",
       //   placeholder: "./assets/img/project/mymic-alt.jpg"
       // },
-      // 'seed': {
-      //   navigation: "/seed",
-      //   imageSource: "./assets/img/project/seed.jpg",
-      //   title: "Seed Gamification Mobile APP"
-      // },
+      'seed': {
+        navigation: "/seed",
+        imageSource: "./assets/img/project/seed.jpg",
+        title: "Seed Gamification Mobile APP"
+      },
       'rotc': {
         navigation: "/rotc",
         imageSource: "./assets/img/project/rotc.jpg",

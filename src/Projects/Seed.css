@@ -1,15 +1,15 @@
 .seed-header{
-  background-image: url("../../public/assets/img/seed/seed-bg.png");
+  width: 100%;
   background-position: center;
   background-size: cover;
   min-height: 500px;
 }
 .seed-header-content{
   display: flex;
+    width: 100% !important;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
   color: #ffffff;
   min-height: 500px;
 }
@@ -17,10 +17,11 @@
   max-width: 80px;
 }
 .seed-fixed-bg{
-  background-image: url("../../public/assets/img/seed/seed-img-2.jpg");
+  
   background-attachment: fixed;
 }
 .seed-fixed-bg-2{
   background-image: url("../../public/assets/img/seed/img-4.png");
+  background-color: #31ab82;
   background-attachment: fixed;
 }

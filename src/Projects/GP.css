@@ -18,10 +18,7 @@
   background-attachment: fixed;
   background-size: cover;
 }
-.seed-fixed-bg-2{
-  background-image: url("../../public/assets/img/seed/img-4.png");
-  background-attachment: fixed;
-}
+
 .gp-section{
   background-color: #7f5a83;
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);

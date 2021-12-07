@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
 import Preloader from '../appshell/Preloader/Preloader';
-
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -41,8 +42,12 @@ class Seed extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-		<section className="seed-header">
+		<section className="seed-header cd-header">
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/seed/seed-bg-alt.jpg" src="./assets/img/seed/seed-bg.jpg" className="hero-bg" />
 		<Container>
+
+
+					 
        
         
 	<div className="seed-header-content ">
@@ -75,7 +80,8 @@ class Seed extends Component {
 			Also, the demands to learn shifts from stage to stage, and there is a gap between what they want to know and what they need to know.</p>
 			</Col>
 			<Col xs={12} md={4}>
-				<img src="./assets/img/seed/storyboard.png" alt="user-journey" class="img-fluid right-img"/>
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/seed/storyboard-alt.png" src="./assets/img/seed/storyboard.png" alt="user-journey" class="img-fluid right-img" />
+			
 			</Col>
 			</Row>
 		</Container>
@@ -95,7 +101,7 @@ class Seed extends Component {
 			culture tree after practice and their personal selections.</p>
 			</Col>
 			<Col xs={12} mdPull={8} md={6}>
-				<img src="./assets/img/seed/system.png" alt="Seed App User Story" class="img-fluid right-img"/>
+							  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/seed/system-alt.png" src="./assets/img/seed/system.png" alt="Seed App User Story" class="img-fluid right-img" />
 			</Col>
 			</Row>
 		</Container>
@@ -105,7 +111,7 @@ class Seed extends Component {
 		<section className="seed-fixed-bg section" >
 		<Container>
 		<Row className="vcenter" >
-		   <Col xs={12} md={6} >
+		   <Col xs={12} >
 			<h2>International Students face Culture Shock when studying abroad.</h2>
 			<p>Everyone face some kinds of culture shock when changing the environment, this also applies 
 			for international students who left their home country to study abroad, we interviewed 15 international 
@@ -114,10 +120,20 @@ class Seed extends Component {
 			more about, some interested in professional communications, some interested in daily entertainment topics.
 			Also, the demands to learn shifts from stage to stage, and there is a gap between what they want to know and what they need to know.</p>
 			</Col>
-			<Col xs={12} md={6}>
-				<img src="./assets/img/seed/hifi.png" alt="High Fidelity" class="img-fluid right-img"/>
-			</Col>
+						
 			</Row>
+
+					  <div className="image-row">
+						  <div className="one-third-img">
+							  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/seed/seed-main-alt.png" src="./assets/img/seed/seed-main.png" className="img-fluid" />
+						  </div>
+						  <div className="one-third-img">
+							  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/seed/seed-challenges-alt.png" src="./assets/img/seed/seed-challenges.png" className="img-fluid" />
+						  </div>
+						  <div className="one-third-img">
+							  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/seed/seed-garden-alt.png" src="./assets/img/seed/seed-garden.png" className="img-fluid" />
+						  </div>
+					  </div>
 		</Container>
 
 		</section>
