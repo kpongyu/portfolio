@@ -40,3 +40,9 @@
     
   }
 }
+
+@media scrreen and (max-width: 768px){
+  .gp-header .title-video{
+    background-color: #000;
+  }
+}

@@ -49,7 +49,7 @@ class Amazon extends Component {
                
     		</video>        
 		</LazyLoadComponent>
-	<div>
+	<Container>
     <img src="./assets/img/amazon/amazon_logo.png" className="project-logo" alt="amazon logo"/>
     <h1>	Mobile Card System Design</h1>
 		<p className="amazon-header">
@@ -58,7 +58,7 @@ class Amazon extends Component {
 			
 		</p>
         
-		</div>
+		</Container>
 	
 		
 		</Row>

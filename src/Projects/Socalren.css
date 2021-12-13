@@ -5,6 +5,9 @@
 .socalren-section-2{
   background: radial-gradient(400px at 50%, #d9dbd8 0%, #bfd5e0 100%)
 }
+.smokefree-header-content{
+  margin-top: 2em;
+}
 .socalren-header{
   background-position: center;
   background-size: cover;
@@ -34,6 +37,9 @@
   flex-direction: column;
   width: 100%;
   color: #ffffff;
+}
+.socalren-header-content h1{
+  text-align: center;
 }
 .socalren-section{
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(242,235,243,1) 0%, rgba(234,241,249,1) 90.1% );
@@ -80,3 +86,4 @@
   margin-top: 2em;
 
 }
+

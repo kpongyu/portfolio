@@ -25,6 +25,19 @@
   min-height: 500px;
 }
 
-.smokefree-bg{
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+
+.information-flow{
+  background-color: #4C4C4E;
+  color: #fff;
+}
+.information-flow p{
+  color: #fff;
+}
+.information-flow p a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.future-section{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(242,235,243,1) 0%, rgba(234,241,249,1) 90.1% );
 }

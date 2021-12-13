@@ -47,7 +47,7 @@ class GP extends Component {
                 <source src="./assets/img/georgia-power/gp-header.mp4" type="video/mp4" />         
     </video>        
     </LazyLoadComponent>
-	<div>
+	<Container>
     <img src="./assets/img/georgia-power/logo.png" className="project-logo gp-logo" alt="GP logo"/>
     <h1>GPC Lighting Calculator</h1>
 		<p className="amazon-header">
@@ -56,7 +56,7 @@ class GP extends Component {
 			<strong>Deliverable</strong>: <a className="header-link" href="https://www.georgiapower.com/lighting" target="_blank">georgiapower.com/lighting</a>
 		</p>
         
-		</div>
+		</Container>
 	
 		
 		</Row>
