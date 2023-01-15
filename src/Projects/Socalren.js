@@ -169,12 +169,10 @@ class Socalren extends Component {
 		   <Col xs={12} md={7}  className="float-right" >
 		   <h2 >Visual Branding Establishment</h2>
 			<p >
-			SoCalREN, namely Southern California Regional Energy Network, worked with ICF to create a new brand to advertise the program and better reach out to a broader audience. 
-			There are generally four major programs we are focusing on, including the residential consumers, the multifamily units, the financing sectors 
-			and the public agencies. 
-			To help better visually defining the services, we selected "Echeveria", which is a regional 
-			flower popular in Southern Califorlia, as the basis of our color palette, and we selected four colors from the 
-			natural photos to represent the different programs of SoCALREN.
+			Southern California Regional Energy Network (SoCalREN) teamed up with ICF to develop a new branding strategy to promote the organization and 
+			reach a wider audience. SoCalREN is focusing on four main programs: residential consumers, multifamily units, financing sectors, and public agencies. 
+			To visually represent these programs, we chose the regional flower Echeveria as the basis for our color palette and selected four colors from its 
+			natural photos to symbolize each program.
 				
 				
 			</p>
@@ -206,12 +204,13 @@ class Socalren extends Component {
 		   <Col xs={12} md={4}  className="float-right" >
 		   
 			<p >
-			The first web-based task we have is to create a Drupal based website for SoCalREN that follows the theming created. We start the web-developing process with mobile first approach, 
-								  since the four entrances of different projects are the major call-to-action of the homepage,  we embedded the color patterns and assigned the program-based color to 
-								  the active states and shades of the relevent icon and components.
-								  There are very limited content we have when we first developed the site, but the colored-theme setup a great infraustracture for the account team to organize the
-								  content from the Drupal backend, and categorize the materials. Now after a few years since we first setup the site, the framework is still valid and the site and
-								  growed a lot without big structural changes, thanks to the framework we created at the very beginning.
+			Our first web-based task was to create a Drupal-based website for SoCalREN using the established theme. 
+			We began the web development process with a mobile-first approach, since the four main projects are the 
+			primary call-to-actions on the homepage. We incorporated the color patterns and used program-specific colors 
+			for active states and shades of relevant icons and components. When we first developed the site, we had very 
+			limited content, but the color-themed framework allowed the account team to easily organize and categorize content 
+			from the Drupal backend. Now, several years later, the site has grown significantly without requiring major structural changes, 
+			thanks to the strong foundation we established at the beginning.
 			
 				
 				
@@ -225,9 +224,9 @@ class Socalren extends Component {
 			<Col xs={12}>
 							  <p >
 
-								  Specifically, we created four cards with Lottie-bassed animations to interact with the users, that with simple micro-interaction when the user hover on them,
-								  we are inspired by the metaphor of piano keys and make the four cards stick on the top of the mobile screen
-								  when user scrolls down, so users can always get easy access to different programs. You can interact with the elements below to see how it works.
+			 To improve user interaction, we designed four cards with Lottie-based animations that are inspired by piano keys. 
+			 When a user hovers over them, there is a simple micro-interaction. These cards remain at the top of the mobile screen as 
+			 the user scrolls down, providing easy access to the different programs. You can try interacting with the elements below to see how it works.
 
 
 								 
@@ -319,13 +318,10 @@ class Socalren extends Component {
 						  <Col xs={12} md={4} className="float-right" >
 
 							  <p >
-								  We resumed the work this year with a new project called Kits4Kids, which we hope to use gamified materals to 
-								  help educate kids with Energy Saving tips, since there are different programs and Energy Kits we want to provide 
-								  to the families, we created a few Energy Monsters to work as the guides for the kids to learn Energy-Saving knowledges.
-								  Here is the full version of the website we created, which is the portal for the kids to get access to different games,
-								  each game we assigned a Energy Monster that needs help, animated by Lottie, the kids can open the game by click on the 
-								  call-to-action button or navigate different monsters and games from top or side. The introduction of the Monsters and games
-								  are as follows:
+								A year later, we resumed work on a new project called Kits4Kids, which aims to educate kids about energy-saving tips through gamified materials. 
+								We created several Energy Monsters to serve as guides for kids to learn about energy conservation. The website we created serves as a portal 
+								for kids to access different games, each of which features an Energy Monster in need of help, animated using Lottie. Kids can start a game by 
+								clicking on a call-to-action button or navigate to different monsters and games using the top or side menus. Here is an introduction to the Monsters and games:
 
 
 
@@ -345,9 +341,7 @@ class Socalren extends Component {
 						  <Col xs={12} md={7} className="float-right" >
 
 							  <p >
-								 Fuzzy Muzzy is the main character of the monsters, who will introduce the kids to all the friends, 
-								 the game associated with Fuzzy Muzzy is a Item-Match game for the kids to move the right item to 
-								 the correct spot.
+								Fuzzy Muzzy is the main character among the monsters and will introduce kids to all of his friends. The game associated with Fuzzy Muzzy is an item-match game in which kids must place items in the correct spots.
 
 
 
@@ -379,8 +373,7 @@ class Socalren extends Component {
 						  <Col xs={12} md={7} className="float-right" >
 
 							  <p >
-								  Lavender is the second energy monster, and is associated with the card match game, which teaches the kids some common reneable and non-reneable energies
-								  in the daily life.
+								 Lavender is the second energy monster and is associated with a card-match game that teaches kids about common renewable and nonrenewable energies in daily life.
 
 
 
@@ -413,8 +406,7 @@ class Socalren extends Component {
 						  <Col xs={12} md={7} className="float-right" >
 
 							  <p >
-								  Ginger is on the path of Energy Facts, by rolling a dice, Ginger will move to different spots inside the path and can move forward
-								  when the kids answers the Energy Fact question correctly.
+								  Ginger is featured in a game called Energy Facts. In this game, kids roll a dice to move Ginger along a path. When they answer an energy fact question correctly, Ginger moves forward.
 
 
 
@@ -446,8 +438,7 @@ class Socalren extends Component {
 						  <Col xs={12} md={7} className="float-right" >
 
 							  <p >
-								 Spike is travelling around the city and saw differnt types of transportation means, he can collect scores by taking the eco-friendly transportation means
-								 and avoid the ones that costs too much energy.
+								Spike travels around the city and encounters different types of transportation. He can earn points by choosing eco-friendly options and avoid those that are energy-intensive.
 
 
 
@@ -479,8 +470,7 @@ class Socalren extends Component {
 						  <Col xs={12} md={7} className="float-right" >
 
 							  <p >
-								  Specster is learning energy related teams and try to complete the Energy Crossword, there are some hints provided to find out what
-								  energy related terms can be used to fill the crossword.		  </p>
+								Specster is learning about energy-related terms and trying to complete an energy crossword puzzle. Hints are provided to help kids fill in the crossword with energy-related terms.	  </p>
 							  <a href="https://energymonsters.fun/full-games/index.html#Specster_page" target="_blank">
 							  <LazyLoadImage effect="blur" alt="specster game" placeholderSrc="./assets/img/socalren/specster-game-alt.png" src="./assets/img/socalren/specster-game.png" className="img-fluid" />
 </a>
@@ -502,9 +492,10 @@ class Socalren extends Component {
 
 
 					  <p className="mt-5">
-						 The EnergyMonsters.fun is an enhancement towards the SoCalREN project, it goes beyond an information hub, but a game center specifically serves the kids and teachers to 
-						 equip the kids with the energy related knowledge. It is also a project that I got the chance to work with the e-learning game developers and motion graphics, and made full
-						 use of Lottie animation library to bring the monsters to live, which is very special compare to other websites.	  </p>
+					EnergyMonsters.fun is an extension of the SoCalREN project that aims to educate kids and teachers about energy conservation. 
+					It not only serves as an information hub, but also as a game center specifically designed for kids. This project gave me the 
+					opportunity to work with e-learning game developers and motion graphics specialists, and to utilize the Lottie animation 
+					library to bring the monsters to life. This website is unique in comparison to others because of these interactive and animated features.	  </p>
 
 						  
 

@@ -71,20 +71,18 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		<Col xs={12}>
-		<h2 >The World Largest Quit Smoking Platform for multiple audience</h2>
+		<h2 >The largest quitting smoking platform for a diverse audience</h2>
 		</Col>
 		   <Col xs={12} md={7}  className="float-right" >
 			
 			<p >
-			Smokefree.gov is largest quit smoking platform sponsored by National Cancer Institute, 
-			based on the demographic of audience, the website provides typical solutions 
-			for different audience to quite smoking. We made a side-wise redesign during the year 2017 
-			to re-organized the site content strategies, when we focused on 4 different stages from the 
-			"journey" of user quit smoking, namely "I want to quit", "my quit day", "I recently quit", 
-			and "staying quit", and include different tips and content to help assist the journey in different
-			stages. After figuring out the "Smokefree Journey", we started to think about creating an app that 
-			can help the user to keep track of the journey, since website is more of a portal of information, not 
-			a personalized tracker, and this is where the idea of QuitGuide app came into being.				
+			Smokefree.gov is the largest quit smoking platform sponsored by the National Cancer Institute. 
+			It caters to a diverse audience and provides various solutions for quitting smoking. In 2017, 
+			we redesigned the website to focus on four stages of the quitting process: "I want to quit," 
+			"my quit day," "I recently quit," and "staying quit." We also added tips and resources to help 
+			users during each stage. After considering the needs of users during the quitting journey, 
+			we decided to create the QuitGuide app to serve as a personalized tracker in addition to the 
+			information-based website.			
 			</p>
 		
 					
@@ -104,17 +102,18 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		   <Col xs={12} md={12}>
-			<h2>The Design of Smokefree Journey</h2>
-			<p>We designed the journey of the QuitGuide App by following the different stages we defined on our website, to concrete the concept of "journey", we used 
-			many metaphors inside the app to emphasis the idea. As the information flow shows below, the main screen of the app shows a mountainous background, with the 
-			color scheme reflecting the time of the day, which helps bring back the user to the journey and relate the journey to the everyday life. We also included a 
-			milestones based journey screen with a path to the Smokefree Day with milestones on the path, that added the awarding system with the journey, and this journey 
-			to the destination serves as the main string that links all the features together inside the app, which is rather easy for the user to follow and understanding. 
+			<h2>A mobile app designed for the Smokefree journey.</h2>
+			<p>We designed the QuitGuide app to follow the stages of the quitting journey outlined on our website. To emphasize the concept of a journey,
+				 we used various metaphors within the app. The main screen of the app features a mountainous background that changes color to reflect the 
+				 time of day, helping users connect the quitting journey with their daily lives. The app also includes a milestones-based journey screen 
+				 that shows a path to the Smokefree Day and provides an award system to motivate users. This journey serves as the main thread that ties 
+				 all the features of the app together, making it easy for users to understand and follow.
 			</p>
-			<p>With the journey setup, we are able to bring all the content and features we currently have inside the app. For instance, we added the two main call-to-action 
-				buttons on the home screen to help track whether the user is smokefree or not each day, and based on the feedback, we provided the user with personalized challenges,
-				tips, and inspirations. The journey is pushed forward through the number of days that the user kept smokefree, plus the challenges and tips they followed when they 
-				smoked during the time. We also included the Quiting Tutorials and emotion records to help track and improve the efficiency of the journey.
+			<p>By organizing the app around a journey structure, we were able to incorporate all of our existing content and features. One example is the 
+				addition of two main call-to-action buttons on the home screen: "I was smokefree today" and "I smoked today." These allow users to track 
+				their smokefree status each day and receive personalized challenges, tips, and inspirations based on their progress. The journey is advanced 
+				through smokefree days, challenges completed, and tips followed. We also included quitting tutorials and emotion tracking tools to help users 
+				monitor and improve their progress.
 			</p>
 			
 			<LazyLoadImage effect="blur" alt="other content type" placeholderSrc="./assets/img/smmokefree/information-flow-alt.png" src="./assets/img/smokefree/information-flow.png" className="img-fluid image-within-content" />
@@ -130,11 +129,11 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		   <Col xs={12}>
-			<h2>A further definition of the user flow with different use cases</h2>
-			<p>Once the main user flow is defined, we took a step further to define the different use cases and behaviors for each screen inside the journey.
-				Below is the example we defined for the initial onboarding screens for the app. This way we can identify the specific use cases, such as what 
-				would happen when the user hit smokefree button in less of a day, how the screen would look like in different time span of the day, those cases
-				can be omit when the main journey is defined, but is important to look into when we start the developing process.
+			<h2>An explanation of the different screens and their specific uses</h2>
+			<p>After defining the main user flow, we further defined the specific behaviors and use cases for each screen within the journey. 
+				For example, we outlined the initial onboarding screens for the app and identified specific scenarios such as what happens when 
+				the user clicks the "smokefree" button within less than a day or how the screen appears at different times of the day. 
+				These details may not be included in the overall journey definition, but they are important to consider during the development process.
 			</p>
 			
 			
@@ -157,12 +156,13 @@ class CivicLab extends Component {
 		
 		</Col>
 		   <Col xs={12} md={5}>
-							  <h2>Smokelyzer Testing Flow Design</h2>
-			<p>Another cool feature included inside the app is the Smokelyzer Testing, which is something only the mobile app can achieve, compare to the 
-			   website, that user with Smokelyzer can link to the app through BlueTooth and see the testing results, which can act as a 
-				proof of smokefree days and is currently under testing as an add-on feature. We used illustration styles to help guide the user through the process,
-				which can help highlight the gestures or actions to take and matches well with the rest of the app, and we simplified the process into 3 steps to 
-				avoid confusing the user, and always leave a secondary step to take if the user encountered some issue during the process.
+							  <h2>Designing the flow for Smokelyzer testing</h2>
+			<p>A unique feature of the app is the Smokelyzer testing, which allows users with a Smokelyzer device 
+				to connect to the app via Bluetooth and view the testing results. This serves as proof of smokefree 
+				days and is currently being tested as an add-on feature. We used illustrated instructions to guide 
+				users through the process, which helps emphasize the necessary actions and fits with the overall 
+				aesthetic of the app. The process is simplified into three steps to avoid confusion and includes a 
+				secondary action for users to take in case of any issues.
 
 			</p>
 			
@@ -190,16 +190,15 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		<Col xs={12}>
-		<h2>Future: A cross-device platform?</h2>
+		<h2>Possibility of a cross-device platform in the future</h2>
 		</Col>
 		   <Col xs={12} md={5}>
 			
-			<p>What would be the next step to futher integrate the Smokefree platforms? The most inspiring idea is to create a platform that 
-				goes beyond any specific devices, so that the user can keep track of their Smokefree Journey not only through web or app, but 
-				whenever they got access to the internet. Also, social networking can be another key feature to consider about, we usually highlight
-				specific success stories through social media, but a better idea is for people with the same goal to encourage each other and make the 
-				smokefree journey not lonely any more. There are lots of meaningful conversation goes behind the scene and the platform would be much 
-				more than a website or an app in the future.
+			<p>Possible next steps for further integrating the Smokefree platforms include creating a cross-device 
+				platform that allows users to track their progress on any internet-connected device and adding 
+				social networking features to promote community support and interaction among users with similar 
+				goals. The platform has the potential to become much more than just a website or app in the future, 
+				with meaningful conversations and support taking place behind the scenes.
 			</p>
 			
 		

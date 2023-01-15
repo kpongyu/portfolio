@@ -63,11 +63,10 @@ class ROTC extends Component {
 		<Row className="vcenter" >
 		   <Col xs={12} md={7} >
 			<h2>Wireframe and Restruction</h2>
-			<p>We start by interviewing our client, who are not satisfied with the past version of website,
-            but not sure how to make it more inviting. After looking through the website, we found the problem
-            is not based on the contents, but the way they present the contents.</p>
-			<p >The previous design is much more like a blog than a introduction website, which cannot reach the goal for them to recruit more rookies. So we decide to change the
-            structure, put a large cool photo at the first glance, using more images to present what the life would be like as a wolverine battalian, not just through words.</p>
+			<p>We began the process by speaking with our client, who expressed dissatisfaction with the previous version of their website but were unsure of how to improve it. Upon examining the website, 
+				we discovered that the issue was not with the actual content, but rather with its presentation.</p>
+			<p >The previous design resembled a blog more than an introduction website, which did not help the client achieve their goal of recruiting new members. As a result, we decided to revamp the 
+				structure of the website by featuring a large, visually striking photo at the top and incorporating more images to illustrate what life in the Wolverine Battalion is like, rather than just relying on text.</p>
 			</Col>
 			<Col xs={12} md={5}>
 			<LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/rotc-wireframe-alt.jpg" src="./assets/img/rotc/rotc-wireframe.jpg" className="img-fluid" />
@@ -89,13 +88,10 @@ class ROTC extends Component {
 		   <Col xs={12} md={7}  className="float-right" >
 			<h2 >Color Palette and Homepage Design</h2>
 			<p >
-			
-                    After complete wireframing the website structure, we started with designing the Homepage, since
-                    the homepage contains most visual elements and can lead the design of the whole website.We use a darker color palette with shade color, while making the content and font color bright and clear. The primary colors are steel and maize.
-                   
-                    
-				
-				
+			After creating a wireframe for the website's structure, we began designing the homepage, as it contains 
+			many visual elements and serves as the foundation for the design of the entire website. We used a dark color 
+			palette with shaded colors, and paired it with bright and clear content and font colors. The primary colors 
+			we chose were steel and maize.
 			</p>
 					
 			
@@ -115,15 +111,14 @@ class ROTC extends Component {
 		<Container>
 		<Row className="vcenter" >
 		<Col xs={12}>
- 		 <h2 >The construction of different pages</h2>
+ 		 <h2 >Redesign the other page templates for the website</h2>
 		
 	 
 			<p>
-			There are three major templates for the design of ROTC page, including the Homepage, the Content page,
-			and the Form. We use three cards on the homepage to present the major sections of the website, using the
-			overlay effect to present the descriptions. For content page, we use sidebar to represent the different sections
-			inside each section. For form, we separate the form into three different parts, instead of presenting the whole
-			form at first place.
+			For the ROTC website, we created three main templates for the design: the homepage, the content page, and the form. On the homepage, 
+			we used three cards to highlight the main sections of the website and applied an overlay effect to display descriptions. For the content 
+			pages, we employed a sidebar to categorize the different sections within each page. For the form, we divided it into three distinct parts 
+			instead of presenting the entire form at once.
 			</p>
 		</Col> 
 		   
@@ -148,14 +143,7 @@ class ROTC extends Component {
 	<section class="rotc-img-3">
 	<Container>
 	<Row className="vcenter" >
-	<Col xs={12}>
-			There are three major templates for the design of ROTC page, including the Homepage, the Content page,
-			and the Form. We use three cards on the homepage to present the major sections of the website, using the
-			overlay effect to present the descriptions. For content page, we use sidebar to represent the different sections
-			inside each section. For form, we separate the form into three different parts, instead of presenting the whole
-			form at first place.
-	</Col>
-		  
+	
 	<Col xs={12}>
 	 <LazyLoadImage effect="blur" placeholderSrc="./assets/img/rotc/rotc-responsive-alt.png" src="./assets/img/rotc/rotc-responsive.png" className="img-fluid" />
 

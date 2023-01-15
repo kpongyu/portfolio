@@ -67,21 +67,19 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		<Col xs={12}>
-		<h2 >A System used by a number of different users</h2>
+		<h2 >A system used by multiple agencies</h2>
 		</Col>
 		   <Col xs={12} md={5}  className="float-right" >
 		 
 			<p >
-			We are aimed to create a system for a range of different users from PEPFAR to look for data records
-			from 3 different data source, namely DATIM, PDH, and MOH data. User are supposed to check the information of 
-			the Indicators and Data Elements from the system, based on the MER Guidance each year, to calculate the data
-			they collected and see if everything is good. We defined 3 different types of user after several rounds of interviews,
-			namely Data Managers, solution architects, and PEPFAR staffs. Data Managers are the users that are supposed to submit data 
-			and they need to find the right codelists and indicators from the system to validate the data before submit them. Solution 
-			Architects are the users that need to maintain the system, they need to understand how indicators and calculations have changed
-			during the time, and spot the difference between the different systems to see if there is anything wrong in formula. Pepfar staff 
-			are focusing on the mapping between the indicators and data elements are correct, and make sure the MER guidance is correctly implemented.
-				
+			Our goal is to design a system for PEPFAR users to access data records from three different sources: DATIM, PDH, and MOH data. 
+			The system allows users to verify the information for indicators and data elements based on the MER guidance each year, 
+			to calculate the data they have collected and ensure everything is correct. After conducting several rounds of interviews, 
+			we identified three types of users: Data Managers, Solution Architects, and PEPFAR staff. Data Managers are responsible for 
+			submitting data and need to use the system to find the appropriate codelists and indicators to validate the data before submission. 
+			Solution Architects are responsible for maintaining the system and need to track how indicators and calculations have changed over time, 
+			as well as identifying any discrepancies between the different systems. PEPFAR staff focus on ensuring the mapping between indicators and data 
+			elements is correct and that the MER guidance is properly implemented.
 			</p>
 		
 					
@@ -102,13 +100,14 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		   <Col xs={12} md={12}>
-			<h2>Split persona to individual goals and tasks</h2>
-			<p>A major task for us to split the personas to find the common goals each of them will do, 
-			and interpret the goals into different sub-tasks. Since each sub-task is atomic enough, we can quickly find out the information and elements that needed 
-			to complete this sub-task. For example, the graph below is the division of the solution architect. From interviews we conclude the 3 goals of this role, create 
-			official reports that need to calculate, analysis the different results between DATIM and PDH data, and review the official reports and see a discrepancy in totals.
-			then we defined the sub-tasks for each goal, like to create the official reports to calculate, a solution architect needs to find the formulas, then align MOH and PDH data,
-			and track the linkage in the end. Based on the sub-tasks, we can finally define the metadata needed for the tasks, which is the foundation for us to create layout.
+			<h2>Divide the persona into specific goals and tasks</h2>
+			<p>One of our major tasks was to divide the personas into their common goals and interpret those goals into smaller sub-tasks. 
+				These sub-tasks were atomic enough that we could quickly identify the necessary information and elements to complete them. 
+				For example, the graph below shows the division of tasks for the Solution Architect persona. From our interviews, we determined 
+				that this role had three main goals: creating official reports that require calculations, analyzing the differences between DATIM 
+				and PDH data, and reviewing official reports for discrepancies in totals. We then defined sub-tasks for each goal, such as finding 
+				formulas and aligning MOH and PDH data to create official reports with calculations. Based on these sub-tasks, we were able to 
+				define the metadata needed for each task, which formed the foundation for our layout design.
 				 </p>
 		
 			</Col>
@@ -125,16 +124,14 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		   <Col xs={12} mdPush={4} md={6}>
-			<h2>A selectable collapsing table to host data elements</h2>
-			<p>We created a selectable collapsing table to host data elements. User can filter the data elements through filters on the right site,
-			including source, fiscal year and type as the primary ones, while user can implement more filters through the more filters link, 
-			For data elements, we put the data element name, UID to the collapsing header, since those are the most frequently used information
-			the users need. in the collapsing body, we put the description and disaggregations inside, for the formula, since solution architects have
-			claimed it's hard to read sometimes, we put the human readable format and UID format options inside. </p>
+			<h2>A collapsible table for displaying data elements</h2>
+			<p>We developed a collapsible table to host data elements, which can be filtered using options on the right side such as source, 
+				fiscal year, and type. Additional filters can be accessed through a "more filters" link. The most frequently used information, 
+				such as the data element name and UID, are placed in the collapsing header. The description and disaggregations are located in 
+				the collapsing body, and the formula is provided in both human-readable and UID formats to improve readability.</p>
 
-			<p>User can select multiple data elements to either download the data elements in different formats, and compare the selected data elements.
-			There are several different types of data elements user can download, and user can compare the data elements based on the sources, including 
-			DATIM, PDH and MOH. </p>
+			<p>Users can choose multiple data elements to download in various formats or to compare. The available types of data elements to download
+				 include options from sources such as DATIM, PDH, and MOH. Users can compare data elements based on these sources. </p>
 			
 			</Col>
 			<Col xs={12} mdPull={8} md={6}>
@@ -152,16 +149,11 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		<Col xs={12}>
-		<h2>Compare Data Elements across different sources</h2>
+		<h2>Comparing data elements from different sources</h2>
 		</Col>
 		   <Col xs={12} md={5}>
 			
-			<p>The comparison function is one of the most important function that users needed. "Alignment" is one of the key feature,
-				which present the same data element in different sources in the same line. We created the comparison panel to realize the 
-				function. The columns of the comparison panel is decided by checking the comparison button sources, it can either be DATIM itself,
-				or DATIM and one or two other sources. The comparison panel is divided through different rows, each row represents one data element 
-				in DATIM, since there are 1:1 or 1:0, 1:many relationships between the DATIM data element and the PDF, MOH data elements related, each 
-				row might contain several data elements for PDH and MOH.
+			<p>The comparison function is a highly requested feature by users. One key aspect is "alignment," which displays the same data element from different sources on the same line. To implement this, we created the comparison panel. The columns of the comparison panel are determined by the selected sources for comparison, which can be DATIM alone or DATIM alongside one or two other sources. The comparison panel is divided into rows, with each row representing a data element in DATIM. Depending on the relationship (1:1, 1:0, 1:many) between the DATIM data element and the related PDH and MOH data elements, a single row may contain multiple data elements from PDH and MOH.
 			</p>
 			
 		
@@ -188,16 +180,15 @@ class CivicLab extends Component {
 		<Container>
 		<Row className="vcenter" >
 		<Col xs={12}>
-		<h2>Link the Indicators with the data elements related</h2>
+		<h2>Linking indicators to related data elements</h2>
 		</Col>
 		   <Col xs={12} md={5}>
 			
-			<p>We also created the indicators page to present the up-to-date indicators. One big request the users have is to display
-				the related data elements when user selected one indicator, therefore we can combine the data elements and indicators 
-				in a better format. Since there are only a fixed number of indicators out there, we divided them into different groups
-				for user to find them. When click on the indicator, we present the indicator definations and the data elements related 
-				on the right side. The data elements only includes the ones that related to this indicator, and in the details tab we 
-				split the indicator details in different collapsed boxes to reduce the length of the page.
+			<p>We also created an indicators page to present the most current indicators. A common request from users was to display related data 
+				elements when an indicator is selected, so we combined data elements and indicators in a more organized format. As there is a limited 
+				number of indicators, we grouped them for easier navigation. When an indicator is clicked, the definition and related data elements 
+				are displayed on the right side. The data elements displayed are specific to the selected indicator, and in the details tab, we divided 
+				the indicator details into collapsible boxes to reduce the length of the page.
 			</p>
 			
 			</Col>

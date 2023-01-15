@@ -73,12 +73,12 @@ class Covid extends Component {
 		<Container>
 		<Row className="vcenter" >
 		<Col xs={12}>
-		<h2 >Up-to-date Guidelines to conquer the Pandemic </h2>
+		<h2 >Guidelines for Clinical Management of COVID-19 </h2>
 		<p >
-			I'm proud to work as a web designer to help design the Clinical Guidelines website for NIH to provide the most up-to-date
-			information in related to treatment, medicine, and guidance to our frontline medical workers. It's a fast-pace project with 
-			lots of uncertainty during our design and developing process, since the Pandemic situation is ever-changing, and the treatments
-			and content are never determined. 
+		I am proud to work as a web designer on the Clinical Guidelines website for NIH, which provides medical 
+		professionals with the latest information on treatment and guidance for COVID-19. This project has been 
+		fast-paced and unpredictable due to the constantly changing nature of the pandemic and the uncertain nature 
+		of the treatments and content.
 			 </p>
 		</Col>
 			<Col xs={12} md={5}  className="float-right" >
@@ -86,12 +86,12 @@ class Covid extends Component {
 			
 					 
 			 <p >
-			 We start the website framework from the USWDS Web Standard Library that is used across agencies, and designed it as in a "manuscript" approach,
-			 which is still the case by the end of 2020, which provide the user with a sidebar that listed all different topics,
-			 and user can jump between different topics using the side-nav, which is a fast approach when the content is limited, however, as there are additional 
-			 content added and categories (like Medincine, Treatment, Best Practice, etc.) formed, we are moving torwards a topic-oriented way to organize the information,
-			 the image on the right side is one Homepage approach we are currently working on, which can better help user to find the most useful information and topics of interests
-			 when the content has been accumulated.
+			We began the website framework using the USWDS Web Standard Library, which is commonly used by agencies. 
+			Initially, we designed it in a "manuscript" style, which features a sidebar listing different topics and allows 
+			users to jump between them quickly. However, as more content was added and categories like Medicine, Treatment, 
+			and Best Practice were created, we have been transitioning towards a topic-oriented organization of the information. 
+			The image on the right shows a sample of the new homepage design we are currently working on, which will make 
+			it easier for users to find the most relevant and useful information and topics as the content grows.
 			 </p>
 			 </Col>
 			 <Col xs={12} md={7} className="float-left">
@@ -104,21 +104,20 @@ class Covid extends Component {
 		
 			 <Row className="vcenter" >
 		<Col xs={12}>
-		<h2 >A highly Adaptive Navigation System to handle content expansion</h2>
+		<h2 >A navigation system that is highly adaptable to handle the expansion of content</h2>
 		</Col>
 		   <Col xs={12} md={5}  className="float-right" >
 		   
 			<p >
-			With the anticipation of expanding content and categories, at the beginning of our design of the website,
-			we took the navigation and searchability of content into account, also, since a majority of site users are 
-			using tablet and mobile devices, we design to make sure the content accessibility remains high in mobile 
-			experience as well. Figure 2 shows how the mobile navigation experience works between different levels of navigation 
-			items, we tried to avoid using indent to display sub-categories since there might be a dozen of sub-items inside one nav-item, and 
-			there could be a few levels deep in navigation, instead, we direct the user into a brand-new level with only the parent level
-			nav-item plus the child items inside, with the back button on the top to go back to the parent level, which makes it easier for users
-			to focus on the current level while include approaches to go back. We also split the child-nav link from the current nav-item through an 
-			arrow button, which when user click on the nav-title part it goes to its own page, and when click the arrow it goes to child nav list, which is 
-			one example how we cope with the content navigation challenge.
+			We took into account the potential expansion of content and categories when designing the website, 
+			and also made sure that the content remained easily accessible on mobile devices, which are used by 
+			the majority of site visitors. Figure 2 shows how the mobile navigation experience works between different 
+			levels of navigation items. To avoid overwhelming users with numerous sub-categories displayed through 
+			indentation, we direct users to a new level that only displays the parent level nav-item and its child items. 
+			The back button at the top allows users to return to the parent level, helping them focus on the current level 
+			of navigation. We also split the child-nav links from the current nav-item with an arrow button, which allows 
+			users to access the child nav list or go to the nav-item's own page when clicked. This is one example of how we 
+			addressed the challenge of navigating through a large amount of content.
 				
 				
 			</p>
@@ -153,10 +152,9 @@ class Covid extends Component {
 		   <Col xs={12}  className="float-right" >
 			
 			<p >
-			The website has been used and referred to by over a million US users and over 5 millions page views since it launched in late April, and since it launched,
-			it has been widely shared and reported by highly ranked organizations such as <a href="https://www.nih.gov/news-events/news-releases/expert-us-panel-develops-nih-treatment-guidelines-covid-19" target="_blank" className="covid-link">National Institutes of Health</a>, 
-			&nbsp;<a href="https://www.aha.org/news/headline/2020-04-21-nih-panel-releases-covid-19-treatment-guidelines" target="_blank" className="covid-link">American Hospital Association (AHA)</a>,  &nbsp; and news media such as The New York Times, Forbes, AXIOS, Politico, etc.
-			The Guideline will continue to grow and better organized in 2021 to better serve the community and medical workers.
+			Since it was launched, the website has been used by over a million US users and has received over 5 million page views. It has also been widely shared and reported on by organizations such as the <a href="https://www.nih.gov/news-events/news-releases/expert-us-panel-develops-nih-treatment-guidelines-covid-19" target="_blank" className="covid-link">National Institutes of Health</a>, 
+			and the &nbsp;<a href="https://www.aha.org/news/headline/2020-04-21-nih-panel-releases-covid-19-treatment-guidelines" target="_blank" className="covid-link">American Hospital Association (AHA)</a>,  &nbsp; as well as news media outlets like the New York Times, Forbes, AXIOS, Politico, etc.
+			It has become the primary resource for doctors to consult when treating COVID-19 patients.It has become the primary resource for doctors to consult when treating COVID-19 patients.
 			
 				
 				

@@ -1,0 +1,59 @@
+.civiclabFrame{
+  border:0;
+  margin: 0 auto;
+}
+.civiclab-section1{
+  background: linear-gradient(to left, #8e9eab , #eef2f3);
+}
+.fatherhood-header{
+ 
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.fatherhood-header p, .fatherhood-section p{
+  /* color: #fff; */
+}
+.fatherhood-logo{
+  margin-bottom: 1em;
+  width: 300px !important;
+  max-width: none;
+}
+.fatherhood-header h1{
+  color:black;
+}
+
+.fatherhood-header-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #ffffff;
+  min-height: 500px;
+}
+
+
+.fatherhood-fixed-bg{
+  background-image: #021935;
+  background-image: url("../../public/assets/img/fatherhood/fatherhood-fixed-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff !important;
+}
+.fatherhood-fixed-bg p{
+  color: #fff;
+}
+
+.fatherhood-section{
+  /* background-color: #1b2845;
+  background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+  
+  color: #ffffff !important; */
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.fatherhood-link{
+  color: #ffcb31 !important;
+}

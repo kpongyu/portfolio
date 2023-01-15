@@ -87,10 +87,10 @@ class CivicLab extends Component {
 		   <Col xs={12} md={7}  className="float-right" >
 			
 			<p >
-			I choose Google Maps API to visualize our data, to put ward, TIF areas, and every project into the same map, 
-			the first step for me is to create Geojson for the data, Geojson is a good data structure to draw polygon onto the Google Map, 
-			however, despite the ward which can be found on Github, other data the client gave to me are not in Geojson form, 
-			so I code a python script to parse the GSI file into Geojson formation and then conducted the three json files into three data layers on Google Maps.
+		We decided to use Google Maps API to visualize our data, including ward boundaries, TIF areas, and individual projects on the same map. 
+		The first step was to create Geojson files for the data. Geojson is a suitable data structure for drawing polygons onto Google Maps. 
+		However, while the ward data was already in Geojson form, the other data provided by the client was not. Therefore, we wrote a Python 
+		script to parse the GSI file and convert it into Geojson format. I then imported the resulting three Geojson files as three separate data layers on Google Maps.
 				
 				
 			</p>

@@ -74,25 +74,21 @@ class Wydot extends Component {
 			<Col xs={12} md={7}  className="float-right" >
 			 <h2 >From Infographic to Landing Page</h2>
 			 <p >
-			 WYDOT Connected vehicle pilot is the campaign to help promote the 
-			 connected vehicle project for Wyoming Department of Transportation, 
-			 which build a sensor-based system on the highway 80 across Wyoming 
-			 to help vehicles get connected with the control center and each other, 
-			 and is one of the three pilot project in the nation. The campaign 
-			 composed of a variety of different materials, including social media, 
-			 videos, infographics and website, I'm the major design and developer 
-			 for the website of the project.
+			I am responsible for the design and development of the website for the Wyoming Department of 
+			Transportation's (WYDOT) Connected Vehicle Pilot campaign. This campaign is aimed at promoting 
+			the connected vehicle project, which involves the installation of a sensor-based system on Highway 
+			80 in Wyoming to allow vehicles to connect with the control center and each other. The campaign materials 
+			include social media posts, videos, infographics, and the website. The connected vehicle project is one 
+			of three pilot projects in the country.
 			 </p>
 					 
 			 <p >
-			 The project goes through a long discussion on the information architecture, 
-			 and how to present all the information to the public, we come up with a infographic 
-			 to help guide the logic sequence of the project, start with the current challenges 
-			 on the high-way, and presented some consequences the challenges caused, then we 
-			 discussed how the Connected Vehicle Pilot project can solve the challenges, and 
-			 how the vehicles and utilities can implement the changes. We adjusted the sequence 
-			 when it comes to webpage, to highlight the solutions and their effects, and provide 
-			 interface for events and news.
+			The project involved a thorough discussion on the information architecture and how to present all of the 
+			information to the public. As a result, we created an infographic to guide the logical sequence of the project. 
+			This infographic begins by discussing the current challenges on the highway and the consequences they have caused. 
+			It then explains how the Connected Vehicle Pilot project can address these challenges and how vehicles and utilities 
+			can implement the necessary changes. For the website, we modified the sequence to prioritize the solutions and their 
+			effects, and to provide a space for events and news updates.
 			 </p>
 			 </Col>
 			 <Col xs={12} md={5} className="float-left">
@@ -109,14 +105,12 @@ class Wydot extends Component {
 		   <Col xs={12} md={5}  className="float-right" >
 		   
 			<p >
-			I'm the major developer of the website, following the Bootstrap grid system, 
-			we included lots of micro-interactions to make the website more vivid and attractive. 
-			The hero-image rotate in a gradient way to keep the cool visual effects of the website, 
-			we adapted a cool rotating-transition as the onboarding animation. For the other sections, 
-			we created a filter section to categorize different materials and keep the page tight,
-			in the research sub-page, we adapted the card-based grid system plus the 3d transition of the 
-			cards to help guide user flip through the card to see the details. A demo of the research subpage
-			is as follows:
+			As the major developer of the website, I used the Bootstrap grid system and added various micro-interactions 
+			to make the website more engaging and visually appealing. The hero image rotates in a gradient manner to maintain 
+			a cool visual effect on the website, and we also implemented a rotating transition as the onboarding animation. 
+			For other sections of the website, we created a filtering feature to categorize different materials and keep the page 
+			organized. On the research subpage, we utilized a card-based grid system and added a 3D transition effect to the cards, 
+			allowing users to easily flip through and view the details. A demo of the research subpage is shown as follows:
 				
 				
 			</p>
@@ -152,9 +146,7 @@ class Wydot extends Component {
 		   <Col xs={12} md={6}  className="float-right" >
 			
 			<p >
-			The project has received great feedback from both the client and media, 
-			the company also set up a webpage to highlight the project as one of the examples 
-			of digital campaign, more client story of the project can be found in the &nbsp;
+			The project has received positive feedback from both the client and media. The company has also created a webpage to showcase the project as a successful example of a digital campaign. Additional client stories about the project can be found in the &nbsp;
 			<a href="https://www.icf.com/clients/transportation/wydot" target="_blank" className="wydot-link">case study</a>.
 				
 				

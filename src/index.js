@@ -10,8 +10,11 @@ import Amazon from './Projects/Amazon'
 import covid from './Projects/Covid'
 import Seed from './Projects/Seed'
 import Mymic from './Projects/Mymic'
+import NYCA from './Projects/NYCA'
 import ROTC from './Projects/ROTC'
 import Wydot from './Projects/Wydot'
+import DTE from './Projects/DTE'
+import Fatherhood from './Projects/Fatherhood'
 import Socalren from './Projects/Socalren'
 import Smokefree from './Projects/Smokefree'
 import NCBIVirus from './Projects/NCBIVirus'
@@ -45,6 +48,9 @@ const routing = (
         <Route path="/seed" component={Seed} />
         <Route path="/ROTC" component={ROTC} />
         <Route path="/CivicLab" component={CivicLab} />
+        <Route path="/NYCA" component={NYCA} />
+        <Route path="/Fatherhood" component={Fatherhood} />
+        <Route path="/DTE" component={DTE} />
         <Route path="/wydot" component={Wydot} />
         <Route path="/socalren" component={Socalren} />
         <Route path="/gp" component={GP} />

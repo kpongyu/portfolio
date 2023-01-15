@@ -47,13 +47,14 @@ class Projects extends Component {
         title: `SoCalREN and Energy Monsters`,
         placeholder: "./assets/img/project/socalren-cover-alt.jpg"
       },
-      
-      'clinicalInfo': {
-        navigation: "/clinicalInfo",
-        imageSource: "./assets/img/project/clinicalInfo.jpg",
-        title: "ClinicalInfo Mobile Application",
-        placeholder: "./assets/img/project/clinicalInfo-alt.jpg"
+         'NYCA': {
+        navigation: "/NYCA",
+        imageSource: "./assets/img/project/nyca-cover.jpg",
+        title: "New York City Accelerator",
+        placeholder: "./assets/img/project/nyca-cover-alt.jpg"
       },
+      
+      
       'covid': {
         navigation: "/covid",
         imageSource: "./assets/img/project/covid.jpg",
@@ -73,6 +74,50 @@ class Projects extends Component {
         title: "Smokefree Web System",
         placeholder: "./assets/img/project/smokefree-cover-alt.jpg"
       },
+
+       'fatherhood': {
+        navigation: "/fatherhood",
+        imageSource: "./assets/img/project/fatherhood-cover.jpg",
+        title: "Fatherhood.gov Web Design",
+        placeholder: "./assets/img/project/fatherhood-cover-alt.jpg"
+      },
+      'DTE': {
+        navigation: "/DTE",
+        imageSource: "./assets/img/project/dte-cover.jpg",
+        title: "DTE OIT Redesign",
+        placeholder: "./assets/img/project/dte-cover-alt.jpg"
+      },
+     
+      'clinicalInfo': {
+        navigation: "/clinicalInfo",
+        imageSource: "./assets/img/project/clinicalInfo.jpg",
+        title: "ClinicalInfo Mobile Application",
+        placeholder: "./assets/img/project/clinicalInfo-alt.jpg"
+      },
+      // 'wydot': {
+      //   navigation: "/wydot",
+      //   imageSource: "./assets/img/project/wydot-cover.jpg",
+      //   title: "WYDOT Connected Vehicle Pilot Project",
+      //   placeholder: "./assets/img/project/wydot-cover-alt.jpg"
+      // },
+    
+      // 'mymic': {
+      //   navigation: "/mymic",
+      //   imageSource: "./assets/img/project/mymic.jpg",
+      //   title: "Mymic Physical Therapy Device",
+      //   placeholder: "./assets/img/project/mymic-alt.jpg"
+      // },
+      // 'seed': {
+      //   navigation: "/seed",
+      //   imageSource: "./assets/img/project/seed.jpg",
+      //   title: "Seed Gamification Mobile APP"
+      // },
+      // 'rotc': {
+      //   navigation: "/rotc",
+      //   imageSource: "./assets/img/project/rotc.jpg",
+      //   title: "Michigan ROTC Web Dev.",
+      //   placeholder: "./assets/img/project/rotc-alt.jpg"
+      // },
       'datim': {
         navigation: "/datim",
         imageSource: "./assets/img/project/datim.jpg",
@@ -85,29 +130,10 @@ class Projects extends Component {
         title: "Georgia Power Lighting App",
         placeholder: "./assets/img/project/georgia-cover-alt.jpg"
       },
-      'wydot': {
-        navigation: "/wydot",
-        imageSource: "./assets/img/project/wydot-cover.jpg",
-        title: "WYDOT Connected Vehicle Pilot Project",
-        placeholder: "./assets/img/project/wydot-cover-alt.jpg"
-      },
-      // 'mymic': {
-      //   navigation: "/mymic",
-      //   imageSource: "./assets/img/project/mymic.jpg",
-      //   title: "Mymic Physical Therapy Device",
-      //   placeholder: "./assets/img/project/mymic-alt.jpg"
-      // },
-      'seed': {
-        navigation: "/seed",
-        imageSource: "./assets/img/project/seed.jpg",
-        title: "Seed Gamification Mobile APP"
-      },
-      'rotc': {
-        navigation: "/rotc",
-        imageSource: "./assets/img/project/rotc.jpg",
-        title: "Michigan ROTC Web Dev.",
-        placeholder: "./assets/img/project/rotc-alt.jpg"
-      },
+     
+
+
+
       'civiclab': {
         navigation: "/civiclab",
         imageSource: "./assets/img/project/civiclab.jpg",
