@@ -56,10 +56,10 @@ class Projects extends Component {
       
       
       'covid': {
-        navigation: "/covid",
-        imageSource: "./assets/img/project/covid.webp",
-        title: "NIH COVID-19 Clinical Guidelines",
-        placeholder: "./assets/img/project/covid-alt.webp"
+        navigation: "/coswd",
+        imageSource: "./assets/img/project/coswd-cover.webp",
+        title: "COSWD Web Redesign",
+        placeholder: "./assets/img/project/coswd-cover-alt.webp"
       },
      
       'amazon': {
@@ -67,6 +67,13 @@ class Projects extends Component {
         imageSource: "./assets/img/project/amazon.webp",
         title: "Amazon Mobile Card System",
         placeholder: "./assets/img/project/amazon-alt.webp"
+      },
+
+       'coswd': {
+        navigation: "/CB",
+        imageSource: "./assets/img/project/smokefree-cover.webp",
+        title: "Child Bureau Web System",
+        placeholder: "./assets/img/project/smokefree-cover-alt.webp"
       },
       'smokefree': {
         navigation: "/smokefree",
@@ -123,6 +130,12 @@ class Projects extends Component {
         imageSource: "./assets/img/project/datim.webp",
         title: "PEPFAR DATIM MSP Platform",
         placeholder: "./assets/img/project/datim-alt.webp"
+      },
+       'CB': {
+        navigation: "/CB",
+        imageSource: "./assets/img/project/cb-cover.webp",
+        title: "Children's Bureau Collaborative Site",
+        placeholder: "./assets/img/project/cb-cover-alt.webp"
       },
       'georgia-power': {
         navigation: "/gp",

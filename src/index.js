@@ -22,6 +22,8 @@ import ClinicalInfo from './Projects/ClinicalInfo'
 import Datim from './Projects/Datim'
 import GP from './Projects/GP'
 import CivicLab from './Projects/CivicLab'
+import CB from './Projects/CB'
+import COSWD from './Projects/Coswd'
 import 'bootstrap/dist/css/bootstrap.css'
 import ScrollToTop from './ScrollToTop'
 
@@ -58,6 +60,8 @@ const routing = (
         <Route path="/datim" component={Datim} />
         <Route path="/ncbiVirus" component={NCBIVirus} />
         <Route path="/ClinicalInfo" component={ClinicalInfo} />
+        <Route path="/CB" component={CB}/>
+         <Route path="/coswd" component={COSWD}/>
       </Switch>
       <Footer />
     </div>
