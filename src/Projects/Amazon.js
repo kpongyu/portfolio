@@ -43,14 +43,14 @@ class Amazon extends Component {
         <div>
   {this.state.spinner ? <Preloader/> : true}
         <Row className="cd-header amazon-header">
-		<LazyLoadComponent effect="blur" height="500px" width="100%" placeholderSrc="./assets/img/amazon/poster.jpg">
-					  <video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/amazon/poster.jpg">
+		<LazyLoadComponent effect="blur" height="500px" width="100%" placeholderSrc="./assets/img/amazon/poster.webp">
+					  <video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/amazon/poster.webp">
                 <source src="./assets/img/amazon/amazon.mp4" type="video/mp4" />
                
     		</video>        
 		</LazyLoadComponent>
 	<Container>
-    <img src="./assets/img/amazon/amazon_logo.png" className="project-logo" alt="amazon logo"/>
+    <img src="./assets/img/amazon/amazon_logo.webp" className="project-logo" alt="amazon logo"/>
     <h1>Designing a mobile card system for Amazon</h1>
 		<p className="amazon-header">
 			<strong>My Role</strong>: User Experience Designer, Visual Designer<br/>
@@ -84,7 +84,7 @@ class Amazon extends Component {
 			</ul>
 			</Col>
 			<Col xs={12} md={6} className="section-media-container">
-			<LazyLoadImage effect="blur" alt="user-journey" placeholderSrc="./assets/img/amazon/user-journey-alt.png" src="./assets/img/amazon/user-journey.png" className="img-fluid right-img" />
+			<LazyLoadImage effect="blur" alt="user-journey" placeholderSrc="./assets/img/amazon/user-journey-alt.webp" src="./assets/img/amazon/user-journey.webp" className="img-fluid right-img" />
 			
 			</Col>
 		</Row>
@@ -103,7 +103,7 @@ class Amazon extends Component {
 				states, as well as providing immediate feedback to users when they interact with the card. You can 
 				experiment with the prototype to see how it functions with users.</p>
 			
-			 <LazyLoadImage effect="blur" alt="past versions" placeholderSrc="./assets/img/amazon/past-alt.png" src="./assets/img/amazon/past.png" className="img-fluid right-img" />
+			 <LazyLoadImage effect="blur" alt="past versions" placeholderSrc="./assets/img/amazon/past-alt.webp" src="./assets/img/amazon/past.webp" className="img-fluid right-img" />
 			</Col>
       <Col xs={12} md={4} >
 		  	<LazyLoadComponent effect="blur" height="320" width="600">
@@ -125,7 +125,7 @@ class Amazon extends Component {
 
 
 
-  <section className="section cd-fixed-background amazon-fixed-bg" style={{backgroundImage: `url(require(".assets/img/amazon/img-4.jpg"))`}}>
+  <section className="section cd-fixed-background amazon-fixed-bg" style={{backgroundImage: `url(require(".assets/img/amazon/img-4.webp"))`}}>
 		<Row className="cd-content shadow-box">
 		
 			<h2 className="white-title">A scalable system to generate cards</h2>

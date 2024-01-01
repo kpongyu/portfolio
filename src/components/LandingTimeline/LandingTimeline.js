@@ -20,7 +20,7 @@ class LandingTimeline extends Component {
     className="vertical-timeline-element--work"
     date="2019 - present"
     iconStyle={{ background: '#000000', color: '#fff' }}
-    icon={<img src="./assets/img/homepage/icf-next-logo.jpg" className="timeline-logo icf-next-logo"/>}
+    icon={<img src="./assets/img/homepage/icf-next-logo.webp" className="timeline-logo icf-next-logo"/>}
   >
 
 
@@ -34,22 +34,22 @@ class LandingTimeline extends Component {
     <div className="clients-container">
 				<a href="https://www.nih.gov/" target="_blank">
         <div className="clients border">
-        <img src="./assets/img/homepage/nih-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/NIH-logo.webp" className="client-logo"/>
         </div></a>
 			
 				<a href="https://www.ncbi.nlm.nih.gov/" target="_blank">
         <div className="clients">
-        <img src="./assets/img/homepage/ncbi-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/ncbi-logo.webp" className="client-logo"/>
         </div></a>
 			
         <a href="https://www.pepfar.gov/" target="_blank">
         <div className="clients">
-        <img src="./assets/img/homepage/pepfar-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/pepfar-logo.webp" className="client-logo"/>
         </div></a>
 
         <a href="https://www.hiv.gov/" target="_blank">
         <div className="clients border">
-        <img src="./assets/img/homepage/hiv-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/hiv-logo.webp" className="client-logo"/>
         </div></a>
     </div>
     
@@ -61,7 +61,7 @@ class LandingTimeline extends Component {
     className="vertical-timeline-element--work"
     date="2016 - 2018"
     iconStyle={{ background: '#eeeeee', color: '#fff' }}
-    icon={<img src="./assets/img/homepage/icf_logo.png" className="timeline-logo"/>}
+    icon={<img src="./assets/img/homepage/icf_logo.webp" className="timeline-logo"/>}
   >
     <h3 className="vertical-timeline-element-title">Interaction Designer</h3>
     <h4 className="vertical-timeline-element-subtitle"><a href="https://www.icf.com/" target="_blank">ICF</a></h4>
@@ -72,22 +72,22 @@ class LandingTimeline extends Component {
     <div className="clients-container">
 				<a href="https://www.transportation.gov/" target="_blank">
         <div className="clients border">
-        <img src="./assets/img/homepage/usdot-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/usdot-logo.webp" className="client-logo"/>
         </div></a>
 			
 				<a href="https://www.hudexchange.info/" target="_blank">
         <div className="clients">
-        <img src="./assets/img/homepage/hud.png" className="client-logo"/>
+        <img src="./assets/img/homepage/hud.webp" className="client-logo"/>
         </div></a>
 			
         <a href="https://socalren.org/" target="_blank">
         <div className="clients">
-        <img src="./assets/img/homepage/socalren-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/socalren-logo.webp" className="client-logo"/>
         </div></a>
 
         <a href="https://www.exeloncorp.com/" target="_blank">
         <div className="clients border">
-        <img src="./assets/img/homepage/exelon-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/exelon-logo.webp" className="client-logo"/>
         </div></a>
     </div>
   </VerticalTimelineElement>
@@ -97,7 +97,7 @@ class LandingTimeline extends Component {
     className="vertical-timeline-element--work"
     date="2015"
     iconStyle={{ background: '#eeeeee', color: '#fff' }}
-    icon={<img src="./assets/img/homepage/amazon-logo.png" className="timeline-logo"/>}
+    icon={<img src="./assets/img/homepage/amazon-logo.webp" className="timeline-logo"/>}
   >
     <h3 className="vertical-timeline-element-title">UX Design Intern</h3>
     <h4 className="vertical-timeline-element-subtitle">Amazon</h4>
@@ -121,7 +121,7 @@ class LandingTimeline extends Component {
     className="vertical-timeline-element--work"
     date="2014 - 2016"
     iconStyle={{ background: '#eeeeee', color: '#fff' }}
-    icon={<img src="./assets/img/homepage/um-logo.png" className="timeline-logo"/>}
+    icon={<img src="./assets/img/homepage/um-logo.webp" className="timeline-logo"/>}
   >
     <h3 className="vertical-timeline-element-title">Master of Information</h3>
     <h4 className="vertical-timeline-element-subtitle">University of Michigan, Ann Arbor</h4>
@@ -132,22 +132,22 @@ class LandingTimeline extends Component {
     <div className="clients-container">
 				<a href="https://www.amway.com" target="_blank">
         <div className="clients border">
-        <img src="./assets/img/homepage/amway-logo.png" className="client-logo"/>
+        <img src="./assets/img/homepage/amway-logo.webp" className="client-logo"/>
         </div></a>
 			
 				<a href="http://www.army.rotc.umich.edu/" target="_blank">
         <div className="clients">
-        <img src="./assets/img/homepage/rotc.jpg" className="client-logo"/>
+        <img src="./assets/img/homepage/rotc.webp" className="client-logo"/>
         </div></a>
 			
         <a href="http://www.civiclab.us/" target="_blank">
         <div className="clients">
-        <img src="./assets/img/homepage/civiclab.png" className="client-logo"/>
+        <img src="./assets/img/homepage/civiclab.webp" className="client-logo"/>
         </div></a>
 
         <a href="https://www.bopglobalnetwork.org" target="_blank">
         <div className="clients">
-        <img src="./assets/img/homepage/bop.png" className="client-logo"/>
+        <img src="./assets/img/homepage/bop.webp" className="client-logo"/>
         </div></a>
     </div>
   </VerticalTimelineElement>
@@ -155,7 +155,7 @@ class LandingTimeline extends Component {
     className="vertical-timeline-element--education"
     date="2014"
     iconStyle={{ background: '#006ABE', color: '#fff' }}
-    icon={<img src="./assets/img/homepage/pmi-logo.jpg" className="timeline-logo icf-next-logo"/>}
+    icon={<img src="./assets/img/homepage/pmi-logo.webp" className="timeline-logo icf-next-logo"/>}
   >
     <h3 className="vertical-timeline-element-title">Project Management Professional (PMP)</h3>
     <h4 className="vertical-timeline-element-subtitle">Credential ID 1711440</h4>
@@ -165,7 +165,7 @@ class LandingTimeline extends Component {
     className="vertical-timeline-element--education"
     date="2010 - 2014"
     iconStyle={{ background: '#eeeeee', color: '#fff' }}
-    icon={<img src="./assets/img/homepage/whu-logo.png" className="timeline-logo"/>}
+    icon={<img src="./assets/img/homepage/whu-logo.webp" className="timeline-logo"/>}
   >
     <h3 className="vertical-timeline-element-title">Bachelor of Information Management</h3>
     <h4 className="vertical-timeline-element-subtitle">Wuhan University</h4>

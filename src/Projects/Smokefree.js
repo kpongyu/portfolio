@@ -43,12 +43,12 @@ class CivicLab extends Component {
 {this.state.spinner ? <Preloader/> : true}
 
 			  <section className="smokefree-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/smokefree/smokefree-header-alt.jpg" src="./assets/img/smokefree/smokefree-header.jpg" className="hero-bg" />
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/smokefree/smokefree-header-alt.webp" src="./assets/img/smokefree/smokefree-header.webp" className="hero-bg" />
 		<Container>
        
         
 	<div className="smokefree-header-content ">
-    <img src="./assets/img/smokefree/smokefree-logo.png" className="project-logo" alt="seed logo"/>
+    <img src="./assets/img/smokefree/smokefree-logo.webp" className="project-logo" alt="seed logo"/>
     <h1>Smokefree QuitGuide App</h1>
 		<p >
 		<strong>My Role</strong>: Interaction Designer, React-Native Developer<br/>
@@ -88,7 +88,7 @@ class CivicLab extends Component {
 					
 			</Col>
 			<Col xs={12} md={5} className="float-left">
-							  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/smokefree/smokefree-desktop-alt.png" src="./assets/img/smokefree/smokefree-desktop.png" className="img-fluid" />
+							  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/smokefree/smokefree-desktop-alt.webp" src="./assets/img/smokefree/smokefree-desktop.webp" className="img-fluid" />
 			</Col>
 			
 			</Row>
@@ -116,7 +116,7 @@ class CivicLab extends Component {
 				monitor and improve their progress.
 			</p>
 			
-			<LazyLoadImage effect="blur" alt="other content type" placeholderSrc="./assets/img/smmokefree/information-flow-alt.png" src="./assets/img/smokefree/information-flow.png" className="img-fluid image-within-content" />
+			<LazyLoadImage effect="blur" alt="other content type" placeholderSrc="./assets/img/smmokefree/information-flow-alt.webp" src="./assets/img/smokefree/information-flow.webp" className="img-fluid image-within-content" />
 			</Col>
 			
 			</Row>
@@ -139,7 +139,7 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12}>
-							  <LazyLoadImage effect="blur" alt="UUser Behavior" placeholderSrc="./assets/img/smokefree/user-behavior-alt.jpg" src="./assets/img/smokefree/user-behavior.jpg" className="img-fluid" />
+							  <LazyLoadImage effect="blur" alt="UUser Behavior" placeholderSrc="./assets/img/smokefree/user-behavior-alt.webp" src="./assets/img/smokefree/user-behavior.webp" className="img-fluid" />
 				
 			</Col>
 			</Row>
@@ -170,7 +170,7 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} md={7}>
-			 <LazyLoadImage effect="blur" alt="Smokelyzer Screens" placeholderSrc="./assets/img/smokefree/smokelyzer-alt.png" src="./assets/img/smokefree/smokelyzer.png" className="img-fluid" />
+			 <LazyLoadImage effect="blur" alt="Smokelyzer Screens" placeholderSrc="./assets/img/smokefree/smokelyzer-alt.webp" src="./assets/img/smokefree/smokelyzer.webp" className="img-fluid" />
 
 			</Col>
 			</Row>
@@ -205,7 +205,7 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} md={7}>
-							  <LazyLoadImage effect="blur" alt="Smokefree NRT Campaign" placeholderSrc="./assets/img/smokefree/future-alt.jpg" src="./assets/img/smokefree/future.jpg" className="img-fluid" />
+							  <LazyLoadImage effect="blur" alt="Smokefree NRT Campaign" placeholderSrc="./assets/img/smokefree/future-alt.webp" src="./assets/img/smokefree/future.webp" className="img-fluid" />
 
 			</Col>
 			</Row>

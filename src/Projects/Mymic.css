@@ -15,7 +15,7 @@ min-height: 300px !important;
 }
 
 .mymic-fixed-bg{
-  background-image: url("../../public/assets/img/mymic/mymic-bg-1.png");
+  background-image: url("../../public/assets/img/old/mymic/mymic-bg-1.png");
   padding: 5em 0em;
   background-attachment: fixed;
 }

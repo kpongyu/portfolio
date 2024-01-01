@@ -42,12 +42,12 @@ class CivicLab extends Component {
         <section>
 {this.state.spinner ? <Preloader/> : true}
 		<section className="datim-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/datim/datim-header-alt.jpg" src="./assets/img/datim/datim-header.jpg" className="hero-bg" />
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/datim/datim-header-alt.webp" src="./assets/img/datim/datim-header.webp" className="hero-bg" />
 		<Container>
        
         
 	<div className="datim-header-content ">
-    <img src="./assets/img/datim/datim-logo.png" className="project-logo" alt="seed logo"/>
+    <img src="./assets/img/datim/datim-logo.webp" className="project-logo" alt="seed logo"/>
     <h1>PEPFAR DATIM MSP system</h1>
 		<p >
 		<strong>My Role</strong>: Web Developer, Web Designer<br/>
@@ -85,7 +85,7 @@ class CivicLab extends Component {
 					
 			</Col>
 			<Col xs={12} md={7} className="float-left">
-			<LazyLoadImage effect="blur" placeholderSrc="./assets/img/datim/datim-personas-alt.png" src="./assets/img/datim/datim-personas.png" className="img-fluid right-img" />
+			<LazyLoadImage effect="blur" placeholderSrc="./assets/img/datim/datim-personas-alt.webp" src="./assets/img/datim/datim-personas.webp" className="img-fluid right-img" />
 
 			</Col>
 			
@@ -112,7 +112,7 @@ class CivicLab extends Component {
 		
 			</Col>
 			<Col xs={12} md={12}>
-			<LazyLoadImage effect="blur" alt="Datim User Tasks" placeholderSrc="./assets/img/datim/datim-user-tasks-alt.png" src="./assets/img/datim/datim-user-tasks.png" className="img-fluid right-img" />
+			<LazyLoadImage effect="blur" alt="Datim User Tasks" placeholderSrc="./assets/img/datim/datim-user-tasks-alt.webp" src="./assets/img/datim/datim-user-tasks.webp" className="img-fluid right-img" />
 			</Col>
 			</Row>
 		</Container>
@@ -135,7 +135,7 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} mdPull={8} md={6}>
-			 <LazyLoadImage effect="blur" alt="Datim Data Elements" placeholderSrc="./assets/img/datim/datim-dataelements-alt.jpg" src="./assets/img/datim/datim-dataelements.jpg" className="img-fluid right-img" />
+			 <LazyLoadImage effect="blur" alt="Datim Data Elements" placeholderSrc="./assets/img/datim/datim-dataelements-alt.webp" src="./assets/img/datim/datim-dataelements.webp" className="img-fluid right-img" />
 
 			</Col>
 			</Row>
@@ -160,7 +160,7 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} md={7}>
-				<LazyLoadImage effect="blur" alt="datim Comparison Panel" placeholderSrc="./assets/img/datim/datim-comparison-alt.jpg" src="./assets/img/datim/datim-comparison.jpg" className="img-fluid right-img" />
+				<LazyLoadImage effect="blur" alt="datim Comparison Panel" placeholderSrc="./assets/img/datim/datim-comparison-alt.webp" src="./assets/img/datim/datim-comparison.webp" className="img-fluid right-img" />
 
 			</Col>
 			</Row>
@@ -193,7 +193,7 @@ class CivicLab extends Component {
 			
 			</Col>
 			<Col xs={12} md={7}>
-			<LazyLoadImage effect="blur" alt="ddatim Indicators" placeholderSrc="./assets/img/datim/datim-indicators-alt.jpg" src="./assets/img/datim/datim-indicators.jpg" className="img-fluid right-img" />
+			<LazyLoadImage effect="blur" alt="ddatim Indicators" placeholderSrc="./assets/img/datim/datim-indicators-alt.webp" src="./assets/img/datim/datim-indicators.webp" className="img-fluid right-img" />
 			
 			</Col>
 			</Row>

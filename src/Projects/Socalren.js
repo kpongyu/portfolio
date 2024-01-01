@@ -141,9 +141,9 @@ class Socalren extends Component {
         <section>
 {this.state.spinner ? <Preloader/> : true}
 			  <Row className="socalren-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/socalren/socalren-header-alt.jpg" src="./assets/img/socalren/socalren-header.jpg" className="hero-bg" />
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/socalren/socalren-header-alt.webp" src="./assets/img/socalren/socalren-header.webp" className="hero-bg" />
 	<div className="socalren-header-content">
-    <img src="./assets/img/socalren/socalren-logo.png" className="socalren-logo" alt="socalren logo"/>
+    <img src="./assets/img/socalren/socalren-logo.webp" className="socalren-logo" alt="socalren logo"/>
     <h1>SocalREN and Energy Monsters</h1>
 		<p >
 		<strong>My Role</strong>: Interaction Designer, Front-end Developer<br/>
@@ -176,11 +176,11 @@ class Socalren extends Component {
 				
 				
 			</p>
-			<img src="./assets/img/socalren/color-palette.png" alt="color palette" className="img-fluid right-img image-within-content socalren-content-image"/>
+			<img src="./assets/img/socalren/color-palette.webp" alt="color palette" className="img-fluid right-img image-within-content socalren-content-image"/>
 					
 			</Col>
 			<Col xs={12} md={5} className="float-left">
-				<LazyLoadImage effect="blur" alt="user-journey" placeholderSrc="./assets/img/socalren/branding-alt.png" src="./assets/img/socalren/branding.png" className="img-fluid" />
+				<LazyLoadImage effect="blur" alt="user-journey" placeholderSrc="./assets/img/socalren/branding-alt.webp" src="./assets/img/socalren/branding.webp" className="img-fluid" />
 				
 			</Col>
 			
@@ -197,7 +197,7 @@ class Socalren extends Component {
 		<h2 >Mobile-First Design Approach and Web Development</h2>
 		</Col>
 						  <Col xs={12} md={8} className="float-left">
-							  <LazyLoadImage effect="blur" alt="mobile interaction" placeholderSrc="./assets/img/socalren/mobile-alt.png" src="./assets/img/socalren/mobile.png" className="img-fluid" />
+							  <LazyLoadImage effect="blur" alt="mobile interaction" placeholderSrc="./assets/img/socalren/mobile-alt.webp" src="./assets/img/socalren/mobile.webp" className="img-fluid" />
 
 
 						  </Col>
@@ -306,8 +306,8 @@ class Socalren extends Component {
 							  <h2 >Energy Monsters and Kits4Kids</h2>
 						  </Col>
 						  <Col xs={12} md={8} className="float-left">
-							  <LazyLoadComponent effect="blur" placeholderSrc="./assets/img/socalren/monster-alt.png">
-								  <video loop autoPlay className="responsive-video" poster="./assets/img/socalren/monster-alt.png" >
+							  <LazyLoadComponent effect="blur" placeholderSrc="./assets/img/socalren/monster-alt.webp">
+								  <video loop autoPlay className="responsive-video" poster="./assets/img/socalren/monster-alt.webp" >
 									  <source src="./assets/img/socalren/monsters.mp4" type="video/mp4" />
 
 								  </video>
@@ -347,7 +347,7 @@ class Socalren extends Component {
 
 							  </p>
 							  <a href="https://energymonsters.fun/full-games/index.html" target="_blank">
-							  <LazyLoadImage effect="blur" alt="fuzzy muzzy game" placeholderSrc="./assets/img/socalren/fuzzy-muzzy-game-alt.png" src="./assets/img/socalren/fuzzy-muzzy-game.png" className="img-fluid" />
+							  <LazyLoadImage effect="blur" alt="fuzzy muzzy game" placeholderSrc="./assets/img/socalren/fuzzy-muzzy-game-alt.webp" src="./assets/img/socalren/fuzzy-muzzy-game.webp" className="img-fluid" />
 								</a>
 
 						  </Col>
@@ -379,7 +379,7 @@ class Socalren extends Component {
 
 							  </p>
 							  <a href="https://energymonsters.fun/full-games/index.html#Lavender_page" target="_blank">
-							  <LazyLoadImage effect="blur" alt="lavender game" placeholderSrc="./assets/img/socalren/lavender-game-alt.png" src="./assets/img/socalren/lavender-game.png" className="img-fluid" />
+							  <LazyLoadImage effect="blur" alt="lavender game" placeholderSrc="./assets/img/socalren/lavender-game-alt.webp" src="./assets/img/socalren/lavender-game.webp" className="img-fluid" />
 </a>
 
 						  </Col>
@@ -412,7 +412,7 @@ class Socalren extends Component {
 
 							  </p>
 							  <a href="https://energymonsters.fun/full-games/index.html#Ginger_page" target="_blank">
-							  <LazyLoadImage effect="blur" alt="ginger game" placeholderSrc="./assets/img/socalren/ginger-game-alt.png" src="./assets/img/socalren/ginger-game.png" className="img-fluid" />
+							  <LazyLoadImage effect="blur" alt="ginger game" placeholderSrc="./assets/img/socalren/ginger-game-alt.webp" src="./assets/img/socalren/ginger-game.webp" className="img-fluid" />
 </a>
 
 						  </Col>
@@ -444,7 +444,7 @@ class Socalren extends Component {
 
 							  </p>
 							  <a href="https://energymonsters.fun/full-games/index.html#Spike_page" target="_blank">
-							  <LazyLoadImage effect="blur" alt="spike game" placeholderSrc="./assets/img/socalren/spike-game-alt.png" src="./assets/img/socalren/spike-game.png" className="img-fluid" />
+							  <LazyLoadImage effect="blur" alt="spike game" placeholderSrc="./assets/img/socalren/spike-game-alt.webp" src="./assets/img/socalren/spike-game.webp" className="img-fluid" />
 </a>
 
 						  </Col>
@@ -472,7 +472,7 @@ class Socalren extends Component {
 							  <p >
 								Specster is learning about energy-related terms and trying to complete an energy crossword puzzle. Hints are provided to help kids fill in the crossword with energy-related terms.	  </p>
 							  <a href="https://energymonsters.fun/full-games/index.html#Specster_page" target="_blank">
-							  <LazyLoadImage effect="blur" alt="specster game" placeholderSrc="./assets/img/socalren/specster-game-alt.png" src="./assets/img/socalren/specster-game.png" className="img-fluid" />
+							  <LazyLoadImage effect="blur" alt="specster game" placeholderSrc="./assets/img/socalren/specster-game-alt.webp" src="./assets/img/socalren/specster-game.webp" className="img-fluid" />
 </a>
 
 						  </Col>

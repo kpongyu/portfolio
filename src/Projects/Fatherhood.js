@@ -45,12 +45,12 @@ class fatherhood extends Component {
 
 {this.state.spinner ? <Preloader/> : true}
 			  <section className="fatherhood-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/fatherhood-hero-alt.jpg" src="./assets/img/fatherhood/fatherhood-hero.jpg" className="hero-bg" />
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/fatherhood-hero-alt.webp" src="./assets/img/fatherhood/fatherhood-hero.webp" className="hero-bg" />
 		<Container>
        
         
 	<div className="fatherhood-header-content ">
-    <img src="./assets/img/fatherhood/fatherhood-logo.png" className="project-logo fatherhood-logo" alt="fatherhood logo"/>
+    <img src="./assets/img/fatherhood/fatherhood-logo.webp" className="project-logo fatherhood-logo" alt="fatherhood logo"/>
     <h1>Fatherhood.gov and Dad Joke Widget</h1>
 		<p >
 		<strong>My Role</strong>: Web Designer, Front-end Developer<br/>
@@ -98,15 +98,15 @@ class fatherhood extends Component {
 			
 			 </Col>
 			 <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/homepage-v1-alt.jpg" src="./assets/img/fatherhood/homepage-v1.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/homepage-v1-alt.webp" src="./assets/img/fatherhood/homepage-v1.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Homepage Version 1</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/homepage-v2-alt.jpg" src="./assets/img/fatherhood/homepage-v2.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/homepage-v2-alt.webp" src="./assets/img/fatherhood/homepage-v2.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Homepage Version 2</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/homepage-spanish-alt.jpg" src="./assets/img/fatherhood/homepage-spanish.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/homepage-spanish-alt.webp" src="./assets/img/fatherhood/homepage-spanish.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Homepage Spanish Version</p>
 			 </Col>
 			 
@@ -135,15 +135,15 @@ class fatherhood extends Component {
 			
 			 </Col>
 			 <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/dad-joke-v1-alt.jpg" src="./assets/img/fatherhood/dad-joke-v1.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/dad-joke-v1-alt.webp" src="./assets/img/fatherhood/dad-joke-v1.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Dad Joke Original Concept</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/dad-joke-v2-before-alt.jpg" src="./assets/img/fatherhood/dad-joke-v2-before.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/dad-joke-v2-before-alt.webp" src="./assets/img/fatherhood/dad-joke-v2-before.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Dad Joke New Concept: Before Scratch</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/dad-joke-v2-after-alt.jpg" src="./assets/img/fatherhood/dad-joke-v2-after.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/dad-joke-v2-after-alt.webp" src="./assets/img/fatherhood/dad-joke-v2-after.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Dad Joke New Concept: After Scratch</p>
 			 </Col>
 			 
@@ -173,7 +173,7 @@ class fatherhood extends Component {
 			
 			 </Col>
 			 <Col xs={12} md={6} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/dadjoke-bot-alt.jpg" src="./assets/img/fatherhood/dadjoke-bot.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/dadjoke-bot-alt.webp" src="./assets/img/fatherhood/dadjoke-bot.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Dad Joke Chatbot</p>
 			 </Col>
 			 
@@ -211,7 +211,7 @@ class fatherhood extends Component {
 					
 			</Col>
 			<Col xs={12} md={6} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/report-alt.jpg" src="./assets/img/fatherhood/report.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/report-alt.webp" src="./assets/img/fatherhood/report.webp" className="img-fluid" />
 				
 			</Col>
 			

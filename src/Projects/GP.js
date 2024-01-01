@@ -42,13 +42,13 @@ class GP extends Component {
         <section>
 {this.state.spinner ? <Preloader/> : true}
 <Row className="cd-header gp-header">
-            <LazyLoadComponent effect="blur" height="500px" width="100%" placeholderSrc="./assets/img/georgia-power/gp-poster.jpg">
-              <video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/georgia-power/gp-poster.jpg">
+            <LazyLoadComponent effect="blur" height="500px" width="100%" placeholderSrc="./assets/img/georgia-power/gp-poster.webp">
+              <video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/georgia-power/gp-poster.webp">
                 <source src="./assets/img/georgia-power/gp-header.mp4" type="video/mp4" />         
     </video>        
     </LazyLoadComponent>
 	<Container>
-    <img src="./assets/img/georgia-power/logo.png" className="project-logo gp-logo" alt="GP logo"/>
+    <img src="./assets/img/georgia-power/logo.webp" className="project-logo gp-logo" alt="GP logo"/>
     <h1>GPC Lighting Calculator</h1>
 		<p className="amazon-header">
 			<strong>My Role</strong>: User Experience Designer, Front-end Developer<br/>
@@ -77,7 +77,7 @@ class GP extends Component {
         in each window of the house would change and the yearly and lifetime savings would be updated accordingly.</p>
 			</Col>
 			<Col xs={12} md={5}>
-       <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/options-alt.jpg" src="./assets/img/georgia-power/options.jpg" className="img-fluid" />
+       <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/options-alt.webp" src="./assets/img/georgia-power/options.webp" className="img-fluid" />
 		
 			</Col>
 			</Row>
@@ -100,7 +100,7 @@ class GP extends Component {
 </p>
 			</Col>
 			<Col xs={12} md={5}>
-       <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/desktop-alt.png" src="./assets/img/georgia-power/desktop.png" className="img-fluid" />
+       <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/desktop-alt.webp" src="./assets/img/georgia-power/desktop.webp" className="img-fluid" />
 
 			</Col>
 			</Row>
@@ -116,7 +116,7 @@ class GP extends Component {
    
    </Col>
    <Col xs={12} md={5}>
-     <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/mobile-alt.png" src="./assets/img/georgia-power/mobile.png" className="img-fluid" />
+     <LazyLoadImage effect="blur" placeholderSrc="./assets/img/georgia-power/mobile-alt.webp" src="./assets/img/georgia-power/mobile.webp" className="img-fluid" />
 
    </Col>
    </Row>

@@ -45,7 +45,7 @@ class NYCA extends Component {
 
 {this.state.spinner ? <Preloader/> : true}
 			  <section className="NYCA-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/NYCA-hero-alt.jpg" src="./assets/img/NYCA/NYCA-hero.jpg" className="hero-bg" />
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/NYCA-hero-alt.webp" src="./assets/img/NYCA/NYCA-hero.webp" className="hero-bg" />
 		<Container>
        
         
@@ -95,15 +95,15 @@ class NYCA extends Component {
 			
 			 </Col>
 			 <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/homepage-interaction-option1-alt.jpg" src="./assets/img/NYCA/homepage-interaction-option1.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/homepage-interaction-option1-alt.webp" src="./assets/img/NYCA/homepage-interaction-option1.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Onboarding Concept 1</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/homepage-interaction-option2-alt.jpg" src="./assets/img/NYCA/homepage-interaction-option2.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/homepage-interaction-option2-alt.webp" src="./assets/img/NYCA/homepage-interaction-option2.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Onboarding Concept 2</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/homepage-interaction-option3-alt.jpg" src="./assets/img/NYCA/homepage-interaction-option3.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/homepage-interaction-option3-alt.webp" src="./assets/img/NYCA/homepage-interaction-option3.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Onboarding Concept 3</p>
 			 </Col>
 			 
@@ -131,15 +131,15 @@ class NYCA extends Component {
 					
 			</Col>
 					 <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/nyca-homepage-alt.jpg" src="./assets/img/NYCA/nyca-homepage.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/nyca-homepage-alt.webp" src="./assets/img/NYCA/nyca-homepage.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>NYCA Homepage</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/nyca-campaign-page-alt.jpg" src="./assets/img/NYCA/nyca-campaign-page.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/nyca-campaign-page-alt.webp" src="./assets/img/NYCA/nyca-campaign-page.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>NYCA Campaign Page</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/nyca-find-contractor-page-alt.jpg" src="./assets/img/NYCA/nyca-find-contractor-page.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/nyca-find-contractor-page-alt.webp" src="./assets/img/NYCA/nyca-find-contractor-page.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>NYCA Find Contractor Page</p>
 			 </Col>
 			
@@ -175,15 +175,15 @@ class NYCA extends Component {
 					
 			</Col>
 					 <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/building-selecting-tool-v1-alt.jpg" src="./assets/img/NYCA/building-selecting-tool-v1.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/building-selecting-tool-v1-alt.webp" src="./assets/img/NYCA/building-selecting-tool-v1.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Building Selection Tool Version 1</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/building-selecting-tool-v2-alt.jpg" src="./assets/img/NYCA/building-selecting-tool-v2.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/building-selecting-tool-v2-alt.webp" src="./assets/img/NYCA/building-selecting-tool-v2.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Building Selection Tool Version 2</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/building-selecting-tool-v3-alt.jpg" src="./assets/img/NYCA/building-selecting-tool-v3.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/building-selecting-tool-v3-alt.webp" src="./assets/img/NYCA/building-selecting-tool-v3.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Building Selection Tool Version 3</p>
 			 </Col>
 			

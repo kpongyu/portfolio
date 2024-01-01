@@ -1,5 +1,5 @@
 .gp-header{
-  background-image: url("../../public/assets/img/georgia-power/gp-header.jpg");
+  background-image: url("../../public/assets/img/georgia-power/gp-header.webp");
   background-position: center;
   background-size: cover;
   min-height: 500px;
@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 }
 .gp-fixed-bg{
-  background-image: url("../../public/assets/img/georgia-power/fixed-background.jpg");
+  background-image: url("../../public/assets/img/georgia-power/fixed-background.webp");
   background-attachment: fixed;
   background-size: cover;
 }

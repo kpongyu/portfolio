@@ -37,109 +37,109 @@ class Projects extends Component {
     const myProjects = {
       'ncbi-virus': {
         navigation: "/ncbiVirus",
-        imageSource: "./assets/img/project/ncbi-virus.jpg",
+        imageSource: "./assets/img/project/ncbi-virus.webp",
         title: "NCBI SARS-CoV-2 interactive dashboard",
-        placeholder: "./assets/img/project/ncbi-virus-alt.jpg"
+        placeholder: "./assets/img/project/ncbi-virus-alt.webp"
       },
       'socalren': {
         navigation: "/socalren",
-        imageSource: "./assets/img/project/socalren-cover.jpg",
+        imageSource: "./assets/img/project/socalren-cover.webp",
         title: `SoCalREN and Energy Monsters`,
-        placeholder: "./assets/img/project/socalren-cover-alt.jpg"
+        placeholder: "./assets/img/project/socalren-cover-alt.webp"
       },
          'NYCA': {
         navigation: "/NYCA",
-        imageSource: "./assets/img/project/nyca-cover.jpg",
+        imageSource: "./assets/img/project/nyca-cover.webp",
         title: "New York City Accelerator",
-        placeholder: "./assets/img/project/nyca-cover-alt.jpg"
+        placeholder: "./assets/img/project/nyca-cover-alt.webp"
       },
       
       
       'covid': {
         navigation: "/covid",
-        imageSource: "./assets/img/project/covid.jpg",
+        imageSource: "./assets/img/project/covid.webp",
         title: "NIH COVID-19 Clinical Guidelines",
-        placeholder: "./assets/img/project/covid-alt.jpg"
+        placeholder: "./assets/img/project/covid-alt.webp"
       },
      
       'amazon': {
         navigation: "/amazon",
-        imageSource: "./assets/img/project/amazon.jpg",
+        imageSource: "./assets/img/project/amazon.webp",
         title: "Amazon Mobile Card System",
-        placeholder: "./assets/img/project/amazon-alt.jpg"
+        placeholder: "./assets/img/project/amazon-alt.webp"
       },
       'smokefree': {
         navigation: "/smokefree",
-        imageSource: "./assets/img/project/smokefree-cover.jpg",
+        imageSource: "./assets/img/project/smokefree-cover.webp",
         title: "Smokefree Web System",
-        placeholder: "./assets/img/project/smokefree-cover-alt.jpg"
+        placeholder: "./assets/img/project/smokefree-cover-alt.webp"
       },
 
        'fatherhood': {
         navigation: "/fatherhood",
-        imageSource: "./assets/img/project/fatherhood-cover.jpg",
+        imageSource: "./assets/img/project/fatherhood-cover.webp",
         title: "Fatherhood.gov Web Design",
-        placeholder: "./assets/img/project/fatherhood-cover-alt.jpg"
+        placeholder: "./assets/img/project/fatherhood-cover-alt.webp"
       },
       'DTE': {
         navigation: "/DTE",
-        imageSource: "./assets/img/project/dte-cover.jpg",
+        imageSource: "./assets/img/project/dte-cover.webp",
         title: "DTE OIT Redesign",
-        placeholder: "./assets/img/project/dte-cover-alt.jpg"
+        placeholder: "./assets/img/project/dte-cover-alt.webp"
       },
      
-      'clinicalInfo': {
-        navigation: "/clinicalInfo",
-        imageSource: "./assets/img/project/clinicalInfo.jpg",
-        title: "ClinicalInfo Mobile Application",
-        placeholder: "./assets/img/project/clinicalInfo-alt.jpg"
-      },
+      // 'clinicalInfo': {
+      //   navigation: "/clinicalInfo",
+      //   imageSource: "./assets/img/project/clinicalInfo.webp",
+      //   title: "ClinicalInfo Mobile Application",
+      //   placeholder: "./assets/img/project/clinicalInfo-alt.webp"
+      // },
       // 'wydot': {
       //   navigation: "/wydot",
-      //   imageSource: "./assets/img/project/wydot-cover.jpg",
+      //   imageSource: "./assets/img/project/wydot-cover.webp",
       //   title: "WYDOT Connected Vehicle Pilot Project",
-      //   placeholder: "./assets/img/project/wydot-cover-alt.jpg"
+      //   placeholder: "./assets/img/project/wydot-cover-alt.webp"
       // },
     
       // 'mymic': {
       //   navigation: "/mymic",
-      //   imageSource: "./assets/img/project/mymic.jpg",
+      //   imageSource: "./assets/img/project/mymic.webp",
       //   title: "Mymic Physical Therapy Device",
-      //   placeholder: "./assets/img/project/mymic-alt.jpg"
+      //   placeholder: "./assets/img/project/mymic-alt.webp"
       // },
       // 'seed': {
       //   navigation: "/seed",
-      //   imageSource: "./assets/img/project/seed.jpg",
+      //   imageSource: "./assets/img/project/seed.webp",
       //   title: "Seed Gamification Mobile APP"
       // },
       // 'rotc': {
       //   navigation: "/rotc",
-      //   imageSource: "./assets/img/project/rotc.jpg",
+      //   imageSource: "./assets/img/project/rotc.webp",
       //   title: "Michigan ROTC Web Dev.",
-      //   placeholder: "./assets/img/project/rotc-alt.jpg"
+      //   placeholder: "./assets/img/project/rotc-alt.webp"
       // },
       'datim': {
         navigation: "/datim",
-        imageSource: "./assets/img/project/datim.jpg",
+        imageSource: "./assets/img/project/datim.webp",
         title: "PEPFAR DATIM MSP Platform",
-        placeholder: "./assets/img/project/datim-alt.jpg"
+        placeholder: "./assets/img/project/datim-alt.webp"
       },
       'georgia-power': {
         navigation: "/gp",
-        imageSource: "./assets/img/project/georgia-power-cover.jpg",
+        imageSource: "./assets/img/project/georgia-power-cover.webp",
         title: "Georgia Power Lighting App",
-        placeholder: "./assets/img/project/georgia-cover-alt.jpg"
+        placeholder: "./assets/img/project/georgia-cover-alt.webp"
       },
      
 
 
 
-      'civiclab': {
-        navigation: "/civiclab",
-        imageSource: "./assets/img/project/civiclab.jpg",
-        title: "CivicLab Geo-data visualization",
-        placeholder: "./assets/img/project/civiclab-alt.jpg"
-      },
+      // 'civiclab': {
+      //   navigation: "/civiclab",
+      //   imageSource: "./assets/img/project/civiclab.webp",
+      //   title: "CivicLab Geo-data visualization",
+      //   placeholder: "./assets/img/project/civiclab-alt.webp"
+      // },
 
     }
 

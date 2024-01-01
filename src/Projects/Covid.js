@@ -45,12 +45,12 @@ class Covid extends Component {
 
 {this.state.spinner ? <Preloader/> : true}
 			  <section className="covid-header cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/covid/covid-header-alt.jpg" src="./assets/img/covid/covid-header.jpg" className="hero-bg" />
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/covid/covid-header-alt.webp" src="./assets/img/covid/covid-header.webp" className="hero-bg" />
 		<Container>
        
         
 	<div className="covid-header-content ">
-    <img src="./assets/img/covid/covid.png" className="project-logo covid-logo" alt="NIH logo"/>
+    <img src="./assets/img/covid/covid.webp" className="project-logo covid-logo" alt="NIH logo"/>
     <h1>NIH COVID-19 Clinical Guidelines</h1>
 	<p >
 		<strong>My Role</strong>: Web Developer, Interaction Designer<br />
@@ -95,7 +95,7 @@ class Covid extends Component {
 			 </p>
 			 </Col>
 			 <Col xs={12} md={7} className="float-left">
-				<LazyLoadImage effect="blur" alt="Guideline Homepage" placeholderSrc="./assets/img/covid/home-alt.png" src="./assets/img/covid/home.png" className="img-fluid right-img" />
+				<LazyLoadImage effect="blur" alt="Guideline Homepage" placeholderSrc="./assets/img/covid/home-alt.webp" src="./assets/img/covid/home.webp" className="img-fluid right-img" />
 				
 				 <p className="label">Figure 1: Manuscript Approach and Topic-Oriented Approach</p>
 			 </Col>
@@ -126,7 +126,7 @@ class Covid extends Component {
 					
 			</Col>
 			<Col xs={12} md={7} className="float-left">
-			 <LazyLoadImage effect="blur" alt="Mobile Navigation" placeholderSrc="./assets/img/covid/navigation-alt.png" src="./assets/img/covid/navigation.png" className="img-fluid right-img" />
+			 <LazyLoadImage effect="blur" alt="Mobile Navigation" placeholderSrc="./assets/img/covid/navigation-alt.webp" src="./assets/img/covid/navigation.webp" className="img-fluid right-img" />
 		
 				 <p className="label">Figure 2: Mobile Navigation to adapt to multi-level navigations</p>
                
@@ -166,10 +166,10 @@ class Covid extends Component {
 			</Row>
 			<Row>
 			<Col xs={12} md={6} className="float-left">
-				 <LazyLoadImage effect="blur" alt="recognition" placeholderSrc="./assets/img/covid/news1-alt.png" src="./assets/img/covid/news1.png" className="img-fluid right-img" />
+				 <LazyLoadImage effect="blur" alt="recognition" placeholderSrc="./assets/img/covid/news1-alt.webp" src="./assets/img/covid/news1.webp" className="img-fluid right-img" />
 			</Col>
 			<Col xs={12} md={6} >
-							  <LazyLoadImage effect="blur" alt="recognition" placeholderSrc="./assets/img/covid/news-alt.png" src="./assets/img/covid/news.png" className="img-fluid right-img" />
+							  <LazyLoadImage effect="blur" alt="recognition" placeholderSrc="./assets/img/covid/news-alt.webp" src="./assets/img/covid/news.webp" className="img-fluid right-img" />
 			</Col>
 			<Col xs={12}>
 			<p className="label" style={{textAlign: 'center'}}>Figure 3: News Reports on the launching of the website</p>

@@ -45,12 +45,12 @@ class dte extends Component {
 
 {this.state.spinner ? <Preloader/> : true}
 			  <section className="dte-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/dte-hero-alt.jpg" src="./assets/img/dte/dte-hero.jpg" className="hero-bg" />
+				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/dte-hero-alt.webp" src="./assets/img/dte/dte-hero.webp" className="hero-bg" />
 		<Container>
        
         
 	<div className="dte-header-content ">
-    <img src="./assets/img/dte/dte-logo-update.png" className="project-logo dte-logo" alt="DTE logo"/>
+    <img src="./assets/img/dte/dte-logo-update.webp" className="project-logo dte-logo" alt="DTE logo"/>
     <h1>Online Intake Tool Redesign</h1>
 		<p >
 		<strong>My Role</strong>: Web Designer, Front-end Developer<br/>
@@ -88,15 +88,15 @@ class dte extends Component {
 			
 			 </Col>
 			 <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/access-1-alt.jpg" src="./assets/img/dte/access-1.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/access-1-alt.webp" src="./assets/img/dte/access-1.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Rebate Selection Approach 1</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/access-2-alt.jpg" src="./assets/img/dte/access-2.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/access-2-alt.webp" src="./assets/img/dte/access-2.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Rebate Selection Approach 2</p>
 			 </Col>
 			  <Col xs={12} md={4} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/access-3-alt.jpg" src="./assets/img/dte/access-3.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/access-3-alt.webp" src="./assets/img/dte/access-3.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Rebate Selection Approach 3</p>
 			 </Col>
 			 
@@ -128,7 +128,7 @@ class dte extends Component {
 			
 			 </Col>
 			 <Col xs={12} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/multi-path-alt.png" src="./assets/img/dte/multi-path.png" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/multi-path-alt.webp" src="./assets/img/dte/multi-path.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Key Screens for Multiple Rebates Path</p>
 			 </Col>
 			
@@ -156,7 +156,7 @@ class dte extends Component {
 			
 			 </Col>
 			 <Col xs={12} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/single-path-alt.png" src="./assets/img/dte/single-path.png" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/single-path-alt.webp" src="./assets/img/dte/single-path.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Key Screens for Single Rebate Path</p>
 			 </Col>
 			
@@ -188,7 +188,7 @@ class dte extends Component {
 			
 			 </Col>
 			 <Col xs={12} md={6} className="float-left">
-				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/eed-alt.jpg" src="./assets/img/dte/eed.jpg" className="img-fluid" />
+				<LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/eed-alt.webp" src="./assets/img/dte/eed.webp" className="img-fluid" />
 				<p className="label" style={{textAlign: 'center'}}>Energy Efficiency Directory</p>
 			 </Col>
 			

@@ -14,20 +14,20 @@ class LandingHead extends Component {
                <div className="landingHead">
                     <ParallaxProvider>
                          <Parallax y={[0, 0]} x={[0, 0]} tagOuter="figure" className="landingHead-frame">
-                              <LazyLoadImage effect="blur" placeholderSrc="./assets/img/homepage/background1-alt.jpg" src="./assets/img/homepage/background1.jpg" className="img-fluid frame hero-bg" />
+                              <LazyLoadImage effect="blur" placeholderSrc="./assets/img/homepage/background1-alt.webp" src="./assets/img/homepage/background1.webp" className="img-fluid frame hero-bg" />
                          </Parallax>
                          <Parallax y={[-25, 0]} tagOuter="figure" className="landingHead-me">
-                              <LazyLoadImage effect="blur" src="./assets/img/homepage/me.png" placeholderSrc="./assets/img/homepage/me-alt.png" className="img-fluid" />
+                              <LazyLoadImage effect="blur" src="./assets/img/homepage/me.webp" placeholderSrc="./assets/img/homepage/me-alt.webp" className="img-fluid" />
                          </Parallax>
                          <Parallax y={[0, 0]} x={[-50, 0]} tagOuter="figure" className="landingHead-dragon">
-                              <LazyLoadImage effect="blur" src="./assets/img/homepage/dragon.png" placeholderSrc="./assets/img/homepage/dragon-alt.png" className="img-fluid" />
+                              <LazyLoadImage effect="blur" src="./assets/img/homepage/dragon.webp" placeholderSrc="./assets/img/homepage/dragon-alt.webp" className="img-fluid" />
                          </Parallax>
                          <Parallax y={[0, 0]} x={[0, 0]} tagOuter="figure" className="landingHead-frame">
-                              <LazyLoadImage effect="blur" src="./assets/img/homepage/background.png" placeholderSrc="./assets/img/homepage/background-alt.png" className="img-fluid frame" />
+                              <LazyLoadImage effect="blur" src="./assets/img/homepage/background.webp" placeholderSrc="./assets/img/homepage/background-alt.webp" className="img-fluid frame" />
                          </Parallax>
                          <Parallax tagOuter="figure" className="landingHead-ball">
                               <Link to="/projects">
-                                   <LazyLoadImage effect="blur" src="./assets/img/homepage/ball.png" placeholderSrc="./assets/img/homepage/ball-alt.png" className="ball-image img-fluid" />
+                                   <LazyLoadImage effect="blur" src="./assets/img/homepage/ball.webp" placeholderSrc="./assets/img/homepage/ball-alt.webp" className="ball-image img-fluid" />
                               </Link>
                          </Parallax>
                     </ParallaxProvider>

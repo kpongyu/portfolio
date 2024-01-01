@@ -32,7 +32,7 @@
 
 .wydot-fixed-bg{
   background-image: #021935;
-  background-image: url("../../public/assets/img/wydot/wydot-bg.jpg");
+  background-image: url("../../public/assets/img/old/wydot/wydot-bg.jpg");
   background-attachment: fixed;
   background-size: cover;
   color: #ffffff !important;

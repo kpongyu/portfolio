@@ -32,7 +32,7 @@
 
 .NYCA-fixed-bg{
   background-image: #021935;
-  background-image: url("../../public/assets/img/NYCA/fixed-background.jpg");
+  background-image: url("../../public/assets/img/NYCA/fixed-background.webp");
   background-attachment: fixed;
   background-size: cover;
   color: #ffffff !important;
