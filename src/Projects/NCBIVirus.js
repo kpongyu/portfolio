@@ -44,14 +44,14 @@ class NCBIVirus extends Component {
 			<section>
 				{this.state.spinner ? <Preloader /> : true}
 				<section className="ncbiVirus-header cd-header">
-					<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-header-alt.jpg" src="./assets/img/ncbi-virus/ncbi-virus-header.jpg" className="hero-bg" />
+					<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-header-alt.webp" src="./assets/img/ncbi-virus/ncbi-virus-header.webp" className="hero-bg" />
 				
 					<Container>
 
 
 						<div className="ncbiVirus-header-content ">
 							
-							<img src="./assets/img/ncbi-virus/ncbi-virus-logo.png" className="ncbi-project-logo" alt="ncbi virus logo" />
+							<img src="./assets/img/ncbi-virus/ncbi-virus-logo.webp" className="ncbi-project-logo" alt="ncbi virus logo" />
 							<h1>NCBI Virus interactive dashboards</h1>
 							<p >
 								<strong>My Role</strong>: Web Developer, Interaction Designer<br />
@@ -92,7 +92,7 @@ class NCBIVirus extends Component {
 										
 										<Row>
 											<Col xs={4} md={2}>
-												<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/primary-user-alt.jpg" src="./assets/img/ncbi-virus/primary-user.jpg" className="img-fluid" />
+												<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/primary-user-alt.webp" src="./assets/img/ncbi-virus/primary-user.webp" className="img-fluid" />
 											</Col>
 											<Col xs={8} md={10} className="mt-3">
 												<h4 className="mb-2">David Melcher, PhD in Biochemistry</h4>
@@ -117,7 +117,7 @@ class NCBIVirus extends Component {
 									<Tab eventKey="secondary" title="Secondary User">
 										<Row>
 											<Col xs={4} md={2}>
-												<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/secondary-user-alt.jpg" src="./assets/img/ncbi-virus/secondary-user.jpg" className="img-fluid" />
+												<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/secondary-user-alt.webp" src="./assets/img/ncbi-virus/secondary-user.webp" className="img-fluid" />
 											</Col>
 											<Col xs={8} md={10} className="mt-3">
 												<h4 className="mb-2">Lesley Long, Ph.D. in Immunology and Cellular Biology</h4>
@@ -143,7 +143,7 @@ class NCBIVirus extends Component {
 									<Tab eventKey="potential" title="Potential User">
 										<Row>
 											<Col xs={4} md={2}>
-												<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/potential-user-alt.jpg" src="./assets/img/ncbi-virus/potential-user.jpg" className="img-fluid" />
+												<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/potential-user-alt.webp" src="./assets/img/ncbi-virus/potential-user.webp" className="img-fluid" />
 											</Col>
 											<Col xs={8} md={10} className="mt-3">
 												<h4 className="mb-2">Riley Smith, undergrad in Biology</h4>
@@ -206,7 +206,7 @@ class NCBIVirus extends Component {
 							</Col>
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/table-alt.jpg" alt="NCBI Virus DataTable" src="./assets/img/ncbi-virus/table.jpg" className="img-fluid" />
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/table-alt.webp" alt="NCBI Virus DataTable" src="./assets/img/ncbi-virus/table.webp" className="img-fluid" />
 								</a>
 								<p className="label">NCBI Virus DataTable</p>
 							</Col>
@@ -217,8 +217,7 @@ class NCBIVirus extends Component {
 								<h4>Different Approaches for Host-Virus Widget</h4>
 
 								
-								<p>After testing several options such as the Tree Graph and Bubble Graph, we ultimately decided to use a 
-									 <a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">Sunburst graph</a> 
+								<p>After testing several options such as the Tree Graph and Bubble Graph, we ultimately decided to use a  <a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">Sunburst graph</a> 
 									to display the virus data. This choice has several advantages compared to other approaches.</p>
 
 								<p>One advantage of the Sunburst graph is that it can display multiple layers at the same time, making 
@@ -238,13 +237,13 @@ class NCBIVirus extends Component {
 								<Row>
 
 								<Col xs={12} md={6}>
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-bubble-map-alt.jpg" alt="NCBI Bubble Map" src="./assets/img/ncbi-virus/ncbi-bubble-map.jpg" className="right-img img-fluid" />
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-bubble-map-alt.webp" alt="NCBI Bubble Map" src="./assets/img/ncbi-virus/ncbi-bubble-map.webp" className="right-img img-fluid" />
 
 									<p className="label">Bubble Map approach</p>
 								</Col>
 
 								<Col xs={12} md={6}>
-										<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-square-map-alt.jpg" alt="NCBI Tree Map" src="./assets/img/ncbi-virus/ncbi-square-map.jpg" className="right-img img-fluid" />
+										<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-square-map-alt.webp" alt="NCBI Tree Map" src="./assets/img/ncbi-virus/ncbi-square-map.webp" className="right-img img-fluid" />
 
 										<p className="label">Tree Map approach</p>
 									</Col>
@@ -257,7 +256,7 @@ class NCBIVirus extends Component {
 
 							</Col>
 							<Col xs={12} md={6}>
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-sunburst-alt.jpg" alt="NCBI Sunburst Approach" src="./assets/img/ncbi-virus/ncbi-virus-sunburst.jpg" className="right-img img-fluid" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-sunburst-alt.webp" alt="NCBI Sunburst Approach" src="./assets/img/ncbi-virus/ncbi-virus-sunburst.webp" className="right-img img-fluid" />
 								<p className="label">SunBurst approach</p>
 							</Col>
 
@@ -265,7 +264,7 @@ class NCBIVirus extends Component {
 
 						<Row className="subRow">
 							<Col xs={12} md={6} className="float-md-left">
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-sunburst-2-alt.jpg" alt="NCBI Virus SunBurst Interaction" src="./assets/img/ncbi-virus/ncbi-virus-sunburst-2.jpg" className="right-img img-fluid" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-sunburst-2-alt.webp" alt="NCBI Virus SunBurst Interaction" src="./assets/img/ncbi-virus/ncbi-virus-sunburst-2.webp" className="right-img img-fluid" />
 								<p className="label">NCBI Virus SunBurst Interaction 1</p>
 							</Col>
 							<Col xs={12} md={6} className="float-md-right">
@@ -277,7 +276,7 @@ class NCBIVirus extends Component {
 									that might not have enough space in the graph. These tooltips are triggered when the mouse hovers over the sequence.
 								</p>
 
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-highlight-alt.jpg" alt="NCBI virus highlight" src="./assets/img/ncbi-virus/ncbi-virus-highlight.jpg" className="right-img img-fluid" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-highlight-alt.webp" alt="NCBI virus highlight" src="./assets/img/ncbi-virus/ncbi-virus-highlight.webp" className="right-img img-fluid" />
 								<p className="label">NCBI Virus SunBurst Interaction 2</p>
 
 
@@ -339,7 +338,7 @@ class NCBIVirus extends Component {
 							</Col>
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/sars-cov-2" target="_blank">
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/interaction-alt.png" src="./assets/img/ncbi-virus/interaction.png" className="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/interaction-alt.webp" src="./assets/img/ncbi-virus/interaction.webp" className="img-fluid right-img" />
 								</a>
 								<p className="label">SARS-CoV-2 Interactive Flow</p>
 							</Col>
@@ -363,7 +362,7 @@ class NCBIVirus extends Component {
 
 							
 								
-										<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/iteration-3-alt.jpg" alt="past version" src="./assets/img/ncbi-virus/iteration-3.jpg" className="img-fluid" />
+										<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/iteration-3-alt.webp" alt="past version" src="./assets/img/ncbi-virus/iteration-3.webp" className="img-fluid" />
 										<p className="label">SARS-CoV-2 Interactive Dashboard Key Stage</p>
 									
 								
@@ -384,7 +383,7 @@ class NCBIVirus extends Component {
 							</Col>
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/sars-cov-2" target="_blank">
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/dashboard-visualization-selected-alt.jpg" src="./assets/img/ncbi-virus/dashboard-visualization-selected.jpg" className="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/dashboard-visualization-selected-alt.webp" src="./assets/img/ncbi-virus/dashboard-visualization-selected.webp" className="img-fluid right-img" />
 								<p className="label">Monkeypox Data Dashboard</p>
 								</a>
 								
@@ -394,33 +393,7 @@ class NCBIVirus extends Component {
 					
 
 
-						<Row>
-							
-							<Col xs={12} md={6}>
-								<h4>Work Recognition</h4>
-								<p >
-									The Interactive Dashboard has received recognition from NCBI, which has shared it on its blog, Twitter, 
-									and other social media platforms. A presentation about the dashboard by our team member Eneida is also 
-									available on <a href="https://youtu.be/od5GPI6o-pw" target="_blank" className="ncbi-header-link">YouTube</a>. The content has also been shared by several university libraries and medical research 
-									groups to help scientists gain easier access to published SARS-CoV-2 sequences and facilitate research efforts.
-
-
-								</p>
-								<blockquote className="twitter-tweet">
-									<p lang="en" dir="ltr">Test drive our new <a href="https://twitter.com/hashtag/SARS?src=hash&amp;ref_src=twsrc%5Etfw">#SARS</a>-CoV-2 interactive data dashboard to select and download data based criteria you set!<a href="https://t.co/bTS3Gsdl62">https://t.co/bTS3Gsdl62</a>
-									</p>&mdash; NCBI Staff (@NCBI) <a href="https://twitter.com/NCBI/status/1334875874693439489?ref_src=twsrc%5Etfw">December 4, 2020</a></blockquote>
-								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-							</Col>
-							<Col xs={12} md={6} className="float-left">
-								<a className="ncbi-header-link" href="https://ncbiinsights.ncbi.nlm.nih.gov/2020/12/03/sars-cov-2-dashboard/" target="_blank">
-								
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/blog-alt.jpg" alt="NCBI blog" src="./assets/img/ncbi-virus/blog.jpg" className="img-fluid" />
-								</a>
-								<p className="label">NCBI Blog on our work</p>
-							</Col>
-						</Row>
-
+					
 
 
 
@@ -468,7 +441,7 @@ class NCBIVirus extends Component {
 								</p>
 
 								<Col xs={12}>
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/area-chart-alt.jpg" alt="NCBI Bubble Map" src="./assets/img/ncbi-virus/area-chart.jpg" className="right-img img-fluid" />
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/area-chart-alt.webp" alt="NCBI Bubble Map" src="./assets/img/ncbi-virus/area-chart.webp" className="right-img img-fluid" />
 
 									<p className="label">Area Chart Interactions</p>
 								</Col>
@@ -477,7 +450,7 @@ class NCBIVirus extends Component {
 							</Col>
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/activ/" target="_blank">
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/standalone-lineage-alt.jpg" alt="NCBI Virus DataTable" src="./assets/img/ncbi-virus/standalone-lineage.jpg" className="img-fluid" />
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/standalone-lineage-alt.webp" alt="NCBI Virus DataTable" src="./assets/img/ncbi-virus/standalone-lineage.webp" className="img-fluid" />
 									<p className="label">Standalone Lineage Dashboard</p>
 								</a>
 								
@@ -510,7 +483,7 @@ class NCBIVirus extends Component {
 
 							</Col>
 							<Col xs={12} md={6}>
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/mutation-viewer-alt.jpg" alt="NCBI Mutation Viewer" src="./assets/img/ncbi-virus/mutation-viewer.jpg" className="img-fluid" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/mutation-viewer-alt.webp" alt="NCBI Mutation Viewer" src="./assets/img/ncbi-virus/mutation-viewer.webp" className="img-fluid" />
 								<p className="label">Standalone Mutation Viewer</p>
 							</Col>
 
@@ -543,16 +516,147 @@ class NCBIVirus extends Component {
 
 							</Col>
 							<Col xs={12} md={6}>
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/combination-dashboard-alt.jpg" alt="NCBI Lineage-Mutation Viewer" src="./assets/img/ncbi-virus/combination-dashboard.jpg" className="img-fluid" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/combination-dashboard-alt.webp" alt="NCBI Lineage-Mutation Viewer" src="./assets/img/ncbi-virus/combination-dashboard.webp" className="img-fluid" />
 								<p className="label">Combined Lineage-Mutation Viewer</p>
 							</Col>
 
 						</Row>
 
+
+
+						<Row className="subRow">
+							<Col xs={12} md={6}>
+								<h4>Build an integrated web application</h4>
+
+								
+								<p>
+								As the pandemic draws to a close, we have embarked on integrating the SARS-CoV-2-centric application with our primary application, 
+								extending its utility to other viruses that pique researchers' interest. This comprehensive endeavor commenced with a thorough revamp 
+								of the lineage and mutation viewer, ensuring its alignment with the primary application and enhancing its responsiveness across various devices.
+								</p>
+
+								<p>
+								Key to our redesign was the incorporation of a standard banner, consistent across both the main application and the lineage and mutation viewer. 
+								Within this banner, both the lineage and mutation features are now accessible as options under the broader virus category, accompanied by a tabular 
+								view and a visualization feature.
+								</p>
+
+								<p>
+								Responding to evolving circumstances and user feedback, we simplified the lineage mutation section's layout. We eliminated the card-based sidebar 
+								representing different lineages, a change prompted by the substantial increase in the number of lineages over the years. In its place, we introduced 
+								a streamlined search function and a dropdown menu, listing the most prevalent lineages, thereby facilitating user decision-making. This modification 
+								has also freed up space for more expansive visualizations.
+								</p>
+
+									<p>
+								Further enhancing user interaction, we integrated mutation details of the selected lineage into the lineage tab. When users select a specific lineage, 
+								they can swiftly pinpoint necessary mutations and discern those within particular categories. This feature augments the speed and specificity with 
+								which data can be analyzed.
+								</p>
+
+									<p>
+								In terms of visualization, we enriched the content with a distinct lineage depiction within the lineage frequency chart and introduced a tabular perspective 
+								for the geographic chart. These additions empower users to track lineage evolutions individually and juxtapose a single lineage against the backdrop of 
+								all existing lineages for comparative analysis. This dual-view format provides a holistic understanding of lineage dynamics, offering researchers nuanced 
+								insights and facilitating more informed decision-making.
+
+								</p>
+
+
+							
+
+
+
+							</Col>
+							<Col xs={12} md={6}>
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/integrated-web-application-alt.webp" alt="Figure: a cleaner design of lineage and mutation tabs that integrated with the main application, with BA.1.1.3 selected" src="./assets/img/ncbi-virus/integrated-web-application.webp" className="img-fluid" />
+								<p className="label">Figure: a cleaner design of lineage and mutation tabs that integrated with the main application, with BA.1.1.3 selected</p>
+							</Col>
+
+						</Row>
+
+
+						<Row>
+							<Col xs={12}>
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/chart-interactions-alt.webp" alt="interactions between the different views of visualizations based on the selection" src="./assets/img/ncbi-virus/chart-interactions.webp" className="img-fluid" />
+								<p className="label">Figure: interactions between the different views of visualizations based on the selection</p>
+							</Col>
+						</Row>
+
+
+											<Row className="subRow">
+							<Col xs={12} md={6}>
+								<h4>Encompass more viruses</h4>
+
+								
+								<p>
+								In our main application, while we have not extended the lineage and mutation tabs to encompass all viruses, we have implemented 
+								a standard virus-centric banner and navigation system. This system includes tabular and visualization views for various types of viruses. 
+								For example, Monkeypox, a significant concern in 2023, is now searchable in our updated application. Users can access a view containing 
+								both tabular and visualization tabs for Monkeypox, mirroring the functionality we introduced for SARS-CoV-2. This enhancement not only 
+								increases our platform's agility but also enables it to produce visualizations and summaries for any emerging public health threats.
+
+								</p>
+
+								<p>
+								Looking ahead, we aim to further integrate these functionalities, incorporating visualizations directly within the filters for easier reference. 
+								This advancement will provide researchers with additional tools to observe trends and inform their decision-making processes. Our commitment is 
+								to enhance visibility and accessibility, ensuring that vital information is readily available for addressing ongoing and emerging health challenges.
+								</p>
+
+							
+
+
+							
+
+
+
+							</Col>
+							<Col xs={12} md={6}>
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/monkeypox-alt.webp" alt="Figure: a similar structure for Monkeypox virus" src="./assets/img/ncbi-virus/monkeypox.webp" className="img-fluid" />
+								<p className="label">Figure: a similar structure for Monkeypox virus</p>
+							</Col>
+
+						</Row>
+
+
+
+
+						<Row className="mt-5">
+							
+							<Col xs={12} md={6}>
+								<h4 >Work Recognition</h4>
+								<p >
+									The Interactive Dashboard has received recognition from NCBI, which has shared it on its blog, Twitter, 
+									and other social media platforms. A presentation about the dashboard by our team member Eneida is also 
+									available on <a href="https://youtu.be/od5GPI6o-pw" target="_blank" className="ncbi-header-link">YouTube</a>. The content has also been shared by several university libraries and medical research 
+									groups to help scientists gain easier access to published SARS-CoV-2 sequences and facilitate research efforts.
+
+
+								</p>
+								<blockquote className="twitter-tweet">
+									<p lang="en" dir="ltr">Test drive our new <a href="https://twitter.com/hashtag/SARS?src=hash&amp;ref_src=twsrc%5Etfw">#SARS</a>-CoV-2 interactive data dashboard to select and download data based criteria you set!<a href="https://t.co/bTS3Gsdl62">https://t.co/bTS3Gsdl62</a>
+									</p>&mdash; NCBI Staff (@NCBI) <a href="https://twitter.com/NCBI/status/1334875874693439489?ref_src=twsrc%5Etfw">December 4, 2020</a></blockquote>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+							</Col>
+							<Col xs={12} md={6} className="float-left">
+								<a className="ncbi-header-link" href="https://ncbiinsights.ncbi.nlm.nih.gov/2020/12/03/sars-cov-2-dashboard/" target="_blank">
+								
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/blog-alt.webp" alt="NCBI blog" src="./assets/img/ncbi-virus/blog.webp" className="img-fluid" />
+								</a>
+								<p className="label">NCBI Blog on our work</p>
+							</Col>
+						</Row>
+
+
+
+
+
 						<Row>
 							
 							<Col xs={12} md={6}>
-								<h4>Work Recognition</h4>
+								
 								<p >
 									The Variant Viewer has received recognition from NCBI and has been featured on NCBI's blog. The blog post provides additional information about the background of the product, 
 									how the data is collected, and the main functions of the tool. This serves as a more detailed resource in addition to the sequence-based dashboard and is part of the NCBI Virus 
@@ -569,7 +673,7 @@ class NCBIVirus extends Component {
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://ncbiinsights.ncbi.nlm.nih.gov/2022/04/20/sars-cov-2-variants-overview/" target="_blank">
 								
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/vv-recognized-alt.jpg" alt="NCBI blog" src="./assets/img/ncbi-virus/vv-recognized.jpg" className="img-fluid" />
+									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/vv-recognized-alt.webp" alt="NCBI blog" src="./assets/img/ncbi-virus/vv-recognized.webp" className="img-fluid" />
 									<p className="label">NCBI Blog on our work</p>
 								</a>
 								

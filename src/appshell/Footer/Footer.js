@@ -18,7 +18,7 @@ class Footer extends Component {
     return (
       <Row className="footer">
         <Col xs="12" >
-          <p className="footerCopy">Copyright &copy; kaipengyu.com 2022</p>
+          <p className="footerCopy">Copyright &copy; kaipengyu.com 2023</p>
         </Col>
         <Col xs="12" >
           <p className="footerCopy"><strong>Contact me</strong>: <a className="footer-link" href="mailto:kaipeng@umich.edu" target="_blank"> kaipeng@umich.edu</a></p>
