@@ -1,8 +1,7 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
 import $ from 'jquery';
-import './Coswd.css';
-import './Projects.css';
+import '../css/style.css';
 import Preloader from '../appshell/Preloader/Preloader';
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -40,68 +39,43 @@ class COSWD extends Component {
         <section>
 {this.state.spinner ? <Preloader/> : true}
 
-				<section className="ncbiVirus-header cd-header">
-					<LazyLoadImage effect="blur" placeholderSrc="./assets/img/coswd/coswd-hero-alt.webp" src="./assets/img/coswd/coswd-hero.webp" className="hero-bg" />
-				
-					<Container>
+				  <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+
+								<img src="./assets/img/coswd/coswd-site-logo.png" className="project-logo larger-project-logo" alt="COSWD logo"/>
+							<h1>NIH COSWD Website</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: Web Designer, Front-end Developer</p>
+							<p className="mb-0"><strong>Duration</strong>: 2 Years</p>
+							<p><strong>Delierable</strong>: <a href="https://www.icfcreative.com/2023/COSWD/40645/index.html"  target="_blank" className="header-link">COSWD Website</a>
+						 , <a href="https://www.icfcreative.com/2024/COSWD-year-end/index.html" target="_blank" className="header-link">COSWD Year Review</a></p>
 
 
-						<div className="ncbiVirus-header-content ">
 							
-							<img src="./assets/img/coswd/coswd-logo.svg" className="coswd-project-logo" alt="coswd logo" />
-							<h1>COSWD: Scientific Workforce<br/> Diversity at NIH</h1>
-							<p >
-								<strong>My Role</strong>: Interaction Designer<br />
-								<strong>Duration</strong>: 1 Year<br />
-								<strong>Deliverables</strong>: <br/>
-								<a className="ncbi-header-link" href="https://diversity.nih.gov/" target="_blank">diversity.nih.gov</a><br />
-
-
-							</p>
-
+							
 						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadImage 
+							effect="blur" 
+							placeholderSrc="./assets/img/coswd/coswd-hero-alt.webp" 
+							src="./assets/img/coswd/coswd-hero.webp" 
+							className="hero-image-cover"
+						/>
+					</div>
+				</div>
+
+		          </Row>
 
 
 
-					</Container>
-				</section>
 
 
-		<section className="coswd-bg section" >
-		<Container>
-		<Row className="vcenter" >
-		<Col xs={12}>
-		 <h2>Defining User Journey and site structure</h2>
-		</Col>
-		   <Col xs={12} md={7}>
-							 
-			<p>We are collaborating with the Chief Officer for Scientific Workforce Diversity (COSWD) at the NIH to develop a new website dedicated to 
-				showcasing their initiatives and research, as well as facilitating engagement with researchers committed to enhancing diversity in the 
-				scientific workforce. Our initial step involved pinpointing specific user stories, reflecting the various tasks anticipated for users 
-				on this new platform. These narratives guided the creation of a site structure optimized for achieving these objectives.
-
-			</p>
-
-			<ul>
-				<li><strong>Task 1: Discovering Seminars, Guidelines, or Activities</strong>, I aim to fortify my team's outcomes by leveraging diverse workforce insights and securing NIH funding recognition.</li>
-					<li><strong>Task 2: Navigating and Selecting Among Various Evidence Types</strong>, I require an efficient system to differentiate and select from among multiple search results or similar options, ensuring the choice aligns with my specific needs and informational prerequisites.</li>
-				<li><strong>Task 3: Identifying Top-Rated Evidence</strong>, In my research role, I must understand the range of evidence available in the clearinghouse and its organization.</li>
-			</ul>
-
-				<p>In our efforts to structure the website, we delineated resources into four core categories: Build, highlighting NIH offices, Workforce Surveys, and partnerships; Disseminate, which offers seminar series, a data finder, and opportunities; Act, presenting career, mentoring, and toolkit resources; and Stay Involved, featuring blogs and news updates.
-			</p>
-			
-			
-			
-			</Col>
-			<Col xs={12} md={5}>
-			 <LazyLoadImage effect="blur" alt="Smokelyzer Screens" placeholderSrc="./assets/img/coswd/coswd-site-structure-alt.webp" src="./assets/img/coswd/coswd-site-structure.webp" className="img-fluid" />
-			<p className="label">Figure: Part of the Site Structure of COSWD</p>
-			</Col>
-			</Row>
-		</Container>
-
-		</section>
 		
 
 		

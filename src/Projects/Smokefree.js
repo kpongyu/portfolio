@@ -1,8 +1,7 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
 import $ from 'jquery';
-import './Smokefree.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import Preloader from '../appshell/Preloader/Preloader';
@@ -42,32 +41,45 @@ class CivicLab extends Component {
         <section>
 {this.state.spinner ? <Preloader/> : true}
 
-			  <section className="smokefree-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/smokefree/smokefree-header-alt.webp" src="./assets/img/smokefree/smokefree-header.webp" className="hero-bg" />
-		<Container>
-       
-        
-	<div className="smokefree-header-content ">
-    <img src="./assets/img/smokefree/smokefree-logo.webp" className="project-logo" alt="seed logo"/>
-    <h1>Smokefree QuitGuide App</h1>
-		<p >
-		<strong>My Role</strong>: Interaction Designer, React-Native Developer<br/>
-			<strong>Duration</strong>: 3 Years<br/>
-			<strong>Deliverable</strong>: <br/>
-			<a className="header-link" href="https://smokefree.gov/" target="_blank">smokefree.gov</a><br/>
-			<a className="header-link" href="https://smokefree.gov/tools-tips/apps/quitguide" target="_blank">Smokefree QuitGuide App</a><br/>
+
+	  <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+
+								<img src="./assets/img/smokefree/smokefree-logo.webp" className="project-logo" alt="Smokefree logo"/>
+							<h1>Smokefree QuitGuide App</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: Interaction Designer, React-Native Developer</p>
+							<p className="mb-0"><strong>Duration</strong>: 3 Years</p>
+							<p><strong>Deliverables</strong>: 	<a className="header-link" href="https://smokefree.gov/" target="_blank">smokefree.gov</a>, <a className="header-link" href="https://smokefree.gov/tools-tips/apps/quitguide" target="_blank">Smokefree QuitGuide App</a></p>
+
+
+							
+							
+						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadImage 
+							effect="blur" 
+							placeholderSrc="./assets/img/smokefree/smokefree-header-alt.webp" 
+							src="./assets/img/smokefree/smokefree-header.webp" 
+							className="hero-image-cover"
+						/>
+					</div>
+				</div>
+
+		          </Row>
+
+
+
+
 			
-		</p>
-        
-		</div>
-	
-		
-		
-		</Container>
-		</section>
 
-
-		<section className="smokefree-fixed-bg section" >
+		{/* <section className="smokefree-fixed-bg section" >
 		<Container>
 		<Row className="vcenter" >
 		<Col xs={12}>
@@ -94,7 +106,7 @@ class CivicLab extends Component {
 			</Row>
 		</Container>
 
-		</section>
+		</section> */}
 		
 
 		

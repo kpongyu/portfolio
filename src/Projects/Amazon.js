@@ -1,9 +1,7 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
 import $ from 'jquery';
-import './Amazon.css';
-import './Projects.css';
-import ReactDOM from 'react-dom';
+import '../css/style.css';
 import Iframe from 'react-iframe';
 import Preloader from '../appshell/Preloader/Preloader';
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
@@ -42,26 +40,36 @@ class Amazon extends Component {
 
         <div>
   {this.state.spinner ? <Preloader/> : true}
-        <Row className="cd-header amazon-header">
-		<LazyLoadComponent effect="blur" height="500px" width="100%" placeholderSrc="./assets/img/amazon/poster.webp">
-					  <video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/amazon/poster.webp">
-                <source src="./assets/img/amazon/amazon.mp4" type="video/mp4" />
-               
-    		</video>        
-		</LazyLoadComponent>
-	<Container>
-    <img src="./assets/img/amazon/amazon_logo.webp" className="project-logo" alt="amazon logo"/>
-    <h1>Designing a mobile card system for Amazon</h1>
-		<p className="amazon-header">
-			<strong>My Role</strong>: User Experience Designer, Visual Designer<br/>
-			<strong>Duration</strong>: 3 Months<br/>
-			
-		</p>
-        
-		</Container>
 	
-		
+        <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+							<img src="./assets/img/amazon/amazon_logo.webp" className="project-logo" alt="amazon logo"/>
+							<h1>Designing a mobile card system for Amazon</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: User Experience Designer, Visual Designer</p>
+							<p><strong>Duration</strong>: 3 Months</p>
+							
+						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadComponent effect="blur" height="100%" width="100%" placeholderSrc="./assets/img/amazon/poster.webp">
+							<video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/amazon/poster.webp">
+								<source src="./assets/img/amazon/amazon.mp4" type="video/mp4" />
+							</video>        
+						</LazyLoadComponent>
+					</div>
+				</div>
+
 		</Row>
+	
+
+
+		
 
 
 

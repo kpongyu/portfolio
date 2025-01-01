@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Header.css'
+import '../../css/style.css';
 import 'react-bootstrap/dist/react-bootstrap'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 
@@ -14,12 +14,13 @@ class Header extends Component {
 
   constructor(props) {
     super(props)
-    this.state = { isStopped: false, isPaused: false, speed: 2 }
+    this.state = { isStopped: false, isPaused: false }
   }
 
   componentDidMount() {
-    this.setState({
-      speed: 10
+    AOS.init({
+      duration: 500,
+      delay: 300
     })
   }
 
@@ -32,6 +33,7 @@ class Header extends Component {
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice'
       },
+      speed: 1
     }
 
 
@@ -55,7 +57,6 @@ class Header extends Component {
                   width={100}
                   isStopped={this.state.isStopped}
                   isPaused={this.state.isPaused}
-                  speed={this.state.speed}
                   onClick={() => this.setState({ isPaused: true })}
 
                 />
@@ -79,10 +80,5 @@ class Header extends Component {
     )
   }
 }
-
-AOS.init({
-  duration: 500,
-  delay: 300
-})
 
 export default Header

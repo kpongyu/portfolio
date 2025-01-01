@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import './LandingTimeline.css';
+import '../../css/style.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -18,40 +18,19 @@ class LandingTimeline extends Component {
 <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2019 - present"
+    // date="2019 - present"
     iconStyle={{ background: '#000000', color: '#fff' }}
     icon={<img src="./assets/img/homepage/icf-next-logo.webp" className="timeline-logo icf-next-logo"/>}
   >
 
 
-    <h3 className="vertical-timeline-element-title">Senior Interaction Designer</h3>
+    <h3 className="vertical-timeline-element-title">Interaction Designer Manager</h3>
     <h4 className="vertical-timeline-element-subtitle"><a href="https://www.icf.com/next" target="_blank">ICF Next</a></h4>
 
     <p className="timeline-job-description">
       User Experience Engineer, React.js, Angular.js, React Native, Micro-interaction, Interaction Design, Agile Project Management
     </p>
-    <p className="timeline-title">Clients include:</p>
-    <div className="clients-container">
-				<a href="https://www.nih.gov/" target="_blank">
-        <div className="clients border">
-        <img src="./assets/img/homepage/NIH-logo.webp" className="client-logo"/>
-        </div></a>
-			
-				<a href="https://www.ncbi.nlm.nih.gov/" target="_blank">
-        <div className="clients">
-        <img src="./assets/img/homepage/ncbi-logo.webp" className="client-logo"/>
-        </div></a>
-			
-        <a href="https://www.pepfar.gov/" target="_blank">
-        <div className="clients">
-        <img src="./assets/img/homepage/pepfar-logo.webp" className="client-logo"/>
-        </div></a>
-
-        <a href="https://www.hiv.gov/" target="_blank">
-        <div className="clients border">
-        <img src="./assets/img/homepage/hiv-logo.webp" className="client-logo"/>
-        </div></a>
-    </div>
+   
     
   </VerticalTimelineElement>
 
@@ -59,7 +38,7 @@ class LandingTimeline extends Component {
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2016 - 2018"
+   
     iconStyle={{ background: '#eeeeee', color: '#fff' }}
     icon={<img src="./assets/img/homepage/icf_logo.webp" className="timeline-logo"/>}
   >

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Preloader.css';
+import '../../css/style.css';
 import 'react-bootstrap/dist/react-bootstrap';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from 'react-loader-spinner'

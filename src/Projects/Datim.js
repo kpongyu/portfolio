@@ -1,8 +1,7 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
 import $ from 'jquery';
-import './Datim.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import Preloader from '../appshell/Preloader/Preloader';

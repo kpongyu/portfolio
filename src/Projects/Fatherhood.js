@@ -1,7 +1,6 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
-import './Fatherhood.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
@@ -44,27 +43,42 @@ class fatherhood extends Component {
         <section>
 
 {this.state.spinner ? <Preloader/> : true}
-			  <section className="fatherhood-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/fatherhood/fatherhood-hero-alt.webp" src="./assets/img/fatherhood/fatherhood-hero.webp" className="hero-bg" />
-		<Container>
-       
-        
-	<div className="fatherhood-header-content ">
-    <img src="./assets/img/fatherhood/fatherhood-logo.webp" className="project-logo fatherhood-logo" alt="fatherhood logo"/>
-    <h1>Fatherhood.gov and Dad Joke Widget</h1>
-		<p >
-		<strong>My Role</strong>: Web Designer, Front-end Developer<br/>
-			<strong>Duration</strong>: 2 Years<br/>
-			<strong>Client</strong>: <a  href="https://fatherhood.gov/" target="_blank">fatherhood.gov</a>
-			
-		</p>
-        
-		</div>
-	
-		
-		
-		</Container>
-		</section>
+
+  <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+
+								<img src="./assets/img/fatherhood/fatherhood-logo.webp" className="project-logo" alt="fatherhood logo"/>
+							<h1>Fatherhood.gov and Dad Joke Widget</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: Web Developer, Interaction Designer</p>
+							<p className="mb-0"><strong>Duration</strong>: 4 Years</p>
+							<p><strong>Deliverables</strong>: <a href="https://fatherhood.gov/" target="_blank">fatherhood.gov</a></p>
+
+
+							
+							
+						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadImage 
+							effect="blur" 
+							placeholderSrc="./assets/img/fatherhood/fatherhood-hero-alt.webp" 
+							src="./assets/img/fatherhood/fatherhood-hero.webp" 
+							className="hero-image-cover"
+						/>
+					</div>
+				</div>
+
+		          </Row>
+
+
+
+
 
 		
 	<section className="fatherhood-section"  >

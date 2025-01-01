@@ -1,8 +1,7 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
 import $ from 'jquery';
-import './CB.css';
-import './Projects.css';
+import '../css/style.css';
 import Preloader from '../appshell/Preloader/Preloader';
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';

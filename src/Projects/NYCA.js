@@ -1,7 +1,6 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
-import './NYCA.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
@@ -44,27 +43,48 @@ class NYCA extends Component {
         <section>
 
 {this.state.spinner ? <Preloader/> : true}
-			  <section className="NYCA-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/NYCA/NYCA-hero-alt.webp" src="./assets/img/NYCA/NYCA-hero.webp" className="hero-bg" />
-		<Container>
-       
-        
-	<div className="NYCA-header-content ">
-    <img src="./assets/img/NYCA/NYCA-logo.svg" className="project-logo NYCA-logo" alt="NYCA logo"/>
-    <h1>NYCA Accelerator Web Design</h1>
-		<p >
-		<strong>My Role</strong>: Web Designer, Front-end Developer<br/>
-			<strong>Duration</strong>: 1 Year<br/>
-			<strong>Client</strong>: <a className="header-link" href="https://accelerator.nyc/" target="_blank">accelerator.nyc</a>
-			
-		</p>
-        
-		</div>
-	
-		
-		
-		</Container>
-		</section>
+
+				  <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+
+								<img src="./assets/img/NYCA/NYCA-logo.svg" className="project-logo smaller-project-logo" alt="NYCA logo"/>
+							<h1>NYCA Accelerator Web Design</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: Web Designer, Front-end Developer</p>
+							<p className="mb-0"><strong>Duration</strong>: 2 Years</p>
+							<p><strong>Delierable</strong>: <a href="https://accelerator.nyc/"  target="_blank" className="header-link">accelerator.nyc</a>
+						 , <a href="https://accelerator.nyc/building-energy-snapshot" target="_blank" className="header-link">building energy snapshot</a></p>
+
+
+							
+							
+						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadImage 
+							effect="blur" 
+							placeholderSrc="./assets/img/NYCA/NYCA-hero-alt.webp" 
+							src="./assets/img/NYCA/NYCA-hero.webp" 
+							className="hero-image-cover"
+						/>
+					</div>
+				</div>
+
+		          </Row>
+
+
+
+
+
+
+
+
+
 
 		
 	<section className="NYCA-section"  >

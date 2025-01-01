@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
-import "./Contact.css";
+import '../css/style.css';
 import Iframe from 'react-iframe';
 
 

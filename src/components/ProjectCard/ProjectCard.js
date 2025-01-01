@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React, { Component } from 'react';
-import './ProjectCard.css';
+import '../../css/style.css';
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';

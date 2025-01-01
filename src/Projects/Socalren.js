@@ -1,7 +1,6 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
-import './Socalren.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
@@ -140,23 +139,49 @@ class Socalren extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-			  <Row className="socalren-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/socalren/socalren-header-alt.webp" src="./assets/img/socalren/socalren-header.webp" className="hero-bg" />
-	<div className="socalren-header-content">
-    <img src="./assets/img/socalren/socalren-logo.webp" className="socalren-logo" alt="socalren logo"/>
-    <h1>SocalREN and Energy Monsters</h1>
-		<p >
-		<strong>My Role</strong>: Interaction Designer, Front-end Developer<br/>
-			<strong>Duration</strong>: 3 years<br/>
-			<strong>Delierable</strong>: <a href="https://socalren.org/"  target="_blank" className="header-link">socalren.org</a>
-						 , <a href="https://energymonsters.fun/" target="_blank" className="header-link">energymonsters.fun</a>
-			
-		</p>
-        
-		</div>
-	
-		
-		</Row>
+
+
+
+				  <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+
+								<img src="./assets/img/socalren/socalren-logo.webp" className="project-logo larger-project-logo" alt="scoalren logo"/>
+							<h1>SocalREN and Energy Monsters</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: Interaction Designer, Front-end Developer</p>
+							<p className="mb-0"><strong>Duration</strong>: 3 Years</p>
+							<p><strong>Delierable</strong>: <a href="https://socalren.org/"  target="_blank" className="header-link">socalren.org</a>
+						 , <a href="https://energymonsters.fun/" target="_blank" className="header-link">energymonsters.fun</a></p>
+
+
+							
+							
+						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadImage 
+							effect="blur" 
+							placeholderSrc="./assets/img/socalren/socalren-header-alt.webp" 
+							src="./assets/img/socalren/socalren-header.webp" 
+							className="hero-image-cover"
+						/>
+					</div>
+				</div>
+
+		          </Row>
+
+
+
+
+
+
+
+
 
    
 

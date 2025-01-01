@@ -1,7 +1,6 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
-import './DTE.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
@@ -44,27 +43,46 @@ class dte extends Component {
         <section>
 
 {this.state.spinner ? <Preloader/> : true}
-			  <section className="dte-header  cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/dte/dte-hero-alt.webp" src="./assets/img/dte/dte-hero.webp" className="hero-bg" />
-		<Container>
-       
-        
-	<div className="dte-header-content ">
-    <img src="./assets/img/dte/dte-logo-update.webp" className="project-logo dte-logo" alt="DTE logo"/>
-    <h1>Online Intake Tool Redesign</h1>
-		<p >
-		<strong>My Role</strong>: Web Designer, Front-end Developer<br/>
-			<strong>Duration</strong>: 5 Months<br/>
-			<strong>Client</strong>: <a  href="https://rebates.dteenergy.com/Rebate/Eligibility/Check/c8b73b23-1c05-4ce2-aa00-6dffd3226e13" target="_blank">rebates.dteeneergy.com</a>
-			
-		</p>
-        
-		</div>
-	
-		
-		
-		</Container>
-		</section>
+
+
+				  <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+
+								<img src="./assets/img/dte/dte-logo-update.webp" className="project-logo smaller-project-logo" alt="DTE logo"/>
+							<h1>DTE Online Intake Tool Redesign</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: Web Developer, Interaction Designer</p>
+							<p className="mb-0"><strong>Duration</strong>: 1 Year</p>
+							<p><strong>Deliverables</strong>: <a  href="https://rebates.dteenergy.com/Rebate/Eligibility/Check/c8b73b23-1c05-4ce2-aa00-6dffd3226e13" target="_blank" >rebates.dteeneergy.com</a></p>
+
+
+							
+							
+						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadImage 
+							effect="blur" 
+							placeholderSrc="./assets/img/dte/dte-hero-alt.webp" 
+							src="./assets/img/dte/dte-hero.webp" 
+							className="hero-image-cover"
+						/>
+					</div>
+				</div>
+
+		          </Row>
+
+
+
+
+
+
+
 
 		
 	<section className="dte-section"  >

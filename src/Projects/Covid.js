@@ -1,7 +1,6 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
-import './Covid.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import $ from 'jquery';
@@ -44,29 +43,43 @@ class Covid extends Component {
         <section>
 
 {this.state.spinner ? <Preloader/> : true}
-			  <section className="covid-header cd-header">
-				  <LazyLoadImage effect="blur" placeholderSrc="./assets/img/covid/covid-header-alt.webp" src="./assets/img/covid/covid-header.webp" className="hero-bg" />
-		<Container>
-       
-        
-	<div className="covid-header-content ">
-    <img src="./assets/img/covid/covid.webp" className="project-logo covid-logo" alt="NIH logo"/>
-    <h1>NIH COVID-19 Clinical Guidelines</h1>
-	<p >
-		<strong>My Role</strong>: Web Developer, Interaction Designer<br />
-		<strong>Duration</strong>: 1 Year<br />
-		<strong>Deliverable</strong>: &nbsp;
-		<a className="header-link" href="https://www.covid19treatmentguidelines.nih.gov/" target="_blank">COVID-19 Treatment Guidelines
-</a>
 
-							</p>
-       <p className="credit">Photo Credit: NIAID-RML</p>
-		</div>
-	
-		
-		
-		</Container>
-		</section>
+
+				  <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+
+								<img src="./assets/img/covid/covid.webp" className="project-logo smaller-project-logo" style={{width: '5rem'}} alt="COSWD logo"/>
+							<h1>NIH COVID-19 Clinical Guidelines</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: Web Developer, Interaction Designer</p>
+							<p className="mb-0"><strong>Duration</strong>: 2 Years</p>
+							<p><strong>Delierable</strong>: <a href="https://web.archive.org/web/20240731073833/https://www.covid19treatmentguidelines.nih.gov/"  target="_blank" className="header-link">COVID-19 Treatment Guidelines</a>
+						</p>
+
+
+							
+							
+						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadImage 
+							effect="blur" 
+							placeholderSrc="./assets/img/covid/covid-header-alt.webp" 
+							src="./assets/img/covid/covid-header.webp" 
+							className="hero-image-cover"
+						/>
+					</div>
+				</div>
+
+		          </Row>
+
+
+
 
 		
 	<section className="covid-section"  >

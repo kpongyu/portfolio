@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
 import { Container, Row, Col } from 'react-bootstrap'
-import './Projects.css'
+import '../css/style.css';
 import ProjectCard from '../components/ProjectCard/ProjectCard'
 import AOS from 'aos'
 import Preloader from '../appshell/Preloader/Preloader'
@@ -55,7 +55,7 @@ class Projects extends Component {
       },
       
       
-      'covid': {
+      'coswd': {
         navigation: "/coswd",
         imageSource: "./assets/img/project/coswd-cover.webp",
         title: "COSWD Web Redesign",
@@ -69,16 +69,16 @@ class Projects extends Component {
         placeholder: "./assets/img/project/amazon-alt.webp"
       },
 
-       'coswd': {
-        navigation: "/CB",
-        imageSource: "./assets/img/project/smokefree-cover.webp",
-        title: "Child Bureau Web System",
-        placeholder: "./assets/img/project/smokefree-cover-alt.webp"
+       'covid': {
+        navigation: "/COVID",
+        imageSource: "./assets/img/project/covid.webp",
+        title: "COVID-19 Web System",
+        placeholder: "./assets/img/project/covid-alt.webp"
       },
       'smokefree': {
         navigation: "/smokefree",
         imageSource: "./assets/img/project/smokefree-cover.webp",
-        title: "Smokefree Web System",
+        title: "Smokefree QuitGuide App",
         placeholder: "./assets/img/project/smokefree-cover-alt.webp"
       },
 
@@ -125,18 +125,18 @@ class Projects extends Component {
       //   title: "Michigan ROTC Web Dev.",
       //   placeholder: "./assets/img/project/rotc-alt.webp"
       // },
-      'datim': {
-        navigation: "/datim",
-        imageSource: "./assets/img/project/datim.webp",
-        title: "PEPFAR DATIM MSP Platform",
-        placeholder: "./assets/img/project/datim-alt.webp"
-      },
-       'CB': {
-        navigation: "/CB",
-        imageSource: "./assets/img/project/cb-cover.webp",
-        title: "Children's Bureau Collaborative Site",
-        placeholder: "./assets/img/project/cb-cover-alt.webp"
-      },
+      // 'datim': {
+      //   navigation: "/datim",
+      //   imageSource: "./assets/img/project/datim.webp",
+      //   title: "PEPFAR DATIM MSP Platform",
+      //   placeholder: "./assets/img/project/datim-alt.webp"
+      // },
+      //  'CB': {
+      //   navigation: "/CB",
+      //   imageSource: "./assets/img/project/cb-cover.webp",
+      //   title: "Children's Bureau Collaborative Site",
+      //   placeholder: "./assets/img/project/cb-cover-alt.webp"
+      // },
       'georgia-power': {
         navigation: "/gp",
         imageSource: "./assets/img/project/georgia-power-cover.webp",

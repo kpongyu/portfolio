@@ -1,7 +1,6 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
-import './Mymic.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import Preloader from '../appshell/Preloader/Preloader';

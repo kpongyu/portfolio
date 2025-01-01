@@ -1,9 +1,7 @@
 import React, { Component, style } from 'react';
 import {Row, Col, Container} from 'react-bootstrap';
 import $ from 'jquery';
-import './ROTC.css';
-import './GP.css';
-import './Projects.css';
+import '../css/style.css';
 import ReactDOM from 'react-dom';
 import Iframe from 'react-iframe';
 import Preloader from '../appshell/Preloader/Preloader';
@@ -41,25 +39,38 @@ class GP extends Component {
 
         <section>
 {this.state.spinner ? <Preloader/> : true}
-<Row className="cd-header gp-header">
-            <LazyLoadComponent effect="blur" height="500px" width="100%" placeholderSrc="./assets/img/georgia-power/gp-poster.webp">
-              <video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/georgia-power/gp-poster.webp">
-                <source src="./assets/img/georgia-power/gp-header.mp4" type="video/mp4" />         
-    </video>        
-    </LazyLoadComponent>
-	<Container>
-    <img src="./assets/img/georgia-power/logo.webp" className="project-logo gp-logo" alt="GP logo"/>
-    <h1>GPC Lighting Calculator</h1>
-		<p className="amazon-header">
-			<strong>My Role</strong>: User Experience Designer, Front-end Developer<br/>
-			<strong>Duration</strong>: 2 Months<br/>
-			<strong>Deliverable</strong>: <a className="header-link" href="https://www.georgiapower.com/lighting" target="_blank">georgiapower.com/lighting</a>
-		</p>
-        
-		</Container>
-	
-		
+
+
+
+        <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+							<img src="./assets/img/georgia-power/logo.webp" className="project-logo" alt="Georgia Power logo"/>
+							<h1>GPC Lighting Calculator</h1>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: User Experience Designer, Front-end Developer</p>
+							<p><strong>Duration</strong>: 3 Months</p>
+              <p><strong>Deliverables</strong>: <a href="https://www.georgiapower.com/lighting" target="_blank">georgiapower.com/lighting</a></p>
+							
+						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadComponent effect="blur" height="100%" width="100%" placeholderSrc="./assets/img/georgia-power/gp-poster.webp">
+							<video id="background-video" loop autoPlay playsInline className="title-video" poster="./assets/img/georgia-power/gp-poster.webp" style={{margin: '0 auto', display: 'block'}}>
+							 <source src="./assets/img/georgia-power/gp-header.mp4" type="video/mp4" />   
+							</video>        
+						</LazyLoadComponent>
+					</div>
+				</div>
+
 		</Row>
+
+
+
 
 		<section className="gp-section section" >
 		<Container>

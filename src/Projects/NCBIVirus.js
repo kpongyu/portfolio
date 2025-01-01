@@ -3,8 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import $ from 'jquery'
-import './Projects.css'
-import "./NCBIVirus.css"
+import '../css/style.css';
 import ReactDOM from 'react-dom'
 import Iframe from 'react-iframe'
 import Preloader from '../appshell/Preloader/Preloader'
@@ -43,34 +42,44 @@ class NCBIVirus extends Component {
 
 			<section>
 				{this.state.spinner ? <Preloader /> : true}
-				<section className="ncbiVirus-header cd-header">
-					<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-header-alt.webp" src="./assets/img/ncbi-virus/ncbi-virus-header.webp" className="hero-bg" />
-				
-					<Container>
 
 
-						<div className="ncbiVirus-header-content ">
-							
-							<img src="./assets/img/ncbi-virus/ncbi-virus-logo.webp" className="ncbi-project-logo" alt="ncbi virus logo" />
+				  <Row className="hero-section d-flex position-relative align-items-center">
+				<Container>
+					<Row>
+						<div className="col-12 col-md-6 hero-content">
+
+								<img src="./assets/img/ncbi-virus/ncbi-virus-logo.webp" className="project-logo" alt="NCBI Virus logo"/>
 							<h1>NCBI Virus interactive dashboards</h1>
-							<p >
-								<strong>My Role</strong>: Web Developer, Interaction Designer<br />
-								<strong>Duration</strong>: 5 Years<br />
-								<strong>Deliverables</strong>: <br/>
-								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">NCBI Virus Variant Platform</a><br />
-								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/sars-cov-2" target="_blank">SARS-CoV-2 interactive dashboard</a><br />
-								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/activ" target="_blank">SARS-CoV-2 ACTIV dashboard</a>
+							<p className="mb-0 mt-4">
+								<strong>My Role</strong>: Web Developer, Interaction Designer</p>
+							<p className="mb-0"><strong>Duration</strong>: 5 Years</p>
+							<p><strong>Deliverables</strong>: <a href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">NCBI Virus Variant Platform</a></p>
 
-							</p>
 
+							
+							
 						</div>
+					</Row>
+				</Container>
+
+				<div className="col-12 hero-image">
+					<div className="hero-image-container">
+						<LazyLoadImage 
+							effect="blur" 
+							placeholderSrc="./assets/img/ncbi-virus/ncbi-virus-header-alt.webp" 
+							src="./assets/img/ncbi-virus/ncbi-virus-header.webp" 
+							className="hero-image-cover"
+						/>
+					</div>
+				</div>
+
+		          </Row>
+
+		
 
 
-
-					</Container>
-				</section>
-
-				<div className="banner-border" />
+				
 
 				<section className="section ncbi-section-special">
 
