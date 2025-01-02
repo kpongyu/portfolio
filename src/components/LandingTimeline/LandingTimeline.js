@@ -28,9 +28,37 @@ class LandingTimeline extends Component {
     <h4 className="vertical-timeline-element-subtitle"><a href="https://www.icf.com/next" target="_blank">ICF Next</a></h4>
 
     <p className="timeline-job-description">
-      User Experience Engineer, React.js, Angular.js, React Native, Micro-interaction, Interaction Design, Agile Project Management
+     Lead the Interaction Design team, specializing in delivering innovative UX solutions, UI designs, and front-end interface support for a diverse range of clients across government and industries. 
     </p>
-   
+
+    <div className="awards-container">
+      <div className="award-item align-items-start">
+        <div className="clients border d-flex align-items-center justify-content-center">
+        <img src="./assets/img/homepage/NIH-Logo.webp" className="award-bullet" alt="NIH Logo"/></div>
+        <span><strong><a href="https://drive.google.com/file/d/1N-DDV6iD5Ve7ZQiadiHcA20vA4vmHKsn/view" target="_blank">NIH: Certificate of Appreciation</a> </strong> for outstanding collaboration, dedication, and commitment to NLM Mission</span>
+      </div>
+      <div className="award-item align-items-start">
+        <div className="clients border d-flex align-items-center justify-content-center">
+        <img src="./assets/img/homepage/hermes-logo.webp" className="award-bullet" alt="Hermes Award"/></div>
+        <span style={{paddingTop: '0.5rem'}}><strong>Hermes Creative Award:</strong> 
+        <ul style={{margin: '0.25rem 0', paddingLeft: '1.25rem'}}>
+          <li style={{paddingBottom: '0.25rem'}}><a href="https://enter.amcpros.com/hermes/entry/nyc-accelerator-building-energy-snapshot/" target="_blank">NYC Accelerator Building Energy Snapshot</a></li>
+          <li style={{paddingBottom: '0.25rem'}}><a href="https://enter.amcpros.com/hermes/entry/building-a-better-nyc-with-energy-upgrades/" target="_blank">Building a Better NYC with Energy Update</a></li>
+          <li style={{paddingBottom: '0.25rem'}}><a href="https://enter.amcpros.com/hermes/entry/bges-the-efficient-home-magazine-8/" target="_blank">BGE's The Efficient Home magazine</a></li>
+          <li style={{paddingBottom: '0.25rem'}}><a href="https://enter.amcpros.com/hermes/entry/being-smart-runs-in-the-family/" target="_blank">CE Being Smart Runs in the Family</a></li>
+        </ul></span>
+      </div>
+      <div className="award-item align-items-start">
+        <div className="clients border d-flex align-items-center justify-content-center">
+        <img src="./assets/img/homepage/marcom-award.webp" className="award-bullet" alt="Marcom Award"/></div>
+        <span style={{paddingTop: '0.5rem'}}><strong>Marcom Creative Award:</strong> 
+        <ul style={{margin: '0.25rem 0', paddingLeft: '1.25rem'}}>
+          <li style={{paddingBottom: '0.25rem'}}><a href="https://enter.amcpros.com/marcom/entry/the-efficient-home-magazine-issue-2-6/" target="_blank">The Efficient Home Magazine</a></li>
+          <li style={{paddingBottom: '0.25rem'}}><a href="https://enter.amcpros.com/marcom/entry/washington-gas-energy-efficiency-microsite/" target="_blank">Washington Gas Microsite</a></li>
+        </ul></span>
+      </div>
+    </div>
+
     
   </VerticalTimelineElement>
 
@@ -42,33 +70,39 @@ class LandingTimeline extends Component {
     iconStyle={{ background: '#eeeeee', color: '#fff' }}
     icon={<img src="./assets/img/homepage/icf_logo.webp" className="timeline-logo"/>}
   >
-    <h3 className="vertical-timeline-element-title">Interaction Designer</h3>
+    <h3 className="vertical-timeline-element-title">Senior Interaction Designer</h3>
     <h4 className="vertical-timeline-element-subtitle"><a href="https://www.icf.com/" target="_blank">ICF</a></h4>
     <p className="timeline-job-description">
-     Web Design, Interaction Design, User Experience Design, Email Design and Development, Digital Campaign
+     Specialized in designing and developing multi-platform web and mobile applications for U.S government agencies and large utility cooperatives. 
     </p>
-    <p className="timeline-title">Clients include:</p>
-    <div className="clients-container">
-				<a href="https://www.transportation.gov/" target="_blank">
-        <div className="clients border">
-        <img src="./assets/img/homepage/usdot-logo.webp" className="client-logo"/>
-        </div></a>
-			
-				<a href="https://www.hudexchange.info/" target="_blank">
-        <div className="clients">
-        <img src="./assets/img/homepage/hud.webp" className="client-logo"/>
-        </div></a>
-			
-        <a href="https://socalren.org/" target="_blank">
-        <div className="clients">
-        <img src="./assets/img/homepage/socalren-logo.webp" className="client-logo"/>
-        </div></a>
 
-        <a href="https://www.exeloncorp.com/" target="_blank">
-        <div className="clients border">
-        <img src="./assets/img/homepage/exelon-logo.webp" className="client-logo"/>
-        </div></a>
+        <div className="awards-container">
+       <div className="award-item align-items-start">
+        <div className="clients border d-flex align-items-center justify-content-center">
+        <img src="./assets/img/homepage/pmi-logo.webp" className="award-bullet" alt="PMI Logo"/></div>
+        <span style={{paddingTop: '0.5rem'}}><strong><a href="https://drive.google.com/file/d/1EzsdjtgvqKSWxY3hRjcIcHm-F0C_CeKr/view?usp=sharing" target="_blank">Project Management Professional (PMP)</a> </strong></span>
+      </div>
+      <div className="award-item align-items-start">
+        <div className="clients border d-flex align-items-center justify-content-center">
+        <img src="./assets/img/homepage/salesforce-logo.webp" className="award-bullet" alt="Salesforce Logo"/></div>
+        <span style={{paddingTop: '0.5rem'}}><strong><a href="https://drive.google.com/file/d/16xmDWJy5ExXgAr4G0WaTVLO2IdURePLv/view?usp=sharing" target="_blank">Salesforce Certified UX Designer</a> </strong></span>
+      </div>
+      <div className="award-item align-items-start">
+        <div className="clients border d-flex align-items-center justify-content-center">
+        <img src="./assets/img/homepage/serviceNow.webp" className="award-bullet" alt="ServiceNow Logo"/></div>
+        <span style={{paddingTop: '0.5rem'}}><strong><a href="https://drive.google.com/file/d/181KVP6dZR0tldCxrckLPOW93bUoTBAcl/view?usp=sharing" target="_blank">ServiceNow Certified System Administrator</a> </strong></span>
+      </div>
+      <div className="award-item align-items-start">
+        <div className="clients border d-flex align-items-center justify-content-center">
+        <img src="./assets/img/homepage/icf_logo.webp" className="award-bullet" alt="ICF Logo"/></div>
+        <span style={{paddingTop: '0.5rem'}}><strong>ICF Recognition:</strong> 
+        <ul style={{margin: '0.25rem 0', paddingLeft: '1.25rem'}}>
+          <li style={{paddingBottom: '0.25rem'}}><a href="https://drive.google.com/file/d/1zTEryMRGQ-PsGWq423TEBPJLGz72LxQH/view" target="_blank">Synergy Award</a></li>
+          <li style={{paddingBottom: '0.25rem'}}><a href="https://drive.google.com/file/d/1NyOgUEqZY9nTi3v6Autg8ufcADBsnNBA/view" target="_blank">Team Work in Action Award</a></li>
+        </ul></span>
+      </div>
     </div>
+
   </VerticalTimelineElement>
   
 
@@ -80,8 +114,8 @@ class LandingTimeline extends Component {
   >
     <h3 className="vertical-timeline-element-title">UX Design Intern</h3>
     <h4 className="vertical-timeline-element-subtitle">Amazon</h4>
-    <p className="timeline-job-description">
-      User Experience, Visual Design
+    <p className="timeline-job-description pb-3">
+      Helped design Amazon's Homepage, both for mobile and desktop.Brainstormed, prototyped and architected a scalable system for Amazon's mobile Homepage
     </p>
     <blockquote>
     <p className="timeline-blockquote">Kaipeng is a thoughtful UX designer who is as comfortable in the deep-end thinking 
@@ -107,39 +141,9 @@ class LandingTimeline extends Component {
     <p>
      Human Computer Interaction Specialization, Merit Scholarship
     </p>
-    <p className="timeline-title">Clients include:</p>
-    <div className="clients-container">
-				<a href="https://www.amway.com" target="_blank">
-        <div className="clients border">
-        <img src="./assets/img/homepage/amway-logo.webp" className="client-logo"/>
-        </div></a>
-			
-				<a href="http://www.army.rotc.umich.edu/" target="_blank">
-        <div className="clients">
-        <img src="./assets/img/homepage/rotc.webp" className="client-logo"/>
-        </div></a>
-			
-        <a href="http://www.civiclab.us/" target="_blank">
-        <div className="clients">
-        <img src="./assets/img/homepage/civiclab.webp" className="client-logo"/>
-        </div></a>
 
-        <a href="https://www.bopglobalnetwork.org" target="_blank">
-        <div className="clients">
-        <img src="./assets/img/homepage/bop.webp" className="client-logo"/>
-        </div></a>
-    </div>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="2014"
-    iconStyle={{ background: '#006ABE', color: '#fff' }}
-    icon={<img src="./assets/img/homepage/pmi-logo.webp" className="timeline-logo icf-next-logo"/>}
-  >
-    <h3 className="vertical-timeline-element-title">Project Management Professional (PMP)</h3>
-    <h4 className="vertical-timeline-element-subtitle">Credential ID 1711440</h4>
-   
-  </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2010 - 2014"
@@ -148,9 +152,6 @@ class LandingTimeline extends Component {
   >
     <h3 className="vertical-timeline-element-title">Bachelor of Information Management</h3>
     <h4 className="vertical-timeline-element-subtitle">Wuhan University</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design
-    </p>
   </VerticalTimelineElement>
   
   <VerticalTimelineElement

@@ -137,9 +137,11 @@
 				margin-right: 5px;
 			}
 
-			&_left,
+			&_left{
+				text-align: left!important;
+			}
 			&_right {
-				text-align: center !important;
+				text-align: right!important;
 			}
 		}
 
@@ -1810,3 +1812,33 @@ h5{
 			}
 	}
 }
+
+/* ======================================
+ * landing timeline
+ * ====================================== */
+
+ .awards-container {
+        margin-top: 1rem;
+      }
+      
+      .award-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.75rem;
+        text-align: left;
+      }
+
+      .award-item .clients {
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        overflow: hidden;
+      }
+
+      .award-bullet {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }

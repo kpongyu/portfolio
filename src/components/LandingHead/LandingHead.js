@@ -151,16 +151,21 @@ class LandingHead extends Component {
                     <div className="hero-content">
                         <div className="d-flex flex-column">
                         <h1 className="hero-title" style={{
-                            fontSize: "3rem",
+                            fontSize: window.innerWidth <= 768 ? "2rem" : "3rem",
                             textAlign: "left",
                             maxWidth: "50vw",
-                        }}><span style={{color: "#ff6868", fontFamily: "Merriweather", fontSize: "4rem", lineHeight: "2"}}>Kaipeng Yu</span> <br/>Designing Solutions<br/> that are <span className="typing-text">Strategic</span></h1>
+                            marginTop: window.innerWidth <= 768 ? "5vh" : "0"
+                        }}>
+                        <div style={{color: "#ff6868", fontFamily: "Merriweather", fontSize: window.innerWidth <= 768 ? "3rem" : "4rem", marginBottom: "2rem"}}>
+                            Kaipeng Yu</div>
+                         Designing Solutions<br/> that are <span className="typing-text">Strategic</span></h1>
                        
                         <Link to="/projects" className="cta-button" style={{
                             maxWidth: "300px",
                             display: "inline-block",
                             padding: "1rem 2rem",
-                            marginLeft: "3rem",
+                            marginLeft: window.innerWidth <= 768 ? "0rem" : "3rem",
+                            marginTop: "2rem",
                             background: "linear-gradient(45deg, #2196F3, #ECE493)",
                             color: "black",
                             fontSize: "1.2rem",
@@ -172,10 +177,6 @@ class LandingHead extends Component {
                             fontWeight: "600",
                             position: "relative",
                             overflow: "hidden",
-                            "&:hover": {
-                                transform: "translateY(-2px)",
-                                boxShadow: "0 6px 20px rgba(33, 150, 243, 0.4)"
-                            }
                         }}>
                             View My Work
                         </Link>
@@ -356,9 +357,10 @@ class LandingHead extends Component {
                          }
 
                          .cta-button:hover {
-                              background: #68B7AE;
-                              transform: translateY(-2px);
-                              box-shadow: 0 4px 12px rgba(134, 208, 200, 0.3);
+                              transform: translateY(-2px) !important;
+                              box-shadow: 0 8px 25px rgba(33, 150, 243, 0.6) !important;
+                              background: linear-gradient(45deg, #ECE493, #2196F3) !important;
+                              font-size: 1.1em !important;
                          }
 
                          .gallery-grid {
@@ -473,6 +475,7 @@ class LandingHead extends Component {
                               .hero-title {
                                    font-size: 3rem;
                                    margin-top: 4rem;
+                                   margin-left: 0;
                                    max-width: 100% !important;
                               }
 
@@ -519,6 +522,7 @@ class LandingHead extends Component {
 
                               .hero-title {
                                    font-size: 2.5rem;
+                                   margin-left: 0;
                               }
                          }
 
