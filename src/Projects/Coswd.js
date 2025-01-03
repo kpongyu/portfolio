@@ -153,6 +153,48 @@ class COSWD extends Component {
 
 			</Col>
 			</Row>
+
+
+					<Row className="vcenter" >
+		<Col xs={12}>
+		<h2>The “Elephant in the Dark” Concept</h2>
+		</Col>
+		   <Col xs={12} md={6}>
+			
+			<p>Another concept we developed for the COSWD website is the "Elephant in the Dark" concept. This concept is inspired by the idea of an elephant in the dark, which serves as a metaphor for the complexity of the scientific landscape.
+			The "Building the Evidence", "Disseminating the Evidence", and "Acting on the Evidence" procedures are analogous to the elephant's trunk, legs, and tail, collectively composing COSWD's general concept that "Great Minds Think Differently".
+			</p>
+			<p>In the internal Year Review landing page, we illustrated the elephant in the dark, with the trunk, legs, and tail representing the three procedures in different sections and zoomed in when user scrolling to the secton, after scrolling through the achievements for each procedure, the page zooms out to the elephant in the dark. Here is a <a href="https://www.icfcreative.com/2024/COSWD-year-end/index.html" target="_blank" className="header-link">demo page</a> of the idea.
+			
+			</p>
+			
+		
+			
+			</Col>
+			<Col xs={12} md={6}>
+					<LazyLoadComponent effect="blur" placeholderSrc="./assets/img/coswd/year-end-poster.webp">
+									
+								
+									<video loop autoPlay className="responsive-video" >
+									<source src="./assets/img/coswd/year-review-concept.mp4" type="video/mp4" />
+									</video>
+									
+								</LazyLoadComponent>
+								<p className="label">Video: Elephant in the Dark Concept</p>
+
+			</Col>
+			</Row>
+
+		<Row>
+			<Col xs={12} md={6}>
+				<LazyLoadImage effect="blur" alt="Year Review Landing" placeholderSrc="./assets/img/coswd/year-review-1-alt.webp" src="./assets/img/coswd/year-review-1.webp" className="img-fluid image-within-content" />
+				<p className="label">Figure: Year Review Landing</p>
+			</Col>
+			<Col xs={12} md={6}>
+				<LazyLoadImage effect="blur" alt="Year Review Section" placeholderSrc="./assets/img/coswd/year-review-2-alt.webp" src="./assets/img/coswd/year-review-2.webp" className="img-fluid image-within-content" />
+				<p className="label">Figure: Year Review Section</p>
+			</Col>
+		</Row>
 		</Container>
 
 		</section>

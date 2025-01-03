@@ -219,22 +219,20 @@ class NYCA extends Component {
 		<section className="NYCA-fixed-bg section" >
 		<Container>
 		<Row className="vcenter" >
-		<Col xs={12}>
-		
-		</Col>
-		   <Col xs={12} md={6}  className="float-right" >
 			<h2 > A Step towards Carbon Neutrality for New York City</h2>
+	
+		   <Col xs={12} md={6}  className="float-right" >
+			
 			<p >
 
 				The NYCA project is a key aspect of the company's efforts to assist New York City in <a href="https://www.icf.com/clients/energy/decarbonization-pathways-nyc#" target="_blank" className="NYCA-link">achieving carbon neutrality by 2050</a>. 
 				Since its launch, the website has become the leading resource for building energy efficiency information and its design concept has been widely adopted in city materials. 
 				In a video, Mayor Adams highlighted a new focus of the campaign, Local Law 97, which we also included <a href="https://accelerator.nyc/LL97" className="NYCA-link" target='_blank'>a page</a> on the website to further explain the topic.
 
+			</p>
 
-
-	
-				
-				
+			<p>
+			The website and the Building Energy Snapshot have been recognized by Hermes Creative Awards. <a href="https://enter.amcpros.com/hermes/entry/building-a-better-nyc-with-energy-upgrades/" target="_blank" className="NYCA-link">Building a Better NYC with Energy Upgrades</a> was the Gold winner in the 2023 Hermes Creative Awards, and the <a href="https://enter.amcpros.com/hermes/entry/nyc-accelerator-building-energy-snapshot/" target="_blank" className="NYCA-link">Building Energy Snapshot</a> was the Gold winner in the 2024 Hermes Creative Awards.
 			</p>
 				
 					

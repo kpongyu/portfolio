@@ -188,6 +188,20 @@ class Covid extends Component {
 			<p className="label" style={{textAlign: 'center'}}>Figure 3: News Reports on the launching of the website</p>
 			</Col>
 			</Row>
+
+				<Row className="mt-4">
+									<Col xs={12} md={8} >
+
+									
+									<p>I was honored to receive ICF's Team Work in Action Award for my contributions to the website. Through this project, our company demonstrated its capability to develop and maintain high-traffic, well-designed websites during the pandemic emergency. 
+										As the primary resource for physicians treating COVID-19 patients throughout the pandemic, the website played a vital role in supporting healthcare workers in their fight against the virus. The success of this project highlighted the importance of clear communication and rapid response during public health crises. Our team's ability to quickly adapt and deliver critical information helped medical professionals stay informed about the latest treatment guidelines and best practices. This experience reinforced my commitment to using technology to make a meaningful impact in healthcare and public health initiatives.
+									</p>
+									</Col>
+									<Col xs={12} md={4}>
+									<LazyLoadImage effect="blur" alt="Team Work in Action Award" src="./assets/img/covid/teamwork-in-action-award.webp" className="img-fluid" />
+									<p className="label">Team Work in Action Award</p>
+									</Col>
+								</Row>
 		</Container>
 
 		</section>

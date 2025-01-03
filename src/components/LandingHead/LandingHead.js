@@ -209,7 +209,7 @@ class LandingHead extends Component {
                                 </Link>
                             </div>
                             <div className="gallery-item square">
-                                <Link to="/ncbi-virus">
+                                <Link to="/ncbiVirus">
                                     <div className="gallery-image" 
                                         style={{
                                             backgroundImage:  `url(${process.env.PUBLIC_URL}/assets/img/ncbi-virus/ncbi-home.webp)`,

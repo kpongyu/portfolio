@@ -196,34 +196,16 @@ class NCBIVirus extends Component {
 							</Col>
 						</Row>
 						<Row>
-							<Col xs={12} md={6} className="float-right" >
-								
-								<p >
-									We began by building a table-based framework in Angular to allow users to search for viruses of interest by name or 
-									sequence. The Angular Data-Table fetches data from the NCBI API and displays it in a table format. Users can expand 
-									the table to see additional details about the viruses and apply additional filters to the search results.
-								</p>
-
+							
+					
+			
+							<Col xs={12} md={6}>
 								<p>
 									One feature the team is particularly excited about is the creation of a data visualization widget to help researchers 
 									discover relationships between viruses and sequences, particularly host-virus relationships. While the data table is 
 									useful for displaying details about individual viruses, it can be difficult for users to identify potential relationships 
 									and the distribution of viruses and sequences within a domain.
 								</p>
-
-
-							</Col>
-							<Col xs={12} md={6} className="float-left">
-								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/table-alt.webp" alt="NCBI Virus DataTable" src="./assets/img/ncbi-virus/table.webp" className="img-fluid" />
-								</a>
-								<p className="label">NCBI Virus DataTable</p>
-							</Col>
-
-					
-			
-							<Col xs={12} md={6}>
-								<h4>Different Approaches for Host-Virus Widget</h4>
 
 								
 								<p>After testing several options such as the Tree Graph and Bubble Graph, we ultimately decided to use a  <a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/" target="_blank">Sunburst graph</a> 
@@ -347,38 +329,14 @@ class NCBIVirus extends Component {
 							</Col>
 							<Col xs={12} md={6} className="float-left">
 								<a className="ncbi-header-link" href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/sars-cov-2" target="_blank">
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/interaction-alt.webp" src="./assets/img/ncbi-virus/interaction.webp" className="img-fluid right-img" />
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/iteration-3-alt.webp" src="./assets/img/ncbi-virus/iteration-3.webp" className="img-fluid right-img" />
 								</a>
-								<p className="label">SARS-CoV-2 Interactive Flow</p>
+								<p className="label">SARS-CoV-2 Dashboard Visualization</p>
 							</Col>
-							<Col xs={12} md={6}>
-
-								<p>We have been working on improving the data dashboard as part of a MVP (minimum viable product) process. Our goal is to make the dashboard 
-									more scalable and seamlessly integrate it into the overall system. We started by creating a basic version that only included a geographic 
-									map that displayed the sequences collected by country. We then added time sliders that allowed users to view the sequence data by day, month, 
-									or year. However, we found that as the page became longer and more complex, it became difficult for users to keep track of the changes they 
-									were making. To address this issue, we restructured the page layout to simplify it and made the layout more user-friendly by placing the geo 
-									and time-slider widgets side-by-side. We also made sure to use consistent colors for selected elements to help users track their changes. 
-									In addition, we integrated other sections of the website into the dashboard navigation, making it easier for users to switch between the 
-									visualization dashboard and the tabular view with pre-selected filters, which helps to make the transition more understandable.
-								
-
-								</p>
-
-
-							</Col>
-							<Col xs={12} md={6} className="float-left">
-
 							
-								
-										<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/iteration-3-alt.webp" alt="past version" src="./assets/img/ncbi-virus/iteration-3.webp" className="img-fluid" />
-										<p className="label">SARS-CoV-2 Interactive Dashboard Key Stage</p>
-									
-								
+							
 
-							</Col>
-
-							<Col xs={12} md={6}>
+							{/* <Col xs={12} md={6}>
 								<p >
 
 									In addition to being used for SARS-CoV-2, the dashboard can also be utilized to display data for other viruses. For example, 
@@ -396,7 +354,7 @@ class NCBIVirus extends Component {
 								<p className="label">Monkeypox Data Dashboard</p>
 								</a>
 								
-							</Col>
+							</Col> */}
 						</Row>
 
 					
@@ -467,7 +425,7 @@ class NCBIVirus extends Component {
 
 					
 			
-							<Col xs={12} md={6}>
+							{/* <Col xs={12} md={6}>
 								<h4>Standalone Mutation Viewer</h4>
 
 								
@@ -490,15 +448,15 @@ class NCBIVirus extends Component {
 
 
 
-							</Col>
-							<Col xs={12} md={6}>
+							</Col> */}
+							{/* <Col xs={12} md={6}>
 								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/mutation-viewer-alt.webp" alt="NCBI Mutation Viewer" src="./assets/img/ncbi-virus/mutation-viewer.webp" className="img-fluid" />
 								<p className="label">Standalone Mutation Viewer</p>
-							</Col>
+							</Col> */}
 
 						</Row>
 
-						<Row className="subRow">
+						{/* <Row className="subRow">
 							<Col xs={12} md={6}>
 								<h4>Combination Lineage-Mutation Viewer</h4>
 
@@ -529,60 +487,11 @@ class NCBIVirus extends Component {
 								<p className="label">Combined Lineage-Mutation Viewer</p>
 							</Col>
 
-						</Row>
+						</Row> */}
 
 
 
-						<Row className="subRow">
-							<Col xs={12} md={6}>
-								<h4>Build an integrated web application</h4>
 
-								
-								<p>
-								As the pandemic draws to a close, we have embarked on integrating the SARS-CoV-2-centric application with our primary application, 
-								extending its utility to other viruses that pique researchers' interest. This comprehensive endeavor commenced with a thorough revamp 
-								of the lineage and mutation viewer, ensuring its alignment with the primary application and enhancing its responsiveness across various devices.
-								</p>
-
-								<p>
-								Key to our redesign was the incorporation of a standard banner, consistent across both the main application and the lineage and mutation viewer. 
-								Within this banner, both the lineage and mutation features are now accessible as options under the broader virus category, accompanied by a tabular 
-								view and a visualization feature.
-								</p>
-
-								<p>
-								Responding to evolving circumstances and user feedback, we simplified the lineage mutation section's layout. We eliminated the card-based sidebar 
-								representing different lineages, a change prompted by the substantial increase in the number of lineages over the years. In its place, we introduced 
-								a streamlined search function and a dropdown menu, listing the most prevalent lineages, thereby facilitating user decision-making. This modification 
-								has also freed up space for more expansive visualizations.
-								</p>
-
-									<p>
-								Further enhancing user interaction, we integrated mutation details of the selected lineage into the lineage tab. When users select a specific lineage, 
-								they can swiftly pinpoint necessary mutations and discern those within particular categories. This feature augments the speed and specificity with 
-								which data can be analyzed.
-								</p>
-
-									<p>
-								In terms of visualization, we enriched the content with a distinct lineage depiction within the lineage frequency chart and introduced a tabular perspective 
-								for the geographic chart. These additions empower users to track lineage evolutions individually and juxtapose a single lineage against the backdrop of 
-								all existing lineages for comparative analysis. This dual-view format provides a holistic understanding of lineage dynamics, offering researchers nuanced 
-								insights and facilitating more informed decision-making.
-
-								</p>
-
-
-							
-
-
-
-							</Col>
-							<Col xs={12} md={6}>
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/integrated-web-application-alt.webp" alt="Figure: a cleaner design of lineage and mutation tabs that integrated with the main application, with BA.1.1.3 selected" src="./assets/img/ncbi-virus/integrated-web-application.webp" className="img-fluid" />
-								<p className="label">Figure: a cleaner design of lineage and mutation tabs that integrated with the main application, with BA.1.1.3 selected</p>
-							</Col>
-
-						</Row>
 
 
 						<Row>
@@ -593,25 +502,35 @@ class NCBIVirus extends Component {
 						</Row>
 
 
-											<Row className="subRow">
-							<Col xs={12} md={6}>
-								<h4>Encompass more viruses</h4>
+						</Container>
+						</section>
+
+						<section className="section ncbi-section-special">
+							<Container>
+						<Row className="subRow">
+							<Col xs={12}>
+								<h2>Build an integrated web application</h2>
 
 								
 								<p>
-								In our main application, while we have not extended the lineage and mutation tabs to encompass all viruses, we have implemented 
-								a standard virus-centric banner and navigation system. This system includes tabular and visualization views for various types of viruses. 
-								For example, Monkeypox, a significant concern in 2023, is now searchable in our updated application. Users can access a view containing 
-								both tabular and visualization tabs for Monkeypox, mirroring the functionality we introduced for SARS-CoV-2. This enhancement not only 
-								increases our platform's agility but also enables it to produce visualizations and summaries for any emerging public health threats.
-
+								As the pandemic draws to a close, we have embarked on integrating the SARS-CoV-2-centric application with our primary application, 
+								extending its utility to other viruses that pique researchers' interest. This comprehensive endeavor commenced with a thorough revamp 
+								of the lineage and mutation viewer, ensuring its alignment with the primary application and enhancing its responsiveness across various devices.
 								</p>
 
 								<p>
-								Looking ahead, we aim to further integrate these functionalities, incorporating visualizations directly within the filters for easier reference. 
-								This advancement will provide researchers with additional tools to observe trends and inform their decision-making processes. Our commitment is 
-								to enhance visibility and accessibility, ensuring that vital information is readily available for addressing ongoing and emerging health challenges.
+								What we come up with is a unified interface with a navigation that drives the user to 4 different views for the SARS-CoV-2 data: Tabular, Visualization, Lineage, and Mutation.
+								In tabular view, the user can read the detailed submitted data provided in tabular format. In visualization view, we present the submitted data through the geographic and time-based widgets we previously created,
+								and we embedded the lineage and mutation viewer in the same navigation bar and make the whole interface integrated as a whole. We also made adjustments to the page layout, styles, and components to make sure the transition is as smooth as possible when switching between views.
 								</p>
+
+								<p>Furthermore, this interface provides opportunities to extend functionality to other viruses, which helps users easily read data and generate quick visualizations for any viruses they are interested in.
+									Right now, when users search for a different virus, the system generates navigation including tabular and visualization views for that specific virus. For certain viruses such as Monkeypox or Influenza, the interface also modifies to represent specific functions based on user needs, including the genus group, assembly, and more.
+									To summarize, this system is robust and flexible, and it can be easily adjusted to support user needs and handle outbreak or emerging situations.
+								</p>
+								
+
+
 
 							
 
@@ -621,73 +540,54 @@ class NCBIVirus extends Component {
 
 
 							</Col>
-							<Col xs={12} md={6}>
-								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/monkeypox-alt.webp" alt="Figure: a similar structure for Monkeypox virus" src="./assets/img/ncbi-virus/monkeypox.webp" className="img-fluid" />
-								<p className="label">Figure: a similar structure for Monkeypox virus</p>
+							<Col xs={6} md={3}>
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-1-tabular-alt.webp" alt="Tabular view showing integrated lineage and mutation data" src="./assets/img/ncbi-virus/ncbi-1-tabular.webp" className="img-fluid" />
+								<p className="label">Tabular view of integrated data</p>
+							</Col>
+							<Col xs={6} md={3}>
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-2-visualization-alt.webp" alt="Visualization view showing data trends" src="./assets/img/ncbi-virus/ncbi-2-visualization.webp" className="img-fluid" />
+								<p className="label">Visualization of data trends</p>
+							</Col>
+							<Col xs={6} md={3}>
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-3-lineage-alt.webp" alt="Lineage view showing variant relationships" src="./assets/img/ncbi-virus/ncbi-3-lineage.webp" className="img-fluid" />
+								<p className="label">Lineage relationship view</p>
+							</Col>
+							<Col xs={6} md={3}>
+								<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/ncbi-4-mutation-alt.webp" alt="Mutation view showing variant changes" src="./assets/img/ncbi-virus/ncbi-4-mutation.webp" className="img-fluid" />
+								<p className="label">Mutation analysis view</p>
 							</Col>
 
 						</Row>
+						</Container>
+						</section>
 
 
+					<section className="section ncbi-section1" >
+						<Container>
+								<h2 >Work Recognition</h2>
 
+								<Row>
+									<Col xs={12} md={9}>
 
-						<Row className="mt-5">
+									<p>The Interactive Dashboard has been highlighted through NCBI's blog, Twitter, and other social media platforms since its release, particularly during the pandemic. In 2020, NCBI published a <a href="https://ncbiinsights.ncbi.nlm.nih.gov/2020/12/03/sars-cov-2-dashboard/" target="_blank" className="ncbi-header-link">blog post</a> about the initial release of the dashboard, 
+									which came at the peak of the pandemic and provided scientists with a crucial tool to access SARS-CoV-2-related data. In 2022, NCBI published another <a href="https://ncbiinsights.ncbi.nlm.nih.gov/2022/04/20/sars-cov-2-variants-overview/" target="_blank" className="ncbi-header-link">blog post</a> introducing the Variant Viewer and Mutation Viewer,
+									which was timely as COVID-19 variants became the focus of the research community. Throughout the pandemic, the development of this tool closely followed the evolving needs of researchers, providing essential resources for monitoring and controlling the spread of the virus.</p>
+
+									<p>I was fortunate to be part of the team that developed the Interactive Dashboard, which received recognition from NCBI. I was awarded a Certificate of Appreciation from NLM acknowledging my "Outstanding Collaboration, Dedication, and Commitment to the NLM Mission." 
+										We are grateful that our collaborative effort helped support virus research during the pandemic and contributed to NLM's mission of enabling biomedical discovery and promoting public health.</p>
+									</Col>
+									<Col xs={12} md={3}>
+									<LazyLoadImage effect="blur" alt="NLM Certification" src="./assets/img/ncbi-virus/NLM-certification.webp" className="img-fluid" />
+									<p className="label">NLM Certificate of Appreciation</p>
+									</Col>
+								</Row>
+
 							
-							<Col xs={12} md={6}>
-								<h4 >Work Recognition</h4>
-								<p >
-									The Interactive Dashboard has received recognition from NCBI, which has shared it on its blog, Twitter, 
-									and other social media platforms. A presentation about the dashboard by our team member Eneida is also 
-									available on <a href="https://youtu.be/od5GPI6o-pw" target="_blank" className="ncbi-header-link">YouTube</a>. The content has also been shared by several university libraries and medical research 
-									groups to help scientists gain easier access to published SARS-CoV-2 sequences and facilitate research efforts.
-
-
-								</p>
-								<blockquote className="twitter-tweet">
-									<p lang="en" dir="ltr">Test drive our new <a href="https://twitter.com/hashtag/SARS?src=hash&amp;ref_src=twsrc%5Etfw">#SARS</a>-CoV-2 interactive data dashboard to select and download data based criteria you set!<a href="https://t.co/bTS3Gsdl62">https://t.co/bTS3Gsdl62</a>
-									</p>&mdash; NCBI Staff (@NCBI) <a href="https://twitter.com/NCBI/status/1334875874693439489?ref_src=twsrc%5Etfw">December 4, 2020</a></blockquote>
-								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-							</Col>
-							<Col xs={12} md={6} className="float-left">
-								<a className="ncbi-header-link" href="https://ncbiinsights.ncbi.nlm.nih.gov/2020/12/03/sars-cov-2-dashboard/" target="_blank">
-								
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/blog-alt.webp" alt="NCBI blog" src="./assets/img/ncbi-virus/blog.webp" className="img-fluid" />
-								</a>
-								<p className="label">NCBI Blog on our work</p>
-							</Col>
-						</Row>
 
 
 
 
-
-						<Row>
-							
-							<Col xs={12} md={6}>
-								
-								<p >
-									The Variant Viewer has received recognition from NCBI and has been featured on NCBI's blog. The blog post provides additional information about the background of the product, 
-									how the data is collected, and the main functions of the tool. This serves as a more detailed resource in addition to the sequence-based dashboard and is part of the NCBI Virus 
-									web platform ecosystem, along with the data table and virus-based dashboard.
-									
-
-								</p>
-								<blockquote className="twitter-tweet">
-									<p lang="en" dir="ltr">Check out NLM’s latest tool in the fight against COVID-19! We just released a freely available online dashboard called the SARS-CoV-2 Variants Overview. Learn about it here:  <a href="https://ncbiinsights.ncbi.nlm.nih.gov/2022/04/20/sars-cov-2-variants-overview/?utm_source=Twitter&utm_medium=referral&utm_campaign=SARS-CoV-2-Variants-Overview&utm_content=20220420">https://loom.ly/Ry_1Y7w</a>
-									</p>&mdash; NCBI (@NCBI)April 20, 2022</blockquote>
-								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-							</Col>
-							<Col xs={12} md={6} className="float-left">
-								<a className="ncbi-header-link" href="https://ncbiinsights.ncbi.nlm.nih.gov/2022/04/20/sars-cov-2-variants-overview/" target="_blank">
-								
-									<LazyLoadImage effect="blur" placeholderSrc="./assets/img/ncbi-virus/vv-recognized-alt.webp" alt="NCBI blog" src="./assets/img/ncbi-virus/vv-recognized.webp" className="img-fluid" />
-									<p className="label">NCBI Blog on our work</p>
-								</a>
-								
-							</Col>
-						</Row>
+						
 
 					</Container>
 
