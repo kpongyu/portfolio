@@ -15,6 +15,8 @@ import ROTC from './Projects/ROTC'
 import Wydot from './Projects/Wydot'
 import DTE from './Projects/DTE'
 import Fatherhood from './Projects/Fatherhood'
+import Repatriation from './Projects/Repatriation'
+import BGE from './Projects/BGE'
 import Socalren from './Projects/Socalren'
 import Smokefree from './Projects/Smokefree'
 import NCBIVirus from './Projects/NCBIVirus'
@@ -52,6 +54,7 @@ const routing = (
         <Route path="/CivicLab" component={CivicLab} />
         <Route path="/NYCA" component={NYCA} />
         <Route path="/Fatherhood" component={Fatherhood} />
+        <Route path="/Repatriation" component={Repatriation} />
         <Route path="/DTE" component={DTE} />
         <Route path="/wydot" component={Wydot} />
         <Route path="/socalren" component={Socalren} />
@@ -62,6 +65,7 @@ const routing = (
         <Route path="/ClinicalInfo" component={ClinicalInfo} />
         <Route path="/CB" component={CB}/>
          <Route path="/coswd" component={COSWD}/>
+         <Route path="/bge" component={BGE}/>
       </Switch>
       <Footer />
     </div>

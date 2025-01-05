@@ -53,14 +53,14 @@ class Projects extends Component {
         title: "New York City Accelerator",
         placeholder: "./assets/img/project/nyca-cover-alt.webp"
       },
-      
-      
-      'coswd': {
-        navigation: "/coswd",
-        imageSource: "./assets/img/project/coswd-cover.webp",
-        title: "COSWD Web Redesign",
-        placeholder: "./assets/img/project/coswd-cover-alt.webp"
+      'repatriation': {
+        navigation: "/repatriation",
+        imageSource: "./assets/img/project/acf-repatriation-cover.webp",
+        title: "ACF Repatriation",
+        placeholder: "./assets/img/project/acf-repatriation-cover-alt.webp"
       },
+      
+     
      
       'amazon': {
         navigation: "/amazon",
@@ -69,18 +69,20 @@ class Projects extends Component {
         placeholder: "./assets/img/project/amazon-alt.webp"
       },
 
-       'covid': {
-        navigation: "/COVID",
-        imageSource: "./assets/img/project/covid.webp",
-        title: "COVID-19 Web System",
-        placeholder: "./assets/img/project/covid-alt.webp"
+       'DTE': {
+        navigation: "/DTE",
+        imageSource: "./assets/img/project/dte-cover.webp",
+        title: "DTE OIT Redesign",
+        placeholder: "./assets/img/project/dte-cover-alt.webp"
       },
-      'smokefree': {
-        navigation: "/smokefree",
-        imageSource: "./assets/img/project/smokefree-cover.webp",
-        title: "Smokefree QuitGuide App",
-        placeholder: "./assets/img/project/smokefree-cover-alt.webp"
-      },
+       'coswd': {
+        navigation: "/coswd",
+        imageSource: "./assets/img/project/coswd-cover.webp",
+        title: "COSWD Web Redesign",
+        placeholder: "./assets/img/project/coswd-cover-alt.webp"
+      }, 
+      
+
 
        'fatherhood': {
         navigation: "/fatherhood",
@@ -88,11 +90,26 @@ class Projects extends Component {
         title: "Fatherhood.gov Web Design",
         placeholder: "./assets/img/project/fatherhood-cover-alt.webp"
       },
-      'DTE': {
-        navigation: "/DTE",
-        imageSource: "./assets/img/project/dte-cover.webp",
-        title: "DTE OIT Redesign",
-        placeholder: "./assets/img/project/dte-cover-alt.webp"
+
+       'BGE': {
+        navigation: "/bge",
+        imageSource: "./assets/img/project/bge-cover.webp",
+        title: "BGE Web Redesign",
+        placeholder: "./assets/img/project/bge-cover-alt.webp"
+      },
+      
+ 'smokefree': {
+        navigation: "/smokefree",
+        imageSource: "./assets/img/project/smokefree-cover.webp",
+        title: "Smokefree QuitGuide App",
+        placeholder: "./assets/img/project/smokefree-cover-alt.webp"
+      },
+     
+        'covid': {
+        navigation: "/COVID",
+        imageSource: "./assets/img/project/covid.webp",
+        title: "COVID-19 Web System",
+        placeholder: "./assets/img/project/covid-alt.webp"
       },
      
       // 'clinicalInfo': {
