@@ -197,14 +197,14 @@ class LandingHead extends Component {
                                 </Link>
                             </div>
                             <div className="gallery-item tall">
-                                <Link to="/coswd">
+                                <Link to="/repatriation">
                                     <div className="gallery-image" 
                                         style={{
-                                            backgroundImage:  `url(${process.env.PUBLIC_URL}/assets/img/coswd/coswd-home.webp)`,
+                                            backgroundImage:  `url(${process.env.PUBLIC_URL}/assets/img/repatriation/repatriation-home.webp)`,
                                         }}
                                     />
                                     <div className="gallery-text">
-                                        <h2>COSWD</h2>
+                                        <h2>Repatriation</h2>
                                     </div>
                                 </Link>
                             </div>

@@ -1,11 +1,21 @@
 {
-  "main.css": "static/css/main.0406b9c5.css",
-  "main.css.map": "static/css/main.0406b9c5.css.map",
-  "main.js": "static/js/main.7bf45f30.js",
-  "main.js.map": "static/js/main.7bf45f30.js.map",
-  "static/media/fixed-background.webp": "static/media/fixed-background.130b36ec.webp",
-  "static/media/img-4.png": "static/media/img-4.c80c399e.png",
-  "static/media/img-4.webp": "static/media/img-4.39499795.webp",
-  "static/media/mymic-bg-1.png": "static/media/mymic-bg-1.0a094023.png",
-  "static/media/wydot-bg.jpg": "static/media/wydot-bg.42f41765.jpg"
+  "files": {
+    "main.css": "/static/css/main.65b8745a.css",
+    "main.js": "/static/js/main.b2eebcde.js",
+    "static/media/mymic-bg-1.png": "/static/media/mymic-bg-1.d416e4589ca7a2ff4934.png",
+    "static/media/img-4.png": "/static/media/img-4.71cd1c441f65080cde06.png",
+    "static/media/img-4.webp": "/static/media/img-4.c3085030f20c64c154d7.webp",
+    "static/media/wydot-bg.jpg": "/static/media/wydot-bg.0186d540771d999a43bb.jpg",
+    "static/media/fixed-background.webp": "/static/media/fixed-background.2cc957f55fb46dd9587e.webp",
+    "static/media/hero-1.webp": "/static/media/hero-1.56a6efc9b91edd97d7f3.webp",
+    "static/media/smokefree-fixed-background.webp": "/static/media/smokefree-fixed-background.650a1273f1a70767e738.webp",
+    "index.html": "/index.html",
+    "static/media/logo-bg.svg": "/static/media/logo-bg.bfdbcb0366f8dfe98de8.svg",
+    "main.65b8745a.css.map": "/static/css/main.65b8745a.css.map",
+    "main.b2eebcde.js.map": "/static/js/main.b2eebcde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65b8745a.css",
+    "static/js/main.b2eebcde.js"
+  ]
 }

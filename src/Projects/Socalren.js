@@ -6,15 +6,15 @@ import Iframe from 'react-iframe';
 import $ from 'jquery';
 import Lottie from 'react-lottie';
 import Preloader from '../appshell/Preloader/Preloader';
-import * as financingData from "../../public/assets/lottie/financing.json";
-import * as publicAgenciesData from "../../public/assets/lottie/publicAgencies.json";
-import * as residentialData from "../../public/assets/lottie/residential.json";
-import * as workforceData from "../../public/assets/lottie/workforce.json";
-import * as fuzzymuzzyData from "../../public/assets/lottie/fuzzy-muzzy.json";
-import * as lavenderData from "../../public/assets/lottie/lavender.json";
-import * as gingerData from "../../public/assets/lottie/ginger.json";
-import * as spikeData from "../../public/assets/lottie/spike.json";
-import * as specsterData from "../../public/assets/lottie/specster.json";
+import * as financingData from "./lottie/financing.json";
+import * as publicAgenciesData from "./lottie/publicAgencies.json";
+import * as residentialData from "./lottie/residential.json";
+import * as workforceData from "./lottie/workforce.json";
+import * as fuzzymuzzyData from "./lottie/fuzzy-muzzy.json";
+import * as lavenderData from "./lottie/lavender.json";
+import * as gingerData from "./lottie/ginger.json";
+import * as spikeData from "./lottie/spike.json";
+import * as specsterData from "./lottie/specster.json";
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
